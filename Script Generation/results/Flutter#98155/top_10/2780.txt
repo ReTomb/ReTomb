@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell pm wait-for-handler
+adb shell pm wait-for-handler
+adb shell pm hide

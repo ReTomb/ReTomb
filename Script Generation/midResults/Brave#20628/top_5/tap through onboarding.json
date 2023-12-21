@@ -1,0 +1,7 @@
+{
+  "Input runText string text": "0.7879903",
+  "Input runTap float x float y": "0.48010406",
+  "Input runKeyEvent int keyCode": "0.2916171",
+  "Input runMotionEvent int inputSource float dx float dy int displayId": "0.27028722",
+  "Input runKeyCombination int inputSource int displayId": "0.2466181"
+}

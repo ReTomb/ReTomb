@@ -1,0 +1,9 @@
+------------------------------------------------
+#Device details :
+    - Install type (ARM, x86): ARM
+    - Device type (Phone, Tablet, Phablet): Samsung GS 21
+    - Android version:12
+-------------------------------------------------
+#Brave version :
+    - Brave - 1.47.149, Chromium 109.0.5414.46
+-------------------------------------------------

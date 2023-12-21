@@ -1,0 +1,8 @@
+[
+    {
+        "repository": "thunderbird/thunderbird-android",
+        "SIGSEGV": [
+            5308
+        ]
+    }
+]

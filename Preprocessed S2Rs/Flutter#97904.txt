@@ -1,0 +1,1 @@
+run applicationnavigate to the page containing the Ad top right corner in the App Barpress the Back-Arrow

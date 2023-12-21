@@ -1,0 +1,5 @@
+adb shell am start <packagename.activity>
+adb shell inpur roll <x,y> 
+adb shell input text <text>
+adb shell am start <packagename.activity>
+adb shell input text <text>

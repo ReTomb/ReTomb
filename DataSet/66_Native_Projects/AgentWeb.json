@@ -1,0 +1,15 @@
+[
+    {
+        "repository": "Justson/AgentWeb",
+        "SIGABRT": [
+            819,
+            426,
+            334,
+            127,
+            72
+        ],
+        "SIGSEGV": [
+            315
+        ]
+    }
+]

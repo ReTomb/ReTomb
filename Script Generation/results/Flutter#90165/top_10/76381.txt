@@ -1,0 +1,5 @@
+adb shell inpur roll <x,y> 
+adb shell input press <x,y>
+adb shell input keyevent 
+adb shell am instrument <packagename.component>
+adb shell input text <text>

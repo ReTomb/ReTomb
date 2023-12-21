@@ -1,0 +1,4 @@
+adb shell am set-debug-app <packagename>
+adb shell am to-uri <intent>
+adb shell am dumpheap <file>
+adb shell am broadcast <packagename.intent>

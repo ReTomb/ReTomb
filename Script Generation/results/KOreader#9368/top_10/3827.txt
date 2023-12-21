@@ -1,0 +1,4 @@
+adb shell am broadcast <packagename.intent>
+adb shell am instrument <packagename.component>
+adb shell am start <packagename.activity>
+adb shell inpur roll <x,y> 

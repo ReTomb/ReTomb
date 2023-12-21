@@ -1,0 +1,5 @@
+adb shell input press <x,y>
+adb shell am to-uri <intent>
+adb shell am broadcast <packagename.intent>
+adb shell am broadcast <packagename.intent>
+adb shell input press <x,y>

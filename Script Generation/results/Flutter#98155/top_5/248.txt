@@ -1,0 +1,4 @@
+adb shell pm suspend
+adb shell pm hide
+adb shell pm hide
+adb shell pm default-state

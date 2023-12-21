@@ -1,0 +1,86 @@
+--------- beginning of crash
+2022-12-29 18:34:33.790 18826-18826/? A/libc: Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x75cb29316c in tid 18826 (ve.browser_beta), pid 18826 (ve.browser_beta)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: Build fingerprint: 'samsung/o1quew/o1q:12/SP1A.210812.016/G991U1UES5CVI8:user/release-keys'
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: Revision: '14'
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: ABI: 'arm64'
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: Processor: '4'
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: Timestamp: 2022-12-29 18:34:33.880526370-0500
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: Process uptime: 68s
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: Cmdline: com.brave.browser_beta
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: pid: 18826, tid: 18826, name: ve.browser_beta  >>> com.brave.browser_beta <<<
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: uid: 11634
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x75cb29316c
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: Abort message: '[FATAL:jni_android.cc(315)] Please include Java exception stack in crash report
+    '
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x0  0000000000000000  x1  00000075c73b2c44  x2  ffffffffffffffff  x3  ffffffffffffffff
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x4  0000000000000000  x5  60646b4f1f5c2834  x6  60646b4f1f5c2834  x7  7f7f7f7f7f7f7f7f
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x8  0000000000000000  x9  0000000000000000  x10 0000000000000001  x11 0000000000000000
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x12 0000007ff41e9b00  x13 0000000000000051  x14 0000000000000000  x15 0000000034155555
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x16 00000075ce7ddf48  x17 000000795030e2f4  x18 0000000000000000  x19 0000007ff41eb408
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x20 0000007ff41eb418  x21 00000075ce818000  x22 00000072011b9b00  x23 000000000000013b
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x24 00000075c747240d  x25 0000007975ac2000  x26 000000000000004f  x27 00000075ce8aa000
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     x28 00000002002e8e88  x29 0000007ff41eb3a0
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:     lr  00000075cb292c5c  sp  0000007ff41eadc0  pc  00000075cb29316c  pst 0000000060001000
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG: backtrace:
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #00 pc 000000000424816c  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #01 pc 00000000042d9e98  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #02 pc 000000000236ed80  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #03 pc 00000000057f8fd4  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #04 pc 00000000057f17f0  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #05 pc 00000000057f1c2c  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #06 pc 00000000057f27d4  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #07 pc 00000000071ae610  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #08 pc 000000000575fb78  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #09 pc 00000000042826c8  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #10 pc 0000000004294390  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #11 pc 00000000042c65c0  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #12 pc 00000000042c5efc  /data/app/~~m2SWxt7wh8DytKI_1jCPqQ==/com.brave.browser_beta-gE1I8wlbheR4-7tucwQ-Gg==/base.apk!libmonochrome_64.so (BuildId: cd35032b0e9dbc91aa17feabd17839cb6cebc17b)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #13 pc 0000000000018184  /system/lib64/libutils.so (android::Looper::pollInner(int)+916) (BuildId: 748948a5650ad93d18b12eb1d9a51a89)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #14 pc 0000000000017d84  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+116) (BuildId: 748948a5650ad93d18b12eb1d9a51a89)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #15 pc 0000000000159170  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long, int)+48) (BuildId: 33b6cccb8cb818db0b8648d93b8de614)
+2022-12-29 18:34:34.120 19513-19513/? A/DEBUG:       #16 pc 00000000003fe504  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+2022-12-29 18:34:34.142 821-821/? E/tombstoned: Tombstone written to: tombstone_15
+2022-12-29 18:34:34.145 1105-1105/? E/audit: type=1701 audit(1672356874.142:65548): auid=4294967295 uid=11634 gid=11634 ses=4294967295 subj=u:r:untrusted_app:s0:c98,c262,c512,c768 pid=18826 comm="ve.browser_beta" exe="/system/bin/app_process64" sig=5 res=1
+2022-12-29 18:34:34.171 15919-29976/? E/TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack>
+2022-12-29 18:34:34.171 3128-3156/? E/TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack>
+2022-12-29 18:34:34.172 16062-26910/? E/TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack>
+2022-12-29 18:34:34.173 3128-5660/? E/TaskStackListenerAbstract: onTaskSnapshotChanged called by Binder.getCallingPid() 0 android.app.ITaskStackListener$Stub.onTransact:585 android.os.Binder.execTransactInternal:1220 android.os.Binder.execTransact:1179 <bottom of call stack>
+2022-12-29 18:34:34.218 1551-1857/? E/Native_CFMS: nativePerfMgrAddTask    Fail    tid : 28882    return : -1
+2022-12-29 18:34:34.218 1551-1857/? E/Native_CFMS: nativePerfMgrAddTask    Fail    tid : 30154    return : -1
+2022-12-29 18:34:34.224 1446-1446/? E/BpTransactionCompletedListener: Failed to transact (-32)
+2022-12-29 18:34:34.244 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.246 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.261 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.267 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.268 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.268 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.268 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.268 1551-20081/? E/ProcessStats: Foregrounding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.269 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.269 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.269 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.272 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.272 1551-20081/? E/ProcessStats: Foregrounding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.272 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.272 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.272 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.273 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.275 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.275 1551-20081/? E/ProcessStats: Foregrounding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.275 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.275 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.275 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Foregrounding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Foregrounding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Binding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Starting service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Executing service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner
+2022-12-29 18:34:34.276 1551-20081/? E/ProcessStats: Foregrounding service ServiceState{ebff663 org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser_beta proc=8604260} without owner

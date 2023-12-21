@@ -1,0 +1,5 @@
+install 1.8
+enable biometric authentication
+upgrade to 1.9
+login with face-id
+put app to background and back

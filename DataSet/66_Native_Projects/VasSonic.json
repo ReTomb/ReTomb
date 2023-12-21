@@ -1,0 +1,13 @@
+[
+    {
+        "repository": "Tencent/VasSonic",
+        "SIGABRT": [
+            315
+        ],
+        "SIGSEGV": [
+            245,
+            114,
+            5
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "repository": "keybase/client",
+        "SIGSEGV": [
+            25565,
+            9076,
+            4085
+        ],
+        "SIGABRT": [
+            4176
+        ]
+    }
+]

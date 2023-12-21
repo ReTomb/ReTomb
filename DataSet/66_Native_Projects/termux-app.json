@@ -1,0 +1,14 @@
+[
+    {
+        "repository": "termux/termux-app",
+        "SIGBUS": [
+            3473,
+            1388,
+            1170
+        ],
+        "SIGSEGV": [
+            2974,
+            315
+        ]
+    }
+]

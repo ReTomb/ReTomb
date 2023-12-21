@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell am to-uri <intent>
+adb shell am unfreeze <packagename>
+adb shell input press <x,y>

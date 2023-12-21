@@ -1,0 +1,56 @@
+W/System.err(18069): java.lang.ClassCastException: $Proxy1 cannot be cast to android.view.WindowManagerImpl
+W/System.err(18069): 	at android.view.Window.setWindowManager(Window.java:759)
+W/System.err(18069): 	at android.view.Window.setWindowManager(Window.java:740)
+W/System.err(18069): 	at android.app.Dialog.<init>(Dialog.java:193)
+W/System.err(18069): 	at android.app.AlertDialog.<init>(AlertDialog.java:200)
+W/System.err(18069): 	at android.app.AlertDialog$Builder.create(AlertDialog.java:1086)
+W/System.err(18069): 	at AQ.a(PG:3)
+W/System.err(18069): 	at XC.<init>(PG:5)
+W/System.err(18069): 	at org.chromium.content.browser.input.SelectPopup.show(PG:11)
+W/System.err(18069): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+W/System.err(18069): 	at android.os.MessageQueue.next(MessageQueue.java:323)
+W/System.err(18069): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err(18069): 	at android.app.ActivityThread.main(ActivityThread.java:6236)
+W/System.err(18069): 	at java.lang.reflect.Method.invoke(Native Method)
+W/System.err(18069): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:891)
+W/System.err(18069): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:781)
+F/chromium(18069): [FATAL:jni_android.cc(249)] Please include Java exception stack in crash report
+F/libc    (18069): Fatal signal 5 (SIGTRAP), code 128 in tid 18069 (xxx)
+** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+LineageOS Version: 'unknown'
+Build fingerprint: 'asus/WW_Z00A/Z00A:6.0.1/MMB29P/4.21.40.134_20160825_4746_user:user/release-keys'
+Revision: '0'
+ABI: 'x86'
+pid: 18069, tid: 18069, name: xxx  >>> xxx <<<
+signal 5 (SIGTRAP), code 128 (SI_KERNEL), fault addr 0x0
+Abort message: '[FATAL:jni_android.cc(249)] Please include Java exception stack in crash report
+'
+    eax 00000000  ebx d1f7986c  ecx bf3daf00  edx 00000400
+    esi ffad9ca0  edi bf3daf00
+    xcs 00000023  xds 0000002b  xes 0000002b  xfs 0000006b  xss 0000002b
+    eip cfd2df6f  ebp ffad9c88  esp ffad9830  flags 00200246
+backtrace:
+    #00 pc 0290cf6f  /system/app/webview/webview.apk (offset 0x796000)
+    #01 pc 029951f3  /system/app/webview/webview.apk (offset 0x796000)
+    #02 pc 015a73b4  /system/app/webview/webview.apk (offset 0x796000)
+    #03 pc 020164e8  /system/app/webview/webview.apk (offset 0x796000)
+    #04 pc 0202b45d  /system/app/webview/webview.apk (offset 0x796000)
+    #05 pc 0202b4b6  /system/app/webview/webview.apk (offset 0x796000)
+    #06 pc 01e0a379  /system/app/webview/webview.apk (offset 0x796000)
+    #07 pc 01e066d6  /system/app/webview/webview.apk (offset 0x796000)
+    #08 pc 01f25eee  /system/app/webview/webview.apk (offset 0x796000)
+    #09 pc 01f262ac  /system/app/webview/webview.apk (offset 0x796000)
+    #10 pc 02d6c056  /system/app/webview/webview.apk (offset 0x796000)
+    #11 pc 015c6c6c  /system/app/webview/webview.apk (offset 0x796000)
+    #12 pc 0293b118  /system/app/webview/webview.apk (offset 0x796000)
+    #13 pc 0294a3a4  /system/app/webview/webview.apk (offset 0x796000)
+    #14 pc 0294a847  /system/app/webview/webview.apk (offset 0x796000)
+    #15 pc 0294a89e  /system/app/webview/webview.apk (offset 0x796000)
+    #16 pc 029115d8  /system/app/webview/webview.apk (offset 0x796000)
+    #17 pc 029113d5  /system/app/webview/webview.apk (offset 0x796000)
+    #18 pc 00018602  /system/lib/libutils.so (_ZN7android20SimpleLooperCallback11handleEventEiiPv+50)
+    #19 pc 000195a9  /system/lib/libutils.so (_ZN7android6Looper9pollInnerEi+1209)
+    #20 pc 00019024  /system/lib/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+68)
+    #21 pc 000de42e  /system/lib/libandroid_runtime.so (_ZN7android18NativeMessageQueue8pollOnceEP7_JNIEnvP8_jobjecti+78)
+    #22 pc 000de4a3  /system/lib/libandroid_runtime.so
+    #23 pc 7486c80c  /data/dalvik-cache/x86/system@framework (offset 0x283e000)

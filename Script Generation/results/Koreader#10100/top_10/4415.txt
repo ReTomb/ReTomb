@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm path <packagename>
+adb shell pm install <packagename>
+adb shell pm hide

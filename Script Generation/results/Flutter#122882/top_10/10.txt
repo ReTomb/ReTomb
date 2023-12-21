@@ -1,0 +1,1 @@
+adb shell am set-debug-app <packagename>

@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm suspend
+adb shell pm suspend
+adb shell pm disable-until-used

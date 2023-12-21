@@ -1,0 +1,2 @@
+open the LibreraReader app
+Crash when opening ODT file

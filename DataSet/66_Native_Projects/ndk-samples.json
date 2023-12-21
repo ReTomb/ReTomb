@@ -1,0 +1,18 @@
+[
+    {
+        "repository": "android/ndk-samples",
+        "SIGILL": [
+            511
+        ],
+        "SIGSEGV": [
+            504,
+            414,
+            229,
+            40
+        ],
+        "SIGABRT": [
+            467,
+            244
+        ]
+    }
+]

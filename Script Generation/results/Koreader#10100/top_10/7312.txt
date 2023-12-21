@@ -1,0 +1,4 @@
+adb shell pm list <packagename>
+adb shell pm unsuspend
+adb shell pm install <packagename>
+adb shell pm suspend

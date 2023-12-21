@@ -1,0 +1,24 @@
+[
+    {
+        "repository": "CarGuo/GSYVideoPlayer",
+        "SIGABRT": [
+            3674,
+            3647,
+            3059,
+            3054,
+            1753,
+            582,
+            227
+        ],
+        "SIGBUS": [
+            3336
+        ],
+        "SIGSEGV": [
+            2743,
+            1652
+        ],
+        "SIGILL": [
+            1552
+        ]
+    }
+]

@@ -1,0 +1,3 @@
+adb shell input tap <x,y>
+adb shell inpur roll <x,y> 
+adb shell input press <x,y>

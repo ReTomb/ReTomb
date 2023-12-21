@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm resolve-activity <intent>
+adb shell pm install <packagename>
+adb shell pm unhide

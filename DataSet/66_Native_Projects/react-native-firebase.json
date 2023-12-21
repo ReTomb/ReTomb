@@ -1,0 +1,11 @@
+[
+    {
+        "repository": "invertase/react-native-firebase",
+        "SIGABRT": [
+            3000
+        ],
+        "SIGSEGV": [
+            2935
+        ]
+    }
+]

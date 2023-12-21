@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell pm default-state
+adb shell input text <text>
+adb shell pm disable-until-used

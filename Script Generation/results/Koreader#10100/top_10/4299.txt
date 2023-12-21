@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm unhide
+adb shell pm install-streaming
+adb shell pm revoke

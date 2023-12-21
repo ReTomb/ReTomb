@@ -1,0 +1,99 @@
+    --------- beginning of crash
+2022-01-26 09:22:40.432 11118-11146/? A/libc: Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 11146 (RenderThread), pid 11118 (browser_nightly)
+2022-01-26 09:22:40.895 12874-12874/? I/crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdTombstone
+2022-01-26 09:22:40.899 809-809/? I//system/bin/tombstoned: received crash request for pid 11146
+2022-01-26 09:22:40.903 12874-12874/? I/crash_dump32: performing dump of process 11118 (target tid = 11146)
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG: Build fingerprint: 'google/marlin/marlin:9/PQ2A.190305.002/5240760:user/release-keys'
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG: Revision: '0'
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG: ABI: 'arm'
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG: pid: 11118, tid: 11146, name: RenderThread  >>> com.brave.browser_nightly <<<
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG: signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG: Abort message: 'glDeleteTextures error! GL_OUT_OF_MEMORY (0x505)'
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG:     r0  00000000  r1  00002b8a  r2  00000006  r3  00000008
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG:     r4  00002b6e  r5  00002b8a  r6  c5fff364  r7  0000010c
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG:     r8  ea04bee6  r9  00000505  r10 ea04be30  r11 ea04becc
+2022-01-26 09:22:40.927 12874-12874/? A/DEBUG:     ip  c5fff300  sp  c5fff350  lr  ebfe7f19  pc  ebfdfd66
+2022-01-26 09:22:40.989 12874-12874/? A/DEBUG: backtrace:
+2022-01-26 09:22:40.989 12874-12874/? A/DEBUG:     #00 pc 0001cd66  /system/lib/libc.so (abort+58)
+2022-01-26 09:22:40.989 12874-12874/? A/DEBUG:     #01 pc 00006ccd  /system/lib/liblog.so (__android_log_assert+156)
+2022-01-26 09:22:40.989 12874-12874/? A/DEBUG:     #02 pc 0035c3b5  /system/lib/libhwui.so (android::uirenderer::debug::GlesErrorCheckWrapper::assertNoErrors(char const*)+88)
+2022-01-26 09:22:40.989 12874-12874/? A/DEBUG:     #03 pc 00360a35  /system/lib/libhwui.so (android::uirenderer::TextureState::deleteTexture(unsigned int)+72)
+2022-01-26 09:22:40.989 12874-12874/? A/DEBUG:     #04 pc 0036bef9  /system/lib/libhwui.so (android::uirenderer::Texture::deleteTexture()+12)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #05 pc 003607a9  /system/lib/libhwui.so (android::uirenderer::TextureState::~TextureState()+8)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #06 pc 003652dd  /system/lib/libhwui.so (android::uirenderer::Caches::terminate()+104)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #07 pc 003605d7  /system/lib/libhwui.so (android::uirenderer::RenderState::onGLContextDestroyed()+22)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #08 pc 00362cf7  /system/lib/libhwui.so (android::uirenderer::renderthread::EglManager::destroy()+42)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #09 pc 0009a6c3  /system/lib/libhwui.so (android::uirenderer::renderthread::CanvasContext::trimMemory(android::uirenderer::renderthread::RenderThread&, int)+266)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #10 pc 0032accf  /system/lib/libhwui.so (android::uirenderer::WorkQueue::process()+122)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #11 pc 000a2c6b  /system/lib/libhwui.so (android::uirenderer::renderthread::RenderThread::threadLoop()+178)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #12 pc 0000c08b  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+166)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #13 pc 000634d9  /system/lib/libc.so (__pthread_start(void*)+22)
+2022-01-26 09:22:40.990 12874-12874/? A/DEBUG:     #14 pc 0001df29  /system/lib/libc.so (__start_thread+24)
+2022-01-26 09:22:41.779 809-809/? E//system/bin/tombstoned: Tombstone written to: /data/tombstones/tombstone_06
+2022-01-26 09:22:41.786 913-945/? I/BootReceiver: Copying /data/tombstones/tombstone_06 to DropBox (SYSTEM_TOMBSTONE)
+2022-01-26 09:22:41.803 913-12877/? W/ActivityManager:   Force finishing activity com.brave.browser_nightly/com.google.android.apps.chrome.Main
+2022-01-26 09:22:41.814 913-939/? W/BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+2022-01-26 09:22:41.815 913-939/? W/BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+2022-01-26 09:22:41.817 913-939/? W/BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+2022-01-26 09:22:41.817 913-939/? W/BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+2022-01-26 09:22:41.821 672-672/? E/lowmemorykiller: Error writing /proc/11118/oom_score_adj; errno=22
+2022-01-26 09:22:41.962 913-2662/? D/ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=130, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ], android.os.BinderProxy@7f688e5)
+2022-01-26 09:22:41.963 913-2662/? D/ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=131, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ], android.os.BinderProxy@7cc3fba)
+2022-01-26 09:22:41.964 913-1168/? D/ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=130, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ] (release request)
+2022-01-26 09:22:41.966 913-1144/? W/InputDispatcher: channel '44242d2 com.brave.browser_nightly/com.google.android.apps.chrome.Main (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+2022-01-26 09:22:41.966 913-1144/? E/InputDispatcher: channel '44242d2 com.brave.browser_nightly/com.google.android.apps.chrome.Main (server)' ~ Channel is unrecoverably broken and will be disposed!
+2022-01-26 09:22:41.968 913-2490/? D/ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=102, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ], android.os.BinderProxy@13dfe6b)
+2022-01-26 09:22:41.968 913-7525/? D/ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=103, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ], android.os.BinderProxy@cac1dc8)
+2022-01-26 09:22:41.969 609-609/? I/Zygote: Process 11118 exited due to signal (6)
+2022-01-26 09:22:41.969 913-1569/? D/ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=104, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ], android.os.BinderProxy@70bce61)
+2022-01-26 09:22:41.970 913-4504/? D/ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ], android.os.BinderProxy@8ee9d86)
+2022-01-26 09:22:41.971 913-3136/? I/WindowManager: WIN DEATH: Window{44242d2 u0 com.brave.browser_nightly/com.google.android.apps.chrome.Main}
+2022-01-26 09:22:41.971 913-3136/? W/InputDispatcher: Attempted to unregister already unregistered input channel '44242d2 com.brave.browser_nightly/com.google.android.apps.chrome.Main (server)'
+2022-01-26 09:22:41.979 913-6733/? I/ActivityManager: Process com.brave.browser_nightly (pid 11118) has died: vis  +99TOP 
+2022-01-26 09:22:41.979 913-942/? W/libprocessgroup: kill(-11118, 9) failed: No such process
+2022-01-26 09:22:41.983 913-1168/? D/ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=102, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ] (release request)
+2022-01-26 09:22:41.983 913-1168/? D/ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=104, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10368] ] (release request)
+2022-01-26 09:22:41.984 672-672/? E/lowmemorykiller: Error writing /proc/12795/oom_score_adj; errno=22
+2022-01-26 09:22:41.985 672-672/? E/lowmemorykiller: Error writing /proc/11235/oom_score_adj; errno=22
+2022-01-26 09:22:41.986 672-672/? E/lowmemorykiller: Error writing /proc/11192/oom_score_adj; errno=22
+2022-01-26 09:22:41.987 672-672/? E/lowmemorykiller: Error writing /proc/11177/oom_score_adj; errno=22
+2022-01-26 09:22:41.993 913-6733/? W/ActivityManager: Exception when unbinding service com.brave.browser_nightly/org.chromium.content.app.PrivilegedProcessService0
+    android.os.DeadObjectException
+        at android.os.BinderProxy.transactNative(Native Method)
+        at android.os.BinderProxy.transact(Binder.java:1127)
+        at android.app.IApplicationThread$Stub$Proxy.scheduleUnbindService(IApplicationThread.java:1100)
+        at com.android.server.am.ActiveServices.removeConnectionLocked(ActiveServices.java:2894)
+        at com.android.server.am.ActiveServices.killServicesLocked(ActiveServices.java:3293)
+        at com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked(ActivityManagerService.java:20202)
+        at com.android.server.am.ActivityManagerService.handleAppDiedLocked(ActivityManagerService.java:5898)
+        at com.android.server.am.ActivityManagerService.appDiedLocked(ActivityManagerService.java:6093)
+        at com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied(ActivityManagerService.java:1891)
+        at android.os.BinderProxy.sendDeathNotice(Binder.java:1193)
+2022-01-26 09:22:41.990 672-672/? E/lowmemorykiller: Error writing /proc/11177/oom_score_adj; errno=22
+2022-01-26 09:22:41.994 672-672/? E/lowmemorykiller: Error writing /proc/11235/oom_score_adj; errno=22
+2022-01-26 09:22:41.994 672-672/? E/lowmemorykiller: Error writing /proc/11192/oom_score_adj; errno=22
+2022-01-26 09:22:41.994 913-6733/? I/ActivityManager: Killing 11904:com.brave.browser_nightly:sandboxed_process8/u0a368i36 (adj 0): isolated not needed
+2022-01-26 09:22:41.994 672-672/? E/lowmemorykiller: Error writing /proc/11177/oom_score_adj; errno=22
+2022-01-26 09:22:42.005 672-672/? E/lowmemorykiller: Error writing /proc/11235/oom_score_adj; errno=22
+2022-01-26 09:22:42.005 672-672/? E/lowmemorykiller: Error writing /proc/11192/oom_score_adj; errno=22
+2022-01-26 09:22:42.005 672-672/? E/lowmemorykiller: Error writing /proc/11177/oom_score_adj; errno=22
+2022-01-26 09:22:42.006 672-672/? E/lowmemorykiller: Error writing /proc/11192/oom_score_adj; errno=22
+2022-01-26 09:22:42.007 913-6733/? I/ActivityManager: Killing 11235:com.brave.browser_nightly:sandboxed_process2/u0a368i30 (adj 0): isolated not needed
+2022-01-26 09:22:42.007 672-672/? E/lowmemorykiller: Error writing /proc/11177/oom_score_adj; errno=22
+2022-01-26 09:22:42.008 672-672/? E/lowmemorykiller: Error writing /proc/12795/oom_score_adj; errno=22
+2022-01-26 09:22:42.008 913-6733/? I/ActivityManager: Killing 11192:com.brave.browser_nightly:sandboxed_process1/u0a368i29 (adj 0): isolated not needed
+2022-01-26 09:22:42.008 672-672/? E/lowmemorykiller: Error writing /proc/11177/oom_score_adj; errno=22
+2022-01-26 09:22:42.009 609-609/? I/Zygote: Process 11904 exited cleanly (0)
+2022-01-26 09:22:42.011 609-609/? I/Zygote: Process 12795 exited cleanly (0)
+2022-01-26 09:22:42.016 494-1596/? W/SurfaceFlinger: Attempting to set client state on removed layer: com.brave.browser_nightly/com.google.android.apps.chrome.Main#0
+2022-01-26 09:22:42.016 494-1596/? W/SurfaceFlinger: Attempting to destroy on removed layer: com.brave.browser_nightly/com.google.android.apps.chrome.Main#0
+2022-01-26 09:22:42.021 494-650/? W/SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{c58cc27 token=Token{916fee6 ActivityRecord{6bd5941 u0 com.brave.browser_nightly/com.google.android.apps.chrome.Main t171}}}#0
+2022-01-26 09:22:42.028 913-6733/? I/ActivityManager: Killing 12795:com.brave.browser_nightly:sandboxed_process9/u0a368i37 (adj 0): isolated not needed
+2022-01-26 09:22:42.030 609-609/? I/Zygote: Process 11235 exited cleanly (0)
+2022-01-26 09:22:42.043 913-942/? W/libprocessgroup: kill(-11118, 9) failed: No such process
+2022-01-26 09:22:42.049 609-609/? I/Zygote: Process 11192 exited cleanly (0)
+2022-01-26 09:22:42.052 1353-1353/? D/zz: UtWallpaperService$UtEngine.onVisibilityChanged() true
+2022-01-26 09:22:42.068 1240-1240/? I/AppBase: AppBase.onTrimMemory():784 onTrimMemory(): 15
+2022-01-26 09:22:42.072 913-1723/? I/ActivityManager: Process com.brave.browser_nightly:privileged_process0 (pid 11177) has died: cch  CACC
+2022-01-26 09:22:42.093 913-942/? W/libprocessgroup: kill(-11118, 9) failed: No such process

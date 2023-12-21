@@ -1,0 +1,3 @@
+adb shell pm resolve-activity <intent>
+adb shell input text <text>
+adb shell pm unhide

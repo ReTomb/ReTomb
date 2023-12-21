@@ -1,0 +1,5 @@
+1. Open Status app
+2. Use biometric to log in
+3. Wait for network logo to go  from red to grey
+4.a. The network logo remains grey -> no problem, app does not crash
+4.b. the network logo disappears -> app crashes

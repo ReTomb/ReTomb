@@ -1,0 +1,34 @@
+{
+  "Crash_report_info": [
+    {
+      "native_crash_number": 1042,
+      "total_crash_number": 184918,
+      "project_number": 30
+    },
+    {
+      "native_crash_number": 313,
+      "total_crash_number": 94302,
+      "project_number": 30
+    },
+    {
+      "native_crash_number": 260,
+      "total_crash_number": 35853,
+      "project_number": 30
+    },
+    {
+      "native_crash_number": 118,
+      "total_crash_number": 21930,
+      "project_number": 30
+    },
+    {
+      "native_crash_number": 1042,
+      "total_crash_number": 185129,
+      "project_number": 30
+    },
+    {
+      "native_crash_number": 313,
+      "total_crash_number": 94302,
+      "project_number": 30
+    }
+  ]
+}

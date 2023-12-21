@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "android/sunflower",
+        "SIGSEGV": [
+            534
+        ],
+        "SIGABRT": [
+            519,
+            510
+        ]
+    }
+]

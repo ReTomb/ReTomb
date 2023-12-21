@@ -1,0 +1,5 @@
+adb shell am profile <file>
+adb shell am profile <file>
+adb shell am broadcast <packagename.intent>
+adb shell am instrument <packagename.component>
+adb shell am broadcast <packagename.intent>

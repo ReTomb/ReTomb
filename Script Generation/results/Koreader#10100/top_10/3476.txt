@@ -1,0 +1,4 @@
+adb shell pm unsuspend
+adb shell pm path <packagename>
+adb shell pm query-services <intent>
+adb shell pm enable <packagename>

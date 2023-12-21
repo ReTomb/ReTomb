@@ -1,0 +1,22 @@
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.setEnabled(boolean)' on a null object reference
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at UH0.b(PG:39)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at UH0.a(PG:49)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at I02.a(PG:7)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at J02.a(PG:15)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at org.chromium.chrome.browser.permissions.PermissionDialogController.c(PG:17)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at org.chromium.chrome.browser.permissions.PermissionDialogController.createDialog(PG:4)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at android.os.MessageQueue.nativePollOnce(Native Method)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at android.os.MessageQueue.next(MessageQueue.java:326)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at android.os.Looper.loop(Looper.java:160)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at android.app.ActivityThread.main(ActivityThread.java:6718)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at java.lang.reflect.Method.invoke(Native Method)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+2020-02-18 16:59:06.524 28043-28043/com.brave.browser_default W/System.err:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+2020-02-18 16:59:06.551 28043-28043/com.brave.browser_default A/chromium: [FATAL:jni_android.cc(249)] Please include Java exception stack in crash report
+2020-02-18 16:59:06.551 28043-28043/com.brave.browser_default A/chromium: Task trace:
+2020-02-18 16:59:06.551 28043-28043/com.brave.browser_default A/chromium: #00 0xc1d05ef2 /data/app/com.brave.browser_default-HgX3cAV22JHe24AQzcs7XQ==/lib/arm/libchrome.so+0x03c72ef2
+2020-02-18 16:59:06.551 28043-28043/com.brave.browser_default A/chromium: #01 0xc1d0572e /data/app/com.brave.browser_default-HgX3cAV22JHe24AQzcs7XQ==/lib/arm/libchrome.so+0x03c7272e
+2020-02-18 16:59:06.551 28043-28043/com.brave.browser_default A/chromium: #02 0xc1055ba6 /data/app/com.brave.browser_default-HgX3cAV22JHe24AQzcs7XQ==/lib/arm/libchrome.so+0x02fc2ba6
+2020-02-18 16:59:06.551 28043-28043/com.brave.browser_default A/chromium: #03 0xc1055fa4 /data/app/com.brave.browser_default-HgX3cAV22JHe24AQzcs7XQ==/lib/arm/libchrome.so+0x02fc2fa4
+2020-02-18 16:59:06.551 28043-28043/com.brave.browser_default A/chromium: IPC message handler context: 0x04B67CCC
+2020-02-18 16:59:06.685 28043-28043/com.brave.browser_default A/libc: Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 28043 (browser_default), pid 28043 (browser_default)

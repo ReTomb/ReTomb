@@ -1,0 +1,2 @@
+adb shell pm enable <packagename>
+adb shell pm clear-permission-flags

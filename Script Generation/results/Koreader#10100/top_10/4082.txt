@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell input text <text>
+adb shell pm query-receivers <intent>
+adb shell pm suspend

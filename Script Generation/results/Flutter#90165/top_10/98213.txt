@@ -1,0 +1,5 @@
+adb shell input draganddrop <x1,y1> <x2,y2>
+adb shell input draganddrop <x1,y1> <x2,y2>
+adb shell am to-uri <intent>
+adb shell input tap <x,y>
+adb shell am to-uri <intent>

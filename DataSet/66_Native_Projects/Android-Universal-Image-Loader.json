@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "nostra13/Android-Universal-Image-Loader",
+        "SIGBUS": [
+            1203
+        ],
+        "SIGSEGV": [
+            583,
+            504
+        ]
+    }
+]

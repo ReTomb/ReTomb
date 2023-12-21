@@ -1,0 +1,1 @@
+execute flutter run on the code samplepress the red button which should crash the app on both Android and iOS platforms

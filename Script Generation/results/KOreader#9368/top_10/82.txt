@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell input text <text>
+adb shell am runTraceIpc <file>
+adb shell input tap <x,y>

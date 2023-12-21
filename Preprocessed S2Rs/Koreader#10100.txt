@@ -1,0 +1,1 @@
+open KOReaderopen any PDFpull up bottom tabenable reflow

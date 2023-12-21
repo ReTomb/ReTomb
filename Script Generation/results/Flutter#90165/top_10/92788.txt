@@ -1,0 +1,5 @@
+adb shell input draganddrop <x1,y1> <x2,y2>
+adb shell am to-uri <intent>
+adb shell am freeze <packagename>
+adb shell am instrument <packagename.component>
+adb shell input press <x,y>

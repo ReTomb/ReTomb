@@ -1,0 +1,4 @@
+adb shell am compact <packagename>
+adb shell am compact <packagename>
+adb shell am start <packagename.activity>
+adb shell am to-uri <intent>

@@ -1,0 +1,4 @@
+adb shell pm query-activities <intent>
+adb shell pm query-activities <intent>
+adb shell pm install-streaming
+adb shell pm enable <packagename>

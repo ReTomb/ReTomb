@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell input tap <x,y>
+adb shell am profile <file>
+adb shell input keycombination <x,y>

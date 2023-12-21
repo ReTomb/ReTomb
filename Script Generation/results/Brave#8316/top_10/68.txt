@@ -1,0 +1,2 @@
+adb shell pm disable <packagename>
+adb shell pm wait-for-handler

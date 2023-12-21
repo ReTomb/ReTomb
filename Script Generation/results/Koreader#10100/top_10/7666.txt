@@ -1,0 +1,4 @@
+adb shell pm list <packagename>
+adb shell pm list <packagename>
+adb shell pm query-activities <intent>
+adb shell pm enable <packagename>

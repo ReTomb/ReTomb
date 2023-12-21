@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell pm revoke
+adb shell pm path <packagename>
+adb shell pm disable-user

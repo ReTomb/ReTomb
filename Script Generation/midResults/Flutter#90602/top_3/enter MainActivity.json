@@ -1,0 +1,5 @@
+{
+  "ActivityManagerShellCommand runStartActivity printwriter pw": "0.72672915",
+  "ActivityManagerShellCommand runSendBroadcast printwriter pw": "0.72448367",
+  "ActivityManagerShellCommand runCompact printwriter pw": "0.72448367"
+}

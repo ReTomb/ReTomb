@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "Tencent/matrix",
+        "SIGSEGV": [
+            468
+        ],
+        "SIGABRT": [
+            424,
+            358
+        ]
+    }
+]

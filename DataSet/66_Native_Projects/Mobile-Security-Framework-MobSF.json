@@ -1,0 +1,10 @@
+[
+    {
+        "repository": "MobSF/Mobile-Security-Framework-MobSF",
+        "SIGSEGV": [
+            2246,
+            1735,
+            1717
+        ]
+    }
+]

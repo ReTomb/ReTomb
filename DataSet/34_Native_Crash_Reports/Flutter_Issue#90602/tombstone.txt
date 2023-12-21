@@ -1,0 +1,36 @@
+> [ +150 ms] E/flutter ( 7682): [ERROR:flutter/shell/platform/android/platform_view_android_jni_impl.cc(49)] java.lang.IllegalStateException: The overlay surface (id:0) doesn't exist
+> [        ] E/flutter ( 7682): 	at io.flutter.plugin.platform.PlatformViewsController.onDisplayOverlaySurface(PlatformViewsController.java:796)
+> [        ] E/flutter ( 7682): 	at io.flutter.embedding.engine.FlutterJNI.onDisplayOverlaySurface(FlutterJNI.java:960)
+> [        ] E/flutter ( 7682): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+> [        ] E/flutter ( 7682): 	at android.os.MessageQueue.next(MessageQueue.java:330)
+> [        ] E/flutter ( 7682): 	at android.os.Looper.loop(Looper.java:169)
+> [        ] E/flutter ( 7682): 	at android.app.ActivityThread.main(ActivityThread.java:7147)
+> [        ] E/flutter ( 7682): 	at java.lang.reflect.Method.invoke(Native Method)
+> [        ] E/flutter ( 7682): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:511)
+> [        ] E/flutter ( 7682): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:876)
+> [        ] E/flutter ( 7682):
+> [        ] F/flutter ( 7682): [FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1414)] Check failed: CheckException(env).
+> [        ] F/libc    ( 7682): Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 7682 (ple.flutter_app), pid 7682 (ple.flutter_app)
+> [ +139 ms] Softversion: PD1730F_EX_A_6.13.13
+> [        ] Time: 2021-09-23 21:10:24
+> [        ] *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+> [        ] Build fingerprint: 'vivo/1723/1723:9/PKQ1.190118.001/compiler05171625:user/release-keys'
+> [        ] Revision: '0'
+> [        ] ABI: 'arm64'
+> [        ] pid: 7682, tid: 7682, name: ple.flutter_app  >>> com.example.flutter_app <<<
+> [        ] signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+> [        ] Abort message: '[FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1414)] Check failed: CheckException(env).
+> [        ] '
+> [        ]     x0  0000000000000000  x1  0000000000001e02  x2  0000000000000006  x3  0000000000000008
+> [        ]     x4  0000000080000000  x5  0000000080000000  x6  0000000080000000  x7  0000008000000000
+> [        ]     x8  0000000000000083  x9  ad2f659280c53ca2  x10 0000000000000000  x11 fffffffc7ffffbdf
+> [        ]     x12 0000000000000001  x13 0000000000000018  x14 ffffffffffffffff  x15 0000f1d5fe53c91c
+> [        ]     x16 00000073298f2298  x17 0000007329813a88  x18 0000000000000010  x19 0000000000001e02
+> [        ]     x20 0000000000001e02  x21 0000007ff8424b38  x22 00000072a92cfb20  x23 00000000000000ca
+> [        ]     x24 0000000000000000  x25 00000072a9301d08  x26 0000000000000258  x27 000000000000012c
+> [        ]     x28 0000000000000258  x29 0000007ff8424b10
+> [        ]     sp  0000007ff8424ad0  lr  0000007329805104  pc  000000732980512c
+> [        ] backtrace:
+> [        ]     #00 pc 000000000002212c  /system/lib64/libc.so (abort+116)
+> [        ]     #01 pc 000000000131cdc4  /data/app/com.example.flutter_app-JYu-6mm1sAUx1oL3THCs_A==/lib/arm64/libflutter.so (offset 0x131a000)
+> [        ]     #02 pc 0000000001340a9c  /data/app/com.example.flutter_app-JYu-6mm1sAUx1oL3THCs_A==/lib/arm64/libflutter.so (offset 0x131a000)

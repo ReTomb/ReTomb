@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell am compact <packagename>
+adb shell am profile <file>
+adb shell input motionevent <x,y>

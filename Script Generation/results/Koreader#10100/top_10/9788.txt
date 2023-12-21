@@ -1,0 +1,4 @@
+adb shell pm query-activities <intent>
+adb shell pm resolve-activity <intent>
+adb shell pm query-receivers <intent>
+adb shell pm default-state

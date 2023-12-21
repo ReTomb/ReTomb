@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm unhide
+adb shell pm unhide
+adb shell pm enable <packagename>

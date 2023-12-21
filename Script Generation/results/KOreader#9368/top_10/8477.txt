@@ -1,0 +1,4 @@
+adb shell am runTraceIpc <file>
+adb shell am broadcast <packagename.intent>
+adb shell am instrument <packagename.component>
+adb shell inpur roll <x,y> 

@@ -1,0 +1,2 @@
+adb shell pm path <packagename>
+adb shell pm revoke

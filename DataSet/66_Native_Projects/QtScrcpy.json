@@ -1,0 +1,9 @@
+[
+    {
+        "repository": "barry-ran/QtScrcpy",
+        "SIGSEGV": [
+            625,
+            73
+        ]
+    }
+]

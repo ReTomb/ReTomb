@@ -1,0 +1,2 @@
+I'm using firebase_messaging and webview. I run webview like the code below and I get an error.
+but when i change `Webview()` to another widget like `Text('example')` everything is normal, then i change `Text('example')` to `Webview()` and i press hot restart everything looks fine. maybe i just get error when i run webview from first.please tell me what i should do. Thank you 

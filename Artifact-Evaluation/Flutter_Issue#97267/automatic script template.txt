@@ -1,0 +1,5 @@
+adb shell am start <package name>
+
+adb shell input keyevent <event>
+
+adb shell am start <package name>

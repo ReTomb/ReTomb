@@ -1,0 +1,4 @@
+adb shell am compact <packagename>
+adb shell am start <packagename.activity>
+adb shell am instrument <packagename.component>
+adb shell input keycombination <x,y>

@@ -1,0 +1,5 @@
+adb shell am start <packagename.activity>
+adb shell input keycombination <x,y>
+adb shell am freeze <packagename>
+adb shell input keyevent 
+adb shell input swipe <x1,y1> <x2,y2>

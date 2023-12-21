@@ -1,0 +1,6 @@
+#Steps to reproduce
+
+- Execute flutter run on the code sample
+- Touch "WebView" item at the bottom navigation bar.
+- After the webpage loaded, touch "Home" item at the bottom so that the webview disappear.
+- Crash occur.

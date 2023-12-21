@@ -1,0 +1,3 @@
+[install, create] -> pm
+[open, start, launch, switch, run, play, reopen, enter, move, go, Navigate, back, Execute, use , put] -> am
+[input, tap, click, scoll, swipe, search, press, change, read, Pull up] -> input

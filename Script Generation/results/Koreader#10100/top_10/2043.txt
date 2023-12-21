@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell input text <text>
+adb shell pm list <packagename>
+adb shell pm unhide

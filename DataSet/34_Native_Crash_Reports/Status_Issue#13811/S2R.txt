@@ -1,0 +1,5 @@
+#Steps to reproduce
+
+- open Status app
+- use biometric to log in
+- wait for network logo to go  from red to grey

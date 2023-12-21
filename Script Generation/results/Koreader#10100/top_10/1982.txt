@@ -1,0 +1,4 @@
+adb shell pm suspend
+adb shell pm query-services <intent>
+adb shell pm query-receivers <intent>
+adb shell pm suspend

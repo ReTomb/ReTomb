@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "2dust/v2rayNG",
+        "SIGSEGV": [
+            1515
+        ],
+        "SIGABRT": [
+            565,
+            389
+        ]
+    }
+]

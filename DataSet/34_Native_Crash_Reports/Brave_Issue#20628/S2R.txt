@@ -1,0 +1,8 @@
+#Steps to reproduce
+
+- install `1.36.58`
+- launch Brave
+- tap through onboarding
+- open a new-tab page
+- tap to `Show Brave News`
+- swipe down quickly and until you hang with a white screen, and then crash 💣

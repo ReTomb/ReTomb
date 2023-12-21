@@ -1,0 +1,24 @@
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'google/sdk_gphone64_x86_64/emu64xa:Tiramisu/TPP2.220218.008/8250781:userdebug/dev-keys'
+Revision: '0'
+ABI: 'x86_64'
+Timestamp: 2022-11-11 10:13:47.526359800+0200
+Process uptime: 436s
+Cmdline: com.wattapps.iplanto
+pid: 7766, tid: 7829, name: 1.ui  >>> com.wattapps.iplanto <<<
+uid: 10164
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0000000000000000
+Cause: null pointer dereference
+    rax 00007a682efb6ca8  rbx 00007a68d4ec3c90  rcx a37d000000030103  rdx 0000000000030000
+    r8  0000000000000000  r9  0000000000000000  r10 0000000000000030  r11 0000000000000293
+    r12 00007a682cfe73f0  r13 00007a682cfe7550  r14 00007a682cfe7430  r15 00007a682cfe7438
+    rdi 00007a68d4ec3cb0  rsi 0000000000000000
+    rbp 00007a682cfe7530  rsp 00007a682cfe73d0  rip 00007a682eb57ee2
+backtrace:
+      #00 pc 0000000001a61ee2  /data/app/~~L8YLTL_zTQyxbbXYeO184w==/com.wattapps.iplanto-LJIxmrakMKaxSrt2rzLsSg==/lib/x86_64/libflutter.so (BuildId: b19d2b3189fb7c988d90df73622911a55f5aa88f)
+      #01 pc 0000000001a61e96  /data/app/~~L8YLTL_zTQyxbbXYeO184w==/com.wattapps.iplanto-LJIxmrakMKaxSrt2rzLsSg==/lib/x86_64/libflutter.so (BuildId: b19d2b3189fb7c988d90df73622911a55f5aa88f)
+      #02 pc 0000000001a618b2  /data/app/~~L8YLTL_zTQyxbbXYeO184w==/com.wattapps.iplanto-LJIxmrakMKaxSrt2rzLsSg==/lib/x86_64/libflutter.so (BuildId: b19d2b3189fb7c988d90df73622911a55f5aa88f)
+      #03 pc 0000000001a5ad90  /data/app/~~L8YLTL_zTQyxbbXYeO184w==/com.wattapps.iplanto-LJIxmrakMKaxSrt2rzLsSg==/lib/x86_64/libflutter.so (BuildId: b19d2b3189fb7c988d90df73622911a55f5aa88f)
+      #04 pc 0000000001b79dc6  /data/app/~~L8YLTL_zTQyxbbXYeO184w==/com.wattapps.iplanto-LJIxmrakMKaxSrt2rzLsSg==/lib/x86_64/libflutter.so (BuildId: b19d2b3189fb7c988d90df73622911a55f5aa88f)
+      #05 pc 0000000000002783  [anon:dart-codespace]
+Lost connection to device.

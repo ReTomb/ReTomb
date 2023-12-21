@@ -1,0 +1,4 @@
+adb shell pm dump <packagename>
+adb shell pm default-state
+adb shell pm revoke
+adb shell pm unsuspend

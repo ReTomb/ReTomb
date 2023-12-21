@@ -1,0 +1,7 @@
+{
+  "ActivityManagerShellCommand runToUri printwriter pw int flags": "0.39307436",
+  "ActivityManagerShellCommand runStartActivity printwriter pw": "0.34288812",
+  "ActivityManagerShellCommand runSendBroadcast printwriter pw": "0.3379382",
+  "ActivityManagerShellCommand runCompact printwriter pw": "0.3379382",
+  "ActivityManagerShellCommand runFreeze printwriter pw": "0.3379382"
+}

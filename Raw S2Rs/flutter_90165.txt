@@ -1,0 +1,13 @@
+1. Execute the following.
+```
+git clone https://github.com/jeiea/ivs_player.git
+cd ivs_player
+flutter pub get
+cd example
+flutter run
+```2. Input `https://d6hwdeiig07o4.cloudfront.net/ivs/956482054022/cTo5UpKS07do/2020-07-13T22-54-42.188Z/OgRXMLtq8M11/media/hls/master.m3u8` to the top url text field.
+3. Tap 'open' button, play video by tapping floating action button.
+4. Press android home button.
+5. Change orientation to another (portrait -> landscape, landscape -> portrait).
+6. Reopen the app.
+7. Repeat 4~6 if it doesn't crash.

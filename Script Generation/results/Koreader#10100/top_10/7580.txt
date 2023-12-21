@@ -1,0 +1,4 @@
+adb shell pm list <packagename>
+adb shell pm dump <packagename>
+adb shell pm query-services <intent>
+adb shell pm clear-permission-flags

@@ -1,0 +1,4 @@
+adb shell am profile <file>
+adb shell am dumpheap <file>
+adb shell am start <packagename.activity>
+adb shell am compact <packagename>

@@ -1,0 +1,1 @@
+1. Start application A2. Switch to background3. Wait 10 minutes. (Not sure about the exact time. The longer the time, the greater the probability of occurrence)4. Open App A5. Application A crashes

@@ -1,0 +1,4 @@
+adb shell am broadcast <packagename.intent>
+adb shell am broadcast <packagename.intent>
+adb shell am to-uri <intent>
+adb shell am unfreeze <packagename>

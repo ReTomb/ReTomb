@@ -1,0 +1,12 @@
+{
+  "ActivityManagerShellCommand runStartActivity printwriter pw": "0.34742847",
+  "ActivityManagerShellCommand runSendBroadcast printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand runCompact printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand runFreeze printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand runUnfreeze printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand getOutPrintWriter printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand runTraceIpc printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand runProfile printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand runDumpHeap printwriter pw": "0.33860046",
+  "ActivityManagerShellCommand runSetDebugApp printwriter pw": "0.33860046"
+}

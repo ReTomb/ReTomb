@@ -1,0 +1,8 @@
+#Steps to reproduce
+
+- Have a TabBarView
+- Have a vertical PageView in the first tab with google_mobile_ads 1.0.1 (also tested on 1.1.0)
+- Have a ListView on the second tab
+- Open app and have ad  displayed in the first tab
+- Change to the second tab
+- Try to change to another app

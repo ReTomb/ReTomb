@@ -1,0 +1,3 @@
+adb shell input draganddrop <x1,y1> <x2,y2>
+adb shell am freeze <packagename>
+adb shell am compact <packagename>

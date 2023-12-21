@@ -1,0 +1,1 @@
+1. Open KOReader.2. Open any PDF.3. Pull up bottom tab.4. Enable reflow.5. Immediate crash upon exit of tab menu.

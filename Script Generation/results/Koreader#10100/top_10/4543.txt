@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm dump <packagename>
+adb shell pm list <packagename>
+adb shell pm unhide

@@ -1,0 +1,4 @@
+adb shell am profile <file>
+adb shell am freeze <packagename>
+adb shell input text <text>
+adb shell am to-uri <intent>

@@ -1,0 +1,11 @@
+[
+    {
+        "repository": "TeamNewPipe/NewPipe",
+        "SIGSEGV": [
+            7822
+        ],
+        "SIGABRT": [
+            312
+        ]
+    }
+]

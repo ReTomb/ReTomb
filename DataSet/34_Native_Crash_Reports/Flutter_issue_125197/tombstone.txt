@@ -1,0 +1,109 @@
+04-19 20:12:15.946  3054  3286 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 3286 (Chrome_InProcGp)
+04-19 20:12:16.133  8454  8454 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+04-19 20:12:16.133  8454  8454 F DEBUG   : Build fingerprint: 'Amazon/mantis/mantis:6.0/NS6277/3031N:user/amz-p,release-keys'
+04-19 20:12:16.134  8454  8454 F DEBUG   : Revision: '0'
+04-19 20:12:16.134  8454  8454 F DEBUG   : ABI: 'arm'
+04-19 20:12:16.134  8454  8454 F DEBUG   : pid: 3054, tid: 3286, name: Chrome_InProcGp  >>> com.example.flutterapp <<<
+04-19 20:12:16.134  8454  8454 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+04-19 20:12:16.134  8454  8454 F DEBUG   :     r0 00000000  r1 7c2f9d34  r2 8cb74c40  r3 00000001
+04-19 20:12:16.134  8454  8454 F DEBUG   :     r4 00000000  r5 ae02de70  r6 8e626be0  r7 00000000
+04-19 20:12:16.134  8454  8454 F DEBUG   :     r8 ae02de74  r9 00000010  sl 7c2f9d34  fp 8c4667c8
+04-19 20:12:16.134  8454  8454 F DEBUG   :     ip 9eab7fb0  sp 7c2f9d30  lr 9ea9eee9  pc 9ea9eec6  cpsr a0070030
+04-19 20:12:16.162  8454  8454 F DEBUG   :
+04-19 20:12:16.162  8454  8454 F DEBUG   : backtrace:
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #00 pc 00013ec6  /vendor/lib/libIMGegl.so (KEGLReleaseRenderTarget+77)
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #01 pc 0003db53  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #02 pc 0003e66d  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #03 pc 00023f05  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #04 pc 00024a6d  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so (glBindFramebuffer+372)
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #05 pc 0000fbe4  /system/lib/libGLESv2.so (glBindFramebuffer+84)
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #06 pc 0245055f  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #07 pc 02438dc9  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #08 pc 02453207  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #09 pc 023859a9  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #10 pc 024fbcb5  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #11 pc 0177f0b9  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #12 pc 024fbbdd  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #13 pc 024fb58b  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #14 pc 024ff2ad  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.162  8454  8454 F DEBUG   :     #15 pc 024fe71d  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #16 pc 02388845  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #17 pc 019872fb  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #18 pc 01990a7b  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #19 pc 01990851  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #20 pc 01990d89  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #21 pc 01969da7  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #22 pc 0199115d  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #23 pc 01979fb1  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #24 pc 019a4fc3  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #25 pc 019c4939  /system/lib/libwebviewextchromium.so
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #26 pc 00046f03  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+04-19 20:12:16.163  8454  8454 F DEBUG   :     #27 pc 00019c8d  /system/lib/libc.so (__start_thread+6)
+04-19 21:50:38.584 13616 13644 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x4 in tid 13644 (RenderThread)
+04-19 21:50:38.742 14163 14163 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+04-19 21:50:38.742 14163 14163 F DEBUG   : Build fingerprint: 'Amazon/mantis/mantis:6.0/NS6277/3031N:user/amz-p,release-keys'
+04-19 21:50:38.742 14163 14163 F DEBUG   : Revision: '0'
+04-19 21:50:38.742 14163 14163 F DEBUG   : ABI: 'arm'
+04-19 21:50:38.742 14163 14163 F DEBUG   : pid: 13616, tid: 13644, name: RenderThread  >>> com.example.flutterapp <<<
+04-19 21:50:38.742 14163 14163 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x4
+04-19 21:50:38.742 14163 14163 F DEBUG   :     r0 00000000  r1 904fd81c  r2 7e149e80  r3 00000002
+04-19 21:50:38.743 14163 14163 F DEBUG   :     r4 00000000  r5 ae02ddd0  r6 6de4de30  r7 00000000
+04-19 21:50:38.743 14163 14163 F DEBUG   :     r8 ae02ddd4  r9 00000010  sl 904fd81c  fp 902f8508
+04-19 21:50:38.743 14163 14163 F DEBUG   :     ip 9eab7fb0  sp 904fd818  lr 9ea9eee9  pc 9ea9eec6  cpsr a00b0030
+04-19 21:50:38.790 14163 14163 F DEBUG   :
+04-19 21:50:38.790 14163 14163 F DEBUG   : backtrace:
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #00 pc 00013ec6  /vendor/lib/libIMGegl.so (KEGLReleaseRenderTarget+77)
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #01 pc 0003db53  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #02 pc 0003e66d  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #03 pc 000229b9  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #04 pc 0001cef9  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #05 pc 0001cf61  /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #06 pc 00005b25  /vendor/lib/libIMGegl.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #07 pc 00005d55  /vendor/lib/libIMGegl.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #08 pc 0000dddb  /system/lib/libEGL.so (eglCreateSyncKHR+66)
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #09 pc 02221465  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.790 14163 14163 F DEBUG   :     #10 pc 02221427  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #11 pc 02221409  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #12 pc 0248e6dd  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #13 pc 024f90e3  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #14 pc 0238638d  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #15 pc 02453217  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #16 pc 023859a9  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #17 pc 024f85d3  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #18 pc 00d8aeb7  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #19 pc 00b3b5bd  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #20 pc 00d8c381  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #21 pc 00b3b5bd  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #22 pc 01640f5d  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #23 pc 01641033  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #24 pc 01640fe9  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #25 pc 01640fc3  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #26 pc 00b3b5bd  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #27 pc 01640a51  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #28 pc 016409dd  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #29 pc 01640e39  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #30 pc 024f845d  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #31 pc 024f88ab  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.791 14163 14163 F DEBUG   :     #32 pc 00da4567  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #33 pc 02270345  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #34 pc 023d472d  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #35 pc 023d4c1b  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #36 pc 023d556b  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #37 pc 023d0b23  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #38 pc 016447dd  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #39 pc 01641b1d  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #40 pc 01642a8f  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #41 pc 0163df05  /system/lib/libwebviewextchromium.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #42 pc 00001557  /system/lib/libwebviewchromium_plat_support.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #43 pc 00028ddf  /system/lib/libhwui.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #44 pc 00067f95  /system/lib/libhwui.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #45 pc 0006bce3  /system/lib/libhwui.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #46 pc 0002acbb  /system/lib/libhwui.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #47 pc 0002a867  /system/lib/libhwui.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #48 pc 0002c4df  /system/lib/libhwui.so
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #49 pc 0002fad9  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread12RenderThread10threadLoopEv+80)
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #50 pc 0000e451  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+140)
+04-19 21:50:38.792 14163 14163 F DEBUG   :     #51 pc 0006c3a5  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+80)
+04-19 21:50:38.793 14163 14163 F DEBUG   :     #52 pc 00046f03  /system/lib/libc.so (_ZL15__pthread_startPv+22)
+04-19 21:50:38.793 14163 14163 F DEBUG   :     #53 pc 00019c8d  /system/lib/libc.so (__start_thread+6)
+------ 0.020s was the duration of 'CRASH LOG' ------

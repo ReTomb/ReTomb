@@ -1,0 +1,49 @@
+07-05 16:10:02.890 19351 19367 F libc : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 19367 (Thread-174), pid 19351 (reader.launcher)
+07-05 16:10:02.969 19372 19372 F DEBUG : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+07-05 16:10:02.969 19372 19372 F DEBUG : Native Crash TIME: 135187238
+07-05 16:10:02.969 19372 19372 F DEBUG : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+07-05 16:10:02.970 19372 19372 F DEBUG : Build fingerprint: 'SPRD/sp9832e_1h10_gofu_osll/sp9832e_1h10_go:8.1.0/SC801a.V91/21310:user/release-keys'
+07-05 16:10:02.970 19372 19372 F DEBUG : Revision: '0'
+07-05 16:10:02.970 19372 19372 F DEBUG : ABI: 'arm'
+07-05 16:10:02.970 19372 19372 F DEBUG : pid: 19351, tid: 19367, name: Thread-174 >>> org.koreader.launcher <<<
+07-05 16:10:02.970 19372 19372 F DEBUG : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+07-05 16:10:02.970 19372 19372 F DEBUG : Cause: null pointer dereference
+07-05 16:10:02.971 19372 19372 F DEBUG : r0 00000001 r1 81e27640 r2 8886333c r3 878fe598
+07-05 16:10:02.971 19372 19372 F DEBUG : r4 878fe59c r5 883cdb80 r6 00000000 r7 00000001
+07-05 16:10:02.971 19372 19372 F DEBUG : r8 00000000 r9 878fe598 sl 00000000 fp 00000000
+07-05 16:10:02.972 19372 19372 F DEBUG : ip 8b4d7738 sp 8b4d7620 lr 81e27640 pc 887287f2 cpsr 80000030
+07-05 16:10:02.988 19372 19372 F DEBUG :
+07-05 16:10:02.988 19372 19372 F DEBUG : backtrace:
+07-05 16:10:02.988 19372 19372 F DEBUG : #00 pc 001147f2 /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.988 19372 19372 F DEBUG : #1 pc 00114b45 /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.988 19372 19372 F DEBUG : #2 pc 00114bcd /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.988 19372 19372 F DEBUG : #3 pc 00091287 /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.989 19372 19372 F DEBUG : #4 pc 0012bb93 /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.989 19372 19372 F DEBUG : #5 pc 0014e03d /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.989 19372 19372 F DEBUG : #6 pc 0015da29 /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.990 19372 19372 F DEBUG : #7 pc 0015d7fb /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.990 19372 19372 F DEBUG : #8 pc 0015d7fb /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.990 19372 19372 F DEBUG : #9 pc 0015d7fb /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.990 19372 19372 F DEBUG : #10 pc 0015d7fb /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #11 pc 0015d7fb /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #12 pc 0013d88b /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #13 pc 0013db79 /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #14 pc 0013dc09 /data/data/org.koreader.launcher/files/libs/libcrengine.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #15 pc 00011b0f /data/data/org.koreader.launcher/files/libs/libkoreader-cre.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #16 pc 00007890 /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #17 pc 000490eb /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #18 pc 00007890 /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #19 pc 000490eb /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #20 pc 00007890 /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit.so
+07-05 16:10:02.991 19372 19372 F DEBUG : #21 pc 00048221 /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit.so (lua_pcall+20)
+07-05 16:10:02.992 19372 19372 F DEBUG : #22 pc 00001657 /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit-launcher.so (android_main+298)
+07-05 16:10:02.996 19372 19372 F DEBUG : #23 pc 0000232d /data/app/org.koreader.launcher-j22ZV2VGt2Yi63bm_t1TTA==/lib/arm/libluajit-launcher.so
+07-05 16:10:02.997 19372 19372 F DEBUG : #24 pc 00046f7b /system/lib/libc.so (__pthread_start(void*)+22)
+07-05 16:10:02.997 19372 19372 F DEBUG : #25 pc 0001a2a7 /system/lib/libc.so (__start_thread+32)
+07-05 16:10:03.838 655 766 E WifiNetworkMonitor: Not any Obervers!!!
+07-05 16:10:04.197 440 440 E /system/bin/tombstoned: Tombstone written to: /data/tombstones/tombstone_00
+07-05 16:10:04.261 655 747 E InputDispatcher: channel 'bd4b03 org.koreader.launcher/org.koreader.launcher.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+07-05 16:10:04.425 260 344 E SWTCON : swtcon_request_output
+07-05 16:10:04.425 260 344 E SWTCON : sSwtcon::start
+07-05 16:10:04.569 260 348 E SWTCON : Flip snum = 1, has_next = 1
+07-05 16:10:05.440 260 348 E SWTCON : Flip snum = 77, has_next = 0

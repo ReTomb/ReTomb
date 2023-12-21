@@ -1,0 +1,6 @@
+#Steps to reproduce
+
+- Add into list `webview` and `videoplayer` widget
+- Play video
+- Scroll so that `webview` is not visible anymore
+- App is crashed

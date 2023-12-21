@@ -1,0 +1,6 @@
+#Steps to reproduce
+
+- Run application
+- Navigate to the page containing the Ad (top right corner in the App Bar)
+- Press the "Back"-Arrow
+- The application crashes

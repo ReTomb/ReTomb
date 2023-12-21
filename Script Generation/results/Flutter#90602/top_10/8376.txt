@@ -1,0 +1,4 @@
+adb shell am dumpheap <file>
+adb shell am compact <packagename>
+adb shell am runTraceIpc <file>
+adb shell am unfreeze <packagename>

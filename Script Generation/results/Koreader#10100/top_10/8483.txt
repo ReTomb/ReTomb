@@ -1,0 +1,4 @@
+adb shell pm resolve-activity <intent>
+adb shell pm path <packagename>
+adb shell pm query-receivers <intent>
+adb shell pm unhide

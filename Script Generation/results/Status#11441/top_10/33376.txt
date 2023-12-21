@@ -1,0 +1,5 @@
+adb shell am compact <packagename>
+adb shell am freeze <packagename>
+adb shell am compact <packagename>
+adb shell am profile <file>
+adb shell am unfreeze <packagename>

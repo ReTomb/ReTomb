@@ -1,0 +1,2 @@
+open libreraReader
+Crash when opening ODT file

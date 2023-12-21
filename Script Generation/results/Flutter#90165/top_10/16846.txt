@@ -1,0 +1,5 @@
+adb shell input keyevent 
+adb shell input press <x,y>
+adb shell input text <text>
+adb shell inpur roll <x,y> 
+adb shell input press <x,y>

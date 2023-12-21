@@ -1,0 +1,98 @@
+W/ColorUtils(18320): expected specified color aspects (0:0:0:0)
+D/SurfaceUtils(18320): connecting to surface 0xb400007a30d262d0, reason connectToSurface
+E/BufferQueueProducer(18320): [SurfaceTexture-0-18320-2](id:479000000002,api:3,p:18320,c:18320) connect: BufferQueue has been abandoned
+E/SurfaceUtils(18320): Failed to connect to surface 0xb400007a30d262d0, err -19
+E/MediaCodec(18320): nativeWindowConnect returned an error: No such device (-19)
+E/MediaCodec(18320): configure failed with err 0xffffffed, resetting...
+I/CCodec  (18320): state->set(RELEASING)
+I/CCodec  (18320): [c2.exynos.h264.decoder] release(1)
+I/CCodec  (18320): state->set(RELEASED)
+I/MediaCodec(18320): Codec shutdown complete
+I/hw-BpHwBinder(18320): onLastStrongRef automatically unlinking death recipients
+I/ViewRootImpl@a06325a[MainActivity](18320): [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$performDraw$1$ViewRootImpl:4668 android.view.-$$Lambda$ViewRootImpl$DJd0VUYJgsebcnSohO6h8zc_ONI.run:6 android.os.Handler.handleCallback:938
+I/ViewRootImpl@a06325a[MainActivity](18320): [DP] rdf()
+I/ViewRootImpl@a06325a[MainActivity](18320): MSG_RESIZED_REPORT: frame=(75,0,2400,1080) ci=(0,68,135,0) vi=(0,68,135,0) or=2
+I/ViewRootImpl@a06325a[MainActivity](18320): [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:10957 android.view.ViewRootImpl.access$1200:256 android.view.ViewRootImpl$ViewRootHandler.handleMessage:6101
+I/SurfaceControl(18320): nativeRelease nativeObject s[-5476376626910864192]
+I/SurfaceControl(18320): nativeRelease nativeObject e[-5476376626910864192]
+I/SurfaceControl(18320): assignNativeObject: nativeObject = 0 Surface(name=null)/@0x51d981 / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995
+F/libc    (18320): Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x660 in tid 19579 (1.raster), pid 18320 (_player_example)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'samsung/t2sksx/t2s:11/RP1A.200720.012/G996NKSU3AUHB:user/release-keys'
+Revision: '22'
+ABI: 'arm64'
+Timestamp: 2021-09-16 11:50:20+0900
+pid: 18320, tid: 19579, name: 1.raster  >>> com.example.ivs_player_example <<<
+uid: 10502
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x660
+Cause: null pointer dereference
+    x0  0000000000000660  x1  0000000000000003  x2  0000000000000000  x3  00000078b053ffbb
+    x4  000000784248bd08  x5  000000000000004a  x6  4156404905ff5140  x7  7f7f7f7f7f7f7f7f
+    x8  0000007ba42f7610  x9  58db045e62bf4117  x10 0000000000430000  x11 000000000000001e
+    x12 00000078b05ba454  x13 00000078b05ba49c  x14 00000078b05ba4fc  x15 0000000000000000
+    x16 0000007ba4375c18  x17 0000007ba3977cec  x18 0000007832eda000  x19 0000000000000660
+    x20 0000000000000000  x21 0000000000000003  x22 000000784248f000  x23 b400007a20d51d08
+    x24 00000000711d7e50  x25 000000784248f000  x26 000000000000002c  x27 0000000000000002
+    x28 0000000000000003  x29 000000784248bd90
+    lr  0000007ba4370358  sp  000000784248bd90  pc  0000007ba3977cf4  pst 0000000060001000
+backtrace:
+      #00 pc 00000000000b0cf4  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_mutex_lock+8) (BuildId: 47fa1511afbec3da8219bfec53725f93)
+      #01 pc 000000000000c354  /system/lib64/libnativedisplay.so (android::SurfaceTexture::attachToContext(unsigned int)+36) (BuildId: 43f3bc60aa3f9e9691c1b350ca9c6367)
+      #02 pc 00000000000ec9d4  /system/lib64/libandroid_runtime.so (android::SurfaceTexture_attachToGLContext(_JNIEnv*, _jobject*, int)+116) (BuildId: 553ad8267d4891eb107545f18d6ba0fa)
+      #03 pc 00000000002397e4  /system/framework/arm64/boot-framework.oat (art_jni_trampoline+132) (BuildId: 316940bb77c2db4d8a16fbd33b8107442b00720c)
+      #04 pc 0000000000134564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #05 pc 00000000001a9a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #06 pc 000000000032129c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #07 pc 00000000003175c8  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+996) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #08 pc 0000000000688954  /apex/com.android.art/lib64/libart.so (MterpInvokeDirect+576) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #09 pc 000000000012e914  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_direct+20) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #10 pc 000000000046a478  /system/framework/framework.jar (android.graphics.SurfaceTexture.attachToGLContext)
+      #11 pc 0000000000686578  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+1520) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #12 pc 000000000012e814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #13 pc 00000000000f0aa8  [anon:dalvik-classes.dex extracted in memory from /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/base.apk] (io.flutter.embedding.engine.renderer.SurfaceTextureWrapper.attachToGLContext+4)
+      #14 pc 000000000030ebc4  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.16619280533006879875)+268) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #15 pc 0000000000674d5c  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #16 pc 000000000013dff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #17 pc 0000000000134564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #18 pc 00000000001a9a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #19 pc 000000000055e5e4  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithVarArgs<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, std::__va_list)+468) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #20 pc 000000000055e784  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+92) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #21 pc 000000000041cd70  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallVoidMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+660) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #22 pc 000000000038248c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallMethodV(char const*, _JNIEnv*, _jobject*, _jclass*, _jmethodID*, std::__va_list, art::Primitive::Type, art::InvokeType)+2512) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #23 pc 000000000037053c  /apex/com.android.art/lib64/libart.so (art::(anonymous namespace)::CheckJNI::CallVoidMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+72) (BuildId: 9c4063981e1884f6ea4a016617526eb4)
+      #24 pc 00000000014638c8  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #25 pc 0000000001463c20  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #26 pc 000000000145a0e0  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #27 pc 0000000001459f54  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #28 pc 0000000001480b1c  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #29 pc 000000000147e390  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #30 pc 0000000001480dfc  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #31 pc 000000000147e390  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #32 pc 000000000147ff34  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #33 pc 000000000147e390  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #34 pc 0000000001480dfc  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #35 pc 000000000147e390  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #36 pc 0000000001480dfc  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #37 pc 000000000147e390  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #38 pc 0000000001480dfc  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #39 pc 000000000147e390  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #40 pc 000000000147f234  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #41 pc 00000000014743fc  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #42 pc 00000000014c016c  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #43 pc 00000000014c0ccc  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #44 pc 00000000014c16ac  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #45 pc 00000000014c0654  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #46 pc 00000000014c03a0  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #47 pc 00000000014cb5d4  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #48 pc 0000000001487690  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #49 pc 000000000148ceb8  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #50 pc 0000000000019da8  /system/lib64/libutils.so (android::Looper::pollInner(int)+916) (BuildId: 4e69b93bf70ed592f0029dbd1097529e)
+      #51 pc 00000000000199ac  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+112) (BuildId: 4e69b93bf70ed592f0029dbd1097529e)
+      #52 pc 0000000000012c74  /system/lib64/libandroid.so (ALooper_pollOnce+100) (BuildId: e619cb3e2071f8fdf44a1cc930f310fa)
+      #53 pc 000000000148ce40  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #54 pc 00000000014875d8  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #55 pc 000000000148a83c  /data/app/~~mZTT_fMZ9qMAV6MZfCGm2w==/com.example.ivs_player_example-9Sc7IAh-PrGVeOdkfrShDQ==/lib/arm64/libflutter.so (BuildId: 1da3b6b15f47739461060b3c19a988095e8658e6)
+      #56 pc 00000000000b0228  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64) (BuildId: 47fa1511afbec3da8219bfec53725f93)
+      #57 pc 000000000005070c  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 47fa1511afbec3da8219bfec53725f93)
+Lost connection to device.
+Exited (sigterm)

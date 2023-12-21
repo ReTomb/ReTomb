@@ -1,0 +1,4 @@
+At least two crashes in space of 12 hours
+I am starting to think that we do not terminate the connection like we normally should
+The implementation differences in go-tun2socks for tcpConn.Close and tcpConn
+Further more, tcpConn.Abort is what go-tun2socks uses to rid of connection when there's any err reported by the registeredTCPHandler

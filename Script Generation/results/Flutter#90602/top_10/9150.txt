@@ -1,0 +1,4 @@
+adb shell am set-debug-app <packagename>
+adb shell am start <packagename.activity>
+adb shell am freeze <packagename>
+adb shell am dumpheap <file>

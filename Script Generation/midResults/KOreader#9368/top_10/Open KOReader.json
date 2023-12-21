@@ -1,0 +1,12 @@
+{
+  "Input runText string text": "0.77634615",
+  "Input runTap float x float y": "0.6003991",
+  "ActivityManagerShellCommand runStartActivity printwriter pw": "0.42714694",
+  "ActivityManagerShellCommand runSendBroadcast printwriter pw": "0.42462042",
+  "ActivityManagerShellCommand runCompact printwriter pw": "0.42462042",
+  "ActivityManagerShellCommand runFreeze printwriter pw": "0.42462042",
+  "ActivityManagerShellCommand runUnfreeze printwriter pw": "0.42462042",
+  "ActivityManagerShellCommand getOutPrintWriter printwriter pw": "0.42462042",
+  "ActivityManagerShellCommand runTraceIpc printwriter pw": "0.42462042",
+  "ActivityManagerShellCommand runProfile printwriter pw": "0.42462042"
+}

@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell input text <text>
+adb shell pm revoke
+adb shell pm disable <packagename>

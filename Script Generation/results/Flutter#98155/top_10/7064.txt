@@ -1,0 +1,4 @@
+adb shell pm wait-for-handler
+adb shell input text <text>
+adb shell pm clear-permission-flags
+adb shell pm disable <packagename>

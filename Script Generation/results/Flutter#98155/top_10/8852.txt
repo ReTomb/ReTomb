@@ -1,0 +1,4 @@
+adb shell pm path <packagename>
+adb shell pm enable <packagename>
+adb shell pm revoke
+adb shell pm enable <packagename>

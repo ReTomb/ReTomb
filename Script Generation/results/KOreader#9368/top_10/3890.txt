@@ -1,0 +1,4 @@
+adb shell am broadcast <packagename.intent>
+adb shell am instrument <packagename.component>
+adb shell am runTraceIpc <file>
+adb shell input swipe <x1,y1> <x2,y2>

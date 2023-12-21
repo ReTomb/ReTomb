@@ -1,0 +1,2 @@
+start application com.example.unable_to_merge_raster_demo
+click the second webview's left search area

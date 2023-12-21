@@ -1,0 +1,5 @@
+adb shell am compact <packagename>
+adb shell am instrument <packagename.component>
+adb shell am compact <packagename>
+adb shell am freeze <packagename>
+adb shell am broadcast <packagename.intent>

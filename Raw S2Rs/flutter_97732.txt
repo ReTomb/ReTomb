@@ -1,0 +1,9 @@
+1. flutter create .
+2. replace code inside main.dart by mine
+3. replace code inside pubspec.yaml by mine
+4. set minSdkVersion to 21 (android/app/build.gradle)
+5. flutter pub get
+6. flutter pub run
+7. go to settings page 
+8. go the button called 'Notifications settings'
+9. Honor the crash 

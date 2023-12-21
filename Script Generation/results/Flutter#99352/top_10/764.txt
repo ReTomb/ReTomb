@@ -1,0 +1,3 @@
+adb shell inpur roll <x,y> 
+adb shell am broadcast <packagename.intent>
+adb shell input keyevent 

@@ -1,0 +1,4 @@
+adb shell pm suspend
+adb shell pm enable <packagename>
+adb shell input text <text>
+adb shell pm unsuspend

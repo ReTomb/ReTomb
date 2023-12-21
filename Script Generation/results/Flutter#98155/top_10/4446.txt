@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm hide
+adb shell pm hide
+adb shell pm disable-until-used

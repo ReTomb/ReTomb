@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm hide
+adb shell pm wait-for-handler
+adb shell input text <text>

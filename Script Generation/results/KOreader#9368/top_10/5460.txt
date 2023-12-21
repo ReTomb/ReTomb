@@ -1,0 +1,4 @@
+adb shell am freeze <packagename>
+adb shell am broadcast <packagename.intent>
+adb shell am freeze <packagename>
+adb shell input swipe <x1,y1> <x2,y2>

@@ -1,0 +1,27 @@
+F/flutter (20419): [FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1469)] Check failed: fml::jni::CheckException(env).
+D/apitrace(20419): apitrace: warning: caught signal 6
+D/apitrace(20419): call flush from exceptionCallback
+F/libc    (20419): Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 20419 (.dt.aqkl), pid 20419 (.dt.aqkl)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'Infinix/X682C-GL/Infinix-X682C:10/QP1A.190711.020/220510V360:user/release-keys'
+Revision: '0'
+ABI: 'arm64'
+Timestamp: 2022-07-31 00:09:51+0700
+pid: 20419, tid: 20419, name: .dt.aqkl  >>> com.dt.aqkl <<<
+uid: 10644
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Abort message: '[FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1469)] Check failed: fml::jni::CheckException(env).
+'
+    x0  0000000000000000  x1  0000000000004fc3  x2  0000000000000006  x3  0000007ff378a5a0
+    x4  0000000000000080  x5  0000000000000080  x6  0000000000000080  x7  8000000000000000
+    x8  00000000000000f0  x9  00000075453244e0  x10 0000000000000000  x11 0000000000000001
+    x12 000000000904e818  x13 0000000000000003  x14 0000000000000001  x15 000046ef8e27749f
+    x16 00000075453f08c0  x17 00000075453ce060  x18 0000007548082000  x19 00000000000000ac
+    x20 0000000000004fc3  x21 00000000000000b2  x22 0000000000004fc3  x23 00000000ffffffff
+    x24 00000075473fe900  x25 0000000000000000  x26 0000000000000000  x27 0000000000000081
+    x28 0000007ff378a8b8  x29 0000007ff378a650
+    sp  0000007ff378a580  lr  0000007545382170  pc  00000075453821a0
+backtrace:
+      #00 pc 00000000000821a0  /apex/com.android.runtime/lib64/bionic/libc.so (abort+176) (BuildId: 5d7c94b262814ba928c49360adfa7f36)
+      #01 pc 000000000156e9cc  /data/app/com.dt.aqkl-gPjFLbVE1YF4IQK0TyQMtw==/lib/arm64/libflutter.so (BuildId: 4eada3eb5afdd9bb6982917520d32254e275a824)
+Lost connection to device.

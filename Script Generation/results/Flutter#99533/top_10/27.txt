@@ -1,0 +1,2 @@
+adb shell am to-uri <intent>
+adb shell input press <x,y>

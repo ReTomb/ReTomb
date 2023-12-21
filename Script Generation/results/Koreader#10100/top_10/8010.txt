@@ -1,0 +1,4 @@
+adb shell pm resolve-activity <intent>
+adb shell input text <text>
+adb shell input text <text>
+adb shell pm clear-permission-flags

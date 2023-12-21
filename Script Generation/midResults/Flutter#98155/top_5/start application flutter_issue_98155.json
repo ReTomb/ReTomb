@@ -1,0 +1,7 @@
+{
+  "Input runText string text": "0.7861345",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_ENABLED": "0.7293253",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_DEFAULT": "0.72825503",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_DISABLED": "0.7280895",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER": "0.6958382"
+}

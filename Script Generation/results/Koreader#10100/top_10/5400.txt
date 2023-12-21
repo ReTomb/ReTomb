@@ -1,0 +1,4 @@
+adb shell pm path <packagename>
+adb shell pm unsuspend
+adb shell pm install-streaming
+adb shell pm clear-permission-flags

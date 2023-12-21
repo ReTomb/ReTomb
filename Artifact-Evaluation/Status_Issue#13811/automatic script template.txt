@@ -1,0 +1,9 @@
+adb shell am start <package name>
+
+adb shell input text <text>
+
+adb shell input tap <x,y>
+
+adb shell svc wifi disable
+
+

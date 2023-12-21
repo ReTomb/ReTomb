@@ -1,0 +1,5 @@
+adb shell am freeze <packagename>
+adb shell am set-debug-app <packagename>
+adb shell am instrument <packagename.component>
+adb shell am instrument <packagename.component>
+adb shell am compact <packagename>

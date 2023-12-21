@@ -1,0 +1,4 @@
+adb shell pm unsuspend
+adb shell input text <text>
+adb shell pm install-streaming
+adb shell pm disable <packagename>

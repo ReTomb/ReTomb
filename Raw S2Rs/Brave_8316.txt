@@ -1,0 +1,2 @@
+Visit url
+Click the "Show my location" button.

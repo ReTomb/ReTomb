@@ -1,0 +1,5 @@
+start application flutter_issue_90165
+input url to the top url text field
+tap open button
+play video by tapping floating action button
+change orientation to another

@@ -1,0 +1,2 @@
+adb shell am set-debug-app <packagename>
+adb shell am compact <packagename>

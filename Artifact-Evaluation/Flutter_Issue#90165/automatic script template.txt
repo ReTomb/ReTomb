@@ -1,0 +1,13 @@
+adb shell am start <package name>
+
+adb shell input tap <x, y>
+
+adb shell input tap <x, y>
+
+adb shell input keyevent <event>
+
+adb shell settings put system user_rotation <value>
+
+adb shell settings put system user_rotation <value>
+
+adb shell am start <package name>

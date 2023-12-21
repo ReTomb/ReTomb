@@ -1,0 +1,3 @@
+adb shell am profile <file>
+adb shell am profile <file>
+adb shell am to-uri <intent>

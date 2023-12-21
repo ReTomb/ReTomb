@@ -1,0 +1,6 @@
+#Steps to reproduce
+
+- Set Flutter version to the latest stable one - **2.10.3**
+- Create a new project
+- Execute `flutter run` on the code sample <!-- (see "Code sample" section below) -->
+- Press the red button which should crash the app on both Android and iOS platforms

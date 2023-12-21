@@ -1,0 +1,7 @@
+{
+  "PackageManagerShellCommand runSuspend state ture": "0.8039025",
+  "PackageManagerShellCommand runSetHiddenSetting state false": "0.7647284",
+  "PackageManagerShellCommand runSuspend state false": "0.7647284",
+  "PackageManagerShellCommand runSetHiddenSetting state true": "0.7395421",
+  "Input runText string text": "0.72725105"
+}

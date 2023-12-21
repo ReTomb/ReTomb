@@ -1,0 +1,53 @@
+[ +129 ms] D/InputTransport(27865): Input channel destroyed: 'ClientS', fd=198
+[ +330 ms] I/ViewRootImpl@67e9542[MainActivity](27865): handleAppVisibility mAppVisible=true visible=false
+[  +15 ms] I/SurfaceView(27865): onWindowVisibilityChanged(8) false io.flutter.embedding.android.FlutterSurfaceView{a642868 V.E...... ........ 0,0-1080,2280} of ViewRootImpl@67e9542[MainActivity]
+[        ] I/SurfaceView(27865): surfaceDestroyed callback.size 1 #2 io.flutter.embedding.android.FlutterSurfaceView{a642868 V.E...... ........ 0,0-1080,2280}
+[        ] E/flutter (27865): [ERROR:flutter/fml/platform/android/jni_util.cc(211)] java.lang.RuntimeException: Methods marked with @UiThread must be executed on the main thread. Current thread: 1.raster
+[        ] E/flutter (27865): 	at io.flutter.embedding.engine.FlutterJNI.ensureRunningOnMainThread(FlutterJNI.java:1405)
+[        ] E/flutter (27865): 	at io.flutter.embedding.engine.FlutterJNI.destroyOverlaySurfaces(FlutterJNI.java:1174)
+[        ] E/flutter (27865):
+[        ] F/flutter (27865): [FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1559)] Check failed: fml::jni::CheckException(env).
+[ +106 ms] I/ViewRootImpl@67e9542[MainActivity](27865): Resizing android.view.ViewRootImpl@3e0c57d: frame=[0,0][1080,2280] reportDraw=true forceLayout=false backDropFrame=Rect(0, 0 - 1080, 2280)
+[+1165 ms] F/libc    (27865): Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 27952 (1.raster), pid 27865 (n.staging.debug)
+[ +659 ms] *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[        ] Build fingerprint: 'samsung/beyond1lteeea/beyond1:12/SP1A.210812.016/G973FXXUEGVA4:user/release-keys'
+[        ] Revision: '26'
+[        ] ABI: 'arm64'
+[        ] Timestamp: 2022-03-01 21:41:44.911923751+0100
+[        ] Process uptime: 26s
+[        ] Cmdline: de.axelspringer.jaxon.staging.debug
+[        ] pid: 27865, tid: 27952, name: 1.raster  >>> de.axelspringer.jaxon.staging.debug <<<
+[        ] uid: 11536
+[        ] signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+[        ] Abort message: '[FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1559)] Check failed: fml::jni::CheckException(env).
+[        ] '
+[        ]     x0  0000000000000000  x1  0000000000006d30  x2  0000000000000006  x3  000000736d7c35c0
+[        ]     x4  000000771bc40000  x5  000000771bc40000  x6  000000771bc40000  x7  0000000005a3715c
+[        ]     x8  00000000000000f0  x9  00000076f3b89280  x10 ffffff00fffffbdf  x11 0000000000000001
+[        ]     x12 0000fffffffff3ff  x13 000000000000007e  x14 0000000000000000  x15 00001eb7e1d83f2c
+[        ]     x16 00000076f3c2a058  x17 00000076f3c06da0  x18 0000007357944000  x19 00000000000000ac
+[        ]     x20 0000000000006cd9  x21 00000000000000b2  x22 0000000000006d30  x23 00000000ffffffff
+[        ]     x24 00000074a2038468  x25 000000736d7c4000  x26 0000000000000001  x27 000000000000006a
+[        ]     x28 0000000000000001  x29 000000736d7c3640
+[        ]     lr  00000076f3bb833c  sp  000000736d7c35a0  pc  00000076f3bb836c  pst 0000000000000000
+[        ] backtrace:
+[        ]       #00 pc 000000000005136c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 721f9a1e738668c9f29a0ef6a2870cb9)
+[        ]       #01 pc 000000000151e73c  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #02 pc 00000000015407dc  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #03 pc 0000000001527fb4  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #04 pc 0000000001bfe618  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #05 pc 0000000001bfd374  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #06 pc 000000000185478c  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #07 pc 000000000185fbc8  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #08 pc 000000000154149c  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #09 pc 0000000001547a08  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #10 pc 0000000000016bb0  /system/lib64/libutils.so (android::Looper::pollInner(int)+912) (BuildId: 176a88c64d70f517a4c1c58b40932d90)
+[        ]       #11 pc 00000000000167b8  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+112) (BuildId: 176a88c64d70f517a4c1c58b40932d90)
+[        ]       #12 pc 0000000000017284  /system/lib64/libandroid.so (ALooper_pollOnce+100) (BuildId: 246f3516484d421035372a67caa5a740)
+[        ]       #13 pc 0000000001547990  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #14 pc 00000000015413e4  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #15 pc 0000000001545290  /data/app/~~x2kfdUTAQqSV3sSmA6VW9w==/de.axelspringer.jaxon.staging.debug-0m0odXYr1Y6Iqe4tDHwcOQ==/base.apk!libflutter.so (BuildId: 8a89f3c622e5b28e48b4b8ebd66fb3d81014ddf7)
+[        ]       #16 pc 00000000000b4ad8  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+264) (BuildId: 721f9a1e738668c9f29a0ef6a2870cb9)
+[        ]       #17 pc 0000000000052c08  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 721f9a1e738668c9f29a0ef6a2870cb9)
+[ +321 ms] Service protocol connection closed.
+[        ] Lost connection to device.

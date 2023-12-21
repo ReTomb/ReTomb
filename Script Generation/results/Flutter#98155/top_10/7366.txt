@@ -1,0 +1,4 @@
+adb shell pm wait-for-handler
+adb shell pm unsuspend
+adb shell pm clear-permission-flags
+adb shell pm disable-until-used

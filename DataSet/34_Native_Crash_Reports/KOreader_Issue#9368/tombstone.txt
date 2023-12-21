@@ -1,0 +1,37 @@
+--------- beginning of crash
+07-23 15:31:20.024 F/libc    (28619): Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xe53fca64 in tid 28619 (Thread-5038), pid 28619 (Thread-5038)
+07-23 15:31:20.181 F/DEBUG   (28624): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+07-23 15:31:20.182 F/DEBUG   (28624): Build fingerprint: 'ONYX/Kon_Tiki2/Kon_Tiki2:10/2022-03-07_21-10_3.1-mc_28b45b5/3961:user/dev-keys'
+07-23 15:31:20.182 F/DEBUG   (28624): Revision: '0'
+07-23 15:31:20.182 F/DEBUG   (28624): ABI: 'arm'
+07-23 15:31:20.182 F/DEBUG   (28624): Timestamp: 2022-07-23 15:31:20+0600
+07-23 15:31:20.182 F/DEBUG   (28624): pid: 28619, tid: 28619, name: Thread-5038  >>> org.koreader.launcher <<<
+07-23 15:31:20.182 F/DEBUG   (28624): uid: 10142
+07-23 15:31:20.182 F/DEBUG   (28624): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xe53fca64
+07-23 15:31:20.182 F/DEBUG   (28624):     r0  e53fca64  r1  70100001  r2  00000000  r3  00000e90
+07-23 15:31:20.182 F/DEBUG   (28624):     r4  c6935180  r5  decf5c80  r6  ea4731a0  r7  6010000c
+07-23 15:31:20.182 F/DEBUG   (28624):     r8  c6910838  r9  decf5cf8  r10 00000004  r11 decf5c80
+07-23 15:31:20.182 F/DEBUG   (28624):     ip  00000000  sp  c685ed50  lr  d67d53cd  pc  d67d576a
+07-23 15:31:20.188 F/DEBUG   (28624):
+07-23 15:31:20.188 F/DEBUG   (28624): backtrace:
+07-23 15:31:20.188 F/DEBUG   (28624):       #00 pc 0013d76a  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.188 F/DEBUG   (28624):       #01 pc 0013fd99  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.188 F/DEBUG   (28624):       #02 pc 0006c56f  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.188 F/DEBUG   (28624):       #03 pc 00122d19  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.188 F/DEBUG   (28624):       #04 pc 0012376f  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.189 F/DEBUG   (28624):       #05 pc 00123525  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.189 F/DEBUG   (28624):       #06 pc 0005a5e1  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.189 F/DEBUG   (28624):       #07 pc 00141445  /vendor/lib/egl/libGLESv2_adreno.so (BuildId: 4de6c6707b8e475daeb26c46cf5c783c)
+07-23 15:31:20.189 F/DEBUG   (28624):       #08 pc 000acac3  /apex/com.android.runtime/lib/bionic/libc.so (__cxa_finalize+154) (BuildId: f964f9bad3f84fdf25f81d03b63edbb4)
+07-23 15:31:20.189 F/DEBUG   (28624):       #09 pc 000a81e3  /apex/com.android.runtime/lib/bionic/libc.so (exit+10) (BuildId: f964f9bad3f84fdf25f81d03b63edbb4)
+07-23 15:31:20.189 F/DEBUG   (28624):       #10 pc 00048765  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit.so
+07-23 15:31:20.189 F/DEBUG   (28624):       #11 pc 00007890  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit.so
+07-23 15:31:20.189 F/DEBUG   (28624):       #12 pc 000490eb  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit.so
+07-23 15:31:20.189 F/DEBUG   (28624):       #13 pc 00007890  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit.so
+07-23 15:31:20.189 F/DEBUG   (28624):       #14 pc 000490eb  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit.so
+07-23 15:31:20.189 F/DEBUG   (28624):       #15 pc 00007890  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit.so
+07-23 15:31:20.189 F/DEBUG   (28624):       #16 pc 00048221  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit.so (lua_pcall+20)
+07-23 15:31:20.189 F/DEBUG   (28624):       #17 pc 00001657  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit-launcher.so (android_main+298) (BuildId: e3b62c2fd356f2226af89388d8b81baa760a9ccb)
+07-23 15:31:20.189 F/DEBUG   (28624):       #18 pc 0000232d  /data/app/org.koreader.launcher-L2lWJFbLl8BXILeiFeKRDQ==/lib/arm/libluajit-launcher.so (BuildId: e3b62c2fd356f2226af89388d8b81baa760a9ccb)
+07-23 15:31:20.189 F/DEBUG   (28624):       #19 pc 000aa8ab  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+20) (BuildId: f964f9bad3f84fdf25f81d03b63edbb4)
+07-23 15:31:20.189 F/DEBUG   (28624):       #20 pc 000619b3  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+30) (BuildId: f964f9bad3f84fdf25f81d03b63edbb4)

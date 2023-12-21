@@ -1,0 +1,1 @@
+to replicate:- build the app for Android- on main screen make sure ads are getting loaded- on main screen press Move to Screen 2 (or do it from Drawer)- on Screen 2 press Get Image - the app will crash- if the app do not crash go back to main screen and redo the process (it rarely happens that app do not crash on first try)

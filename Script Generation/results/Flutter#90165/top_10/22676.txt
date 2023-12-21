@@ -1,0 +1,5 @@
+adb shell input motionevent <x,y>
+adb shell input keycombination <x,y>
+adb shell input text <text>
+adb shell inpur roll <x,y> 
+adb shell input keycombination <x,y>

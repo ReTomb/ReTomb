@@ -1,0 +1,4 @@
+adb shell am runTraceIpc <file>
+adb shell input text <text>
+adb shell am profile <file>
+adb shell inpur roll <x,y> 

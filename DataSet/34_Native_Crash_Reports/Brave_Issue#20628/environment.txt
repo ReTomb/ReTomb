@@ -1,0 +1,9 @@
+------------------------------------------------
+#Device details :
+    - Install type (ARM, x86): arm64
+    - Device type (Phone, Tablet, Phablet): Google Pixel XL phone
+    - Android version: 9.0
+-------------------------------------------------
+#Brave version :
+    - Brave - 1.36.58, Chromium 97.0.4692.99
+-------------------------------------------------

@@ -1,0 +1,12 @@
+{
+  "PackageManagerShellCommand runSuspend state ture": "0.7696685",
+  "PackageManagerShellCommand runSetHiddenSetting state false": "0.7649056",
+  "PackageManagerShellCommand runSuspend state false": "0.7649056",
+  "PackageManagerShellCommand runSetHiddenSetting state true": "0.7348395",
+  "PackageManagerShellCommand runPath null": "0.72048265",
+  "PackageManagerShellCommand runDump null": "0.72048265",
+  "PackageManagerShellCommand runList null": "0.72048265",
+  "PackageManagerShellCommand runResolveActivity null": "0.72048265",
+  "PackageManagerShellCommand runQueryIntentActivities null": "0.72048265",
+  "PackageManagerShellCommand runQueryIntentServices null": "0.72048265"
+}

@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell input text <text>
+adb shell pm query-services <intent>
+adb shell pm enable <packagename>

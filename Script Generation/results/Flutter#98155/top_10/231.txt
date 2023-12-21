@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm unhide
+adb shell pm unsuspend
+adb shell input text <text>

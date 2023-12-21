@@ -1,0 +1,2 @@
+adb shell pm default-state
+adb shell am to-uri <intent>

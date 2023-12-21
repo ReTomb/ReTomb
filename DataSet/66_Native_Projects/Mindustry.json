@@ -1,0 +1,13 @@
+[
+    {
+        "repository": "Anuken/Mindustry",
+        "SIGSEGV": [
+            6694
+        ],
+        "SIGABRT": [
+            6653,
+            6456,
+            4424
+        ]
+    }
+]

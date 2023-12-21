@@ -1,0 +1,4 @@
+adb shell am instrument <packagename.component>
+adb shell am runTraceIpc <file>
+adb shell am freeze <packagename>
+adb shell input swipe <x1,y1> <x2,y2>

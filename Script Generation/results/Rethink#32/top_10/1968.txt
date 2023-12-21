@@ -1,0 +1,4 @@
+adb shell am start <packagename.activity>
+adb shell am set-debug-app <packagename>
+adb shell am instrument <packagename.component>
+adb shell am profile <file>

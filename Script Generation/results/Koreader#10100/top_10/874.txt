@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm query-activities <intent>
+adb shell pm query-services <intent>
+adb shell pm unsuspend

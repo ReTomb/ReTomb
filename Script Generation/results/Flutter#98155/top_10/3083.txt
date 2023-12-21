@@ -1,0 +1,4 @@
+adb shell pm unsuspend
+adb shell input text <text>
+adb shell pm path <packagename>
+adb shell pm default-state

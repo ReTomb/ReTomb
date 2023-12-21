@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm unhide
+adb shell pm hide
+adb shell pm default-state

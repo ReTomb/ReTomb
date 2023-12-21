@@ -1,0 +1,12 @@
+{
+  "Input runText string text": "0.83526075",
+  "PackageManagerShellCommand runSetHiddenSetting state false": "0.7980859",
+  "PackageManagerShellCommand runSuspend state false": "0.7980859",
+  "PackageManagerShellCommand runSetHiddenSetting state true": "0.79425824",
+  "Input runTap float x float y": "0.78105265",
+  "PackageManagerShellCommand runGrantRevokePermission false": "0.76447594",
+  "PackageManagerShellCommand setOrClearPermissionFlags false": "0.76447594",
+  "PackageManagerShellCommand runWaitForHandler false": "0.76447594",
+  "PackageManagerShellCommand runSuspend state ture": "0.7562841",
+  "ActivityManagerShellCommand runToUri printwriter pw int flags": "0.7252968"
+}

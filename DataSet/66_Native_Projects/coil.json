@@ -1,0 +1,14 @@
+[
+    {
+        "repository": "coil-kt/coil",
+        "SIGABRT": [
+            1038,
+            545,
+            101,
+            19
+        ],
+        "SIGSEGV": [
+            178
+        ]
+    }
+]

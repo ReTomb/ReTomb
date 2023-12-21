@@ -1,0 +1,64 @@
+
+> Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+> Running Gradle task 'assembleDebug'...
+> √  Built build\app\outputs\flutter-apk\app-debug.apk.
+> Installing build\app\outputs\flutter-apk\app-debug.apk...
+> Debug service listening on ws://127.0.0.1:51721/1IrI36WPWjw=/ws
+> Syncing files to device sdk gphone64 x86 64...
+> E/SurfaceSyncer( 4351): Failed to find sync for id=0
+> W/Parcel  ( 4351): Expecting binder but got null!
+> I/flutter ( 4351): Request for work
+> I/flutter ( 4351): Request for work
+> I/flutter ( 4351): Waiting for previous isolate to die
+> F/flutter ( 4351): [FATAL:flutter/lib/ui/window/platform_message_response_dart_port.cc(53)] Check failed: did_send.
+> F/libc    ( 4351): Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 4663 (flutter-worker-), pid 4351 (ple.isolate_bug)
+> Build fingerprint: 'google/sdk_gphone64_x86_64/emu64x:13/TE1A.220922.012/9302419:userdebug/dev-keys'
+> Revision: '0'
+> ABI: 'x86_64'
+> Timestamp: 2023-03-17 12:17:46.076385000+0000
+> Process uptime: 19s
+> Cmdline: com.example.isolate_bug
+> pid: 4351, tid: 4663, name: flutter-worker-  >>> com.example.isolate_bug <<<
+> uid: 10159
+> signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+> Abort message: '[FATAL:flutter/lib/ui/window/platform_message_response_dart_port.cc(53)] Check failed: did_send. '
+>     rax 0000000000000000  rbx 00000000000010ff  rcx 00007d9a074086ff  rdx 0000000000000006
+>     r8  0000000000000000  r9  0000000000000000  r10 00007d95f74e7ee0  r11 0000000000000203
+>     r12 00007d95f74e8030  r13 00007d95f74e81f0  r14 00007d95f74e7ed8  r15 0000000000001237
+>     rdi 00000000000010ff  rsi 0000000000001237
+>     rbp 0000000000000007  rsp 00007d95f74e7ed0  rip 00007d9a074086ff
+> backtrace:
+>       #00 pc 000000000005f6ff  /apex/com.android.runtime/lib64/bionic/libc.so (abort+191) (BuildId: 007cb2313464df63debf8020e631c990)
+>       #01 pc 0000000001692a95  /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/lib/x86_64/libflutter.so (BuildId: 02da83f7838015562f8e982f4e1381e8aa6dd508)
+>       #02 pc 00000000016b940a  /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/lib/x86_64/libflutter.so (BuildId: 02da83f7838015562f8e982f4e1381e8aa6dd508)
+>       #03 pc 0000000001accb29  /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/lib/x86_64/libflutter.so (BuildId: 02da83f7838015562f8e982f4e1381e8aa6dd508)
+>       #04 pc 0000000001699adf  /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/lib/x86_64/libflutter.so (BuildId: 02da83f7838015562f8e982f4e1381e8aa6dd508)
+>       #05 pc 000000000169d72e  /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/lib/x86_64/libflutter.so (BuildId: 02da83f7838015562f8e982f4e1381e8aa6dd508)
+>       #06 pc 000000000037d70b  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+219) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #07 pc 0000000002015494  /memfd:jit-cache (deleted) (io.flutter.embedding.engine.FlutterJNI.invokePlatformMessageResponseCallback+404)
+>       #08 pc 000000000201ce5e  /memfd:jit-cache (deleted) (io.flutter.embedding.engine.dart.DartMessenger$Reply.reply+350)
+>       #09 pc 000000000201bacf  /memfd:jit-cache (deleted) (io.flutter.plugin.common.BasicMessageChannel$IncomingMessageHandler$1.reply+271)
+>       #10 pc 000000000201b5da  /memfd:jit-cache (deleted) (io.flutter.plugins.pathprovider.Messages$PathProviderApi$-CC.lambda$setup$2+458)
+>       #11 pc 0000000000368c95  /apex/com.android.art/lib64/libart.so (nterp_helper+165) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #12 pc 0000000000148080  [anon:dalvik-classes.dex extracted in memory from /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/base.apk] (io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda2.onMessage+4)
+>       #13 pc 0000000002017f13  /memfd:jit-cache (deleted) (io.flutter.plugin.common.BasicMessageChannel$IncomingMessageHandler.onMessage+339)
+>       #14 pc 0000000002017b99  /memfd:jit-cache (deleted) (io.flutter.embedding.engine.dart.DartMessenger.invokeHandler+361)
+>       #15 pc 000000000201301c  /memfd:jit-cache (deleted) (io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger+556)
+>       #16 pc 0000000002019156  /memfd:jit-cache (deleted) (io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run+214)
+>       #17 pc 00000000020158b1  /memfd:jit-cache (deleted) (io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue.flush+305)
+>       #18 pc 0000000000369aed  /apex/com.android.art/lib64/libart.so (nterp_helper+3837) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #19 pc 00000000001325ac  [anon:dalvik-classes.dex extracted in memory from /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/base.apk] (io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue.lambda$dispatch$0$io-flutter-embedding-engine-dart-DartMessenger$SerialTaskQueue+0)
+>       #20 pc 0000000000369a88  /apex/com.android.art/lib64/libart.so (nterp_helper+3736) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #21 pc 0000000000132440  [anon:dalvik-classes.dex extracted in memory from /data/app/~~zCrERtfMrMQ4rm94aJs5eQ==/com.example.isolate_bug-whCKcGAaOVoR89VOA5XpiQ==/base.apk] (io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$ExternalSyntheticLambda0.run+4)
+>       #22 pc 0000000002016579  /memfd:jit-cache (deleted) (java.util.concurrent.ThreadPoolExecutor.runWorker+633)
+>       #23 pc 0000000000369aed  /apex/com.android.art/lib64/libart.so (nterp_helper+3837) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #24 pc 0000000000221334  /apex/com.android.art/javalib/core-oj.jar (java.util.concurrent.ThreadPoolExecutor$Worker.run+4)
+>       #25 pc 000000000036a7e5  /apex/com.android.art/lib64/libart.so (nterp_helper+7157) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #26 pc 00000000000f6740  /apex/com.android.art/javalib/core-oj.jar (java.lang.Thread.run+8)
+>       #27 pc 00000000003725c4  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+756) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #28 pc 00000000003f21a6  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+214) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #29 pc 00000000007e617e  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+478) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #30 pc 000000000083a91c  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1404) (BuildId: 44bc52550248fc712a381bef164b75c7)
+>       #31 pc 00000000000ccd2a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: 007cb2313464df63debf8020e631c990)
+>       #32 pc 0000000000060d37  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+55) (BuildId: 007cb2313464df63debf8020e631c990)
+> Lost connection to device.

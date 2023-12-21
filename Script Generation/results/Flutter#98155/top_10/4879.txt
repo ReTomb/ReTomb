@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm enable <packagename>
+adb shell pm wait-for-handler
+adb shell pm unsuspend

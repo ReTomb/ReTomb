@@ -1,0 +1,2 @@
+adb shell am profile <file>
+adb shell am broadcast <packagename.intent>

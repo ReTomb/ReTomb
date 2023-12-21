@@ -1,0 +1,2 @@
+adb shell am instrument <packagename.component>
+adb shell am compact <packagename>

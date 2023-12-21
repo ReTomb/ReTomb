@@ -1,0 +1,6 @@
+#Steps to reproduce
+
+- Open private tab
+- Search something in url box
+- Open a new normal tab
+- Search something in url box

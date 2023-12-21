@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm query-services <intent>
+adb shell pm install-streaming
+adb shell pm enable <packagename>

@@ -1,0 +1,3 @@
+#Steps to reproduce
+
+- click "start activity and trigger crash"

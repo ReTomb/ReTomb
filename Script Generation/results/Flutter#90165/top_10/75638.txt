@@ -1,0 +1,5 @@
+adb shell inpur roll <x,y> 
+adb shell input keycombination <x,y>
+adb shell am compact <packagename>
+adb shell am start <packagename.activity>
+adb shell input press <x,y>

@@ -1,0 +1,4 @@
+adb shell pm wait-for-handler
+adb shell pm enable <packagename>
+adb shell pm path <packagename>
+adb shell pm unsuspend

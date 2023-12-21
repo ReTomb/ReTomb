@@ -1,0 +1,5 @@
+adb shell input tap <x,y>
+adb shell input text <text>
+adb shell input motionevent <x,y>
+adb shell input tap <x,y>
+adb shell input text <text>

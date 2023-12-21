@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "LuckSiege/PictureSelector",
+        "SIGSEGV": [
+            2696,
+            1416
+        ],
+        "SIGABRT": [
+            1701
+        ]
+    }
+]

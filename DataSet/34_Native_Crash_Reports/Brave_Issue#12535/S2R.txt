@@ -1,0 +1,4 @@
+#Steps to reproduce
+
+- During browsing cought a crash, not 100% reproducible
+

@@ -1,0 +1,5 @@
+#Steps to reproduce
+
+- Visit https://fmarier.github.io/brave-testing/geolocation.html
+- click the "Show my location" button.
+

@@ -1,0 +1,9 @@
+#Steps to reproduce
+
+- start application flutter_issue_90165;
+- Input `https://d6hwdeiig07o4.cloudfront.net/ivs/956482054022/cTo5UpKS07do/2020-07-13T22-54-42.188Z/OgRXMLtq8M11/media/hls/master.m3u8` to the top url text field.
+- Tap 'open' button;
+- play video by tapping floating action button.
+- Press android home button.
+- Change orientation to another (portrait -> landscape, landscape -> portrait).
+- Reopen the app.

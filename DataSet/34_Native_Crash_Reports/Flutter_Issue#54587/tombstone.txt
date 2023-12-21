@@ -1,0 +1,33 @@
+Running Gradle task 'assembleDebug'...
+✓ Built build/app/outputs/apk/debug/app-debug.apk.
+Installing build/app/outputs/apk/app.apk...
+Debug service listening on ws://127.0.0.1:54278/kOiKlSGDjmE=/ws
+Syncing files to device GM1901...
+I/flutter (21879): canvas size : Size(400.0, 700.0)
+F/libc    (21879): Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x3b00a6964fc0 in tid 21929 (1.ui), pid 21879 (clei.flutterapp)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'OnePlus/OnePlus7/OnePlus7:10/QKQ1.190716.003/2002021900:user/release-keys'
+Revision: '0'
+ABI: 'arm64'
+Timestamp: 2020-04-12 14:56:13+0530
+pid: 21879, tid: 21929, name: 1.ui  >>> com.nuclei.flutterapp <<<
+uid: 10455
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x3b00a6964fc0
+    x0  00000075dde3c000  x1  0000007600f7aeb8  x2  0000000000000000  x3  00000075fea52d08
+    x4  00000075eee032d1  x5  0000007600d00354  x6  00000076f2b1a000  x7  000000000075b170
+    x8  00003b00a6965000  x9  0000000000000000  x10 0000000000000000  x11 00000075fea52d10
+    x12 0000000000000004  x13 000000005e92deb5  x14 0009522fd9e93e75  x15 00000075fea52cc0
+    x16 0000007601525120  x17 00000076ed5dc350  x18 00000075fddfa000  x19 00000075fea52c68
+    x20 0000007600d004d4  x21 0000000000000000  x22 00000076014d0560  x23 000000765ff64ef8
+    x24 00000075eee04821  x25 00000075fe97c000  x26 000000765fec2400  x27 00000075eee07000
+    x28 0000000000000004  x29 00000075fea52cf8
+    sp  00000075fea52c30  lr  0000007600d00a88  pc  0000007600f7aec8
+backtrace:
+      #00 pc 0000000001520ec8  /data/app/com.nuclei.flutterapp-_ovuu61wb-V9bz37aotbfA==/lib/arm64/libflutter.so!libflutter.so (offset 0x1270000) (BuildId: c5e5db4444a919d74124e99b06564d84026ea5e8)
+      #01 pc 00000000012a6a84  /data/app/com.nuclei.flutterapp-_ovuu61wb-V9bz37aotbfA==/lib/arm64/libflutter.so!libflutter.so (offset 0x1270000) (BuildId: c5e5db4444a919d74124e99b06564d84026ea5e8)
+      #02 pc 00000000012a6a44  /data/app/com.nuclei.flutterapp-_ovuu61wb-V9bz37aotbfA==/lib/arm64/libflutter.so!libflutter.so (offset 0x1270000) (BuildId: c5e5db4444a919d74124e99b06564d84026ea5e8)
+      #03 pc 000000000168d21c  /data/app/com.nuclei.flutterapp-_ovuu61wb-V9bz37aotbfA==/lib/arm64/libflutter.so!libflutter.so (offset 0x1270000) (BuildId: c5e5db4444a919d74124e99b06564d84026ea5e8)
+      #04 pc 0000000000001b44  <anonymous:75eed80000>
+Failed to connect to the VM observatory service at: ws://127.0.0.1:54278/kOiKlSGDjmE=/ws
+java.io.IOException: Failed to connect: ws://127.0.0.1:54278/kOiKlSGDjmE=/ws
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1000

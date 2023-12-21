@@ -1,0 +1,45 @@
+D[/com.shockwave.pdfium.PdfiumCore]()(28398): Starting PdfiumAndroid 1.9.0
+D[/jniPdfium]()(28398): Init FPDF library
+E[/BufferItemConsumer]()(28398): [ImageReader-1080x1920f1m3-28398-0] Failed to release buffer: Unknown error -1 (1)
+E[/GLConsumer]()(28398): [SurfaceTexture-0-28398-1] attachToContext: GLConsumer is already attached to a context
+E[/flutter]() (28398): [ERROR:flutter[/fml/platform/android/jni_util.cc]()(211)] java.lang.RuntimeException: Error during attachToGLContext (see logcat for details)
+E[/flutter]() (28398): 	at android.graphics.SurfaceTexture.attachToGLContext(SurfaceTexture.java:289)
+E[/flutter]() (28398): 	at io.flutter.embedding.engine.renderer.SurfaceTextureWrapper.attachToGLContext(SurfaceTextureWrapper.java:57)
+E[/flutter]() (28398): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+E[/flutter]() (28398): 	at android.os.MessageQueue.next(MessageQueue.java:331)
+E[/flutter]() (28398): 	at android.os.Looper.loop(Looper.java:149)
+E[/flutter]() (28398): 	at android.app.ActivityThread.main(ActivityThread.java:6701)
+E[/flutter]() (28398): 	at java.lang.reflect.Method.invoke(Native Method)
+E[/flutter]() (28398): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:249)
+E[/flutter]() (28398): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:783)
+E[/flutter]() (28398):
+F[/flutter]() (28398): [FATAL:flutter[/shell/platform/android/platform_view_android_jni_impl.cc]()(1301)] Check failed: fml::jni::CheckException(env).
+F[/google-breakpad]()(28558): Microdump skipped (uninteresting)
+W[/google-breakpad]()(28398): ### ### ### ### ### ### ### ### ### ### ### ### ###
+W[/google-breakpad]()(28398): Chrome build fingerprint:
+W[/google-breakpad]()(28398): 71.0.3578.99
+W[/google-breakpad]()(28398): 357809950
+W[/google-breakpad]()(28398): ### ### ### ### ### ### ### ### ### ### ### ### ###
+F[/libc]()    (28398): Fatal signal 6 (SIGABRT), code -6 in tid 28398 (mple.crash_demo)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'Xiaomi[/sagit/sagit:8]().0.0[/OPR1.170623.027/V10.3.1.0.OCACNXM]():user[/release-keys]()'
+Revision: '0'
+ABI: 'arm64'
+pid: 28398, tid: 28398, name: mple.crash_demo  >>> com.example.crash_demo <<<
+signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+Abort message: '[FATAL:flutter[/shell/platform/android/platform_view_android_jni_impl.cc]()(1301)] Check failed: fml::jni::CheckException(env).
+'
+    x0   0000000000000000  x1   0000000000006eee  x2   0000000000000006  x3   0000000000000008
+    x4   0000000000000080  x5   0000000000000080  x6   0000000000000080  x7   8000000000000000
+    x8   0000000000000083  x9   950b71b6e288188b  x10  0000000000000000  x11  0000000000000001
+    x12  ffffffffffffffff  x13  0000000000000000  x14  ffffffffffffffff  x15  0001132948be3d2d
+    x16  0000007eaf2e02e8  x17  0000007eaf281d2c  x18  000000006f4e2fe0  x19  0000000000006eee
+    x20  0000000000006eee  x21  0000007fc2188a98  x22  0000007e82c63c18  x23  0000007ea30803e8
+    x24  0000007ead702b00  x25  0000000000000000  x26  0000000000000001  x27  0000007e9e1f2740
+    x28  0000007ead6dcf28  x29  0000007fc2188a70  x30  0000007eaf235e54
+    sp   0000007fc2188a30  pc   0000007eaf281d34  pstate 0000000060000000
+backtrace:
+    #00 pc 0000000000069d34  [/system/lib64/libc.so]() (tgkill+8)
+    #01 pc 000000000001de50  [/system/lib64/libc.so]() (abort+88)
+    #02 pc 0000000000002740  [/data/app/com.example.crash_demo-_jVlYbOKwlZW366EnM5Sog]()==[/base.apk]() (offset 0x283c000)
+Lost connection to device.

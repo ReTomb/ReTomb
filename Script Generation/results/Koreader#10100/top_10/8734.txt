@@ -1,0 +1,4 @@
+adb shell pm resolve-activity <intent>
+adb shell pm resolve-activity <intent>
+adb shell pm dump <packagename>
+adb shell pm unsuspend

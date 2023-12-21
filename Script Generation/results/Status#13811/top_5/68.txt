@@ -1,0 +1,3 @@
+adb shell am compact <packagename>
+adb shell am compact <packagename>
+adb shell am broadcast <packagename.intent>

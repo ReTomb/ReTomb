@@ -1,0 +1,4 @@
+adb shell am instrument <packagename.component>
+adb shell am compact <packagename>
+adb shell am runTraceIpc <file>
+adb shell am to-uri <intent>

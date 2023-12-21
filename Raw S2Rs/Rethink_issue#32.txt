@@ -1,0 +1,4 @@
+At least two crashes in space of 12 hours, both in the LwIP stack of gotun2socks presumably because some tcp state has gone whack.
+I am starting to think that we do not terminate the connection like we normally should (Android's implementation indicates it relies on PROHIBIT response from the Kernel to terminate connections). A gentle tcpConn.Close might not be enough and a tcpConn.Abort might be of order.
+The implementation differences in go-tun2socks for tcpConn.Close and tcpConn.Abort do reveal stark differences, the primary is that conn.state isn't updated in the former case whilst it is set to tcpAborting in the latter case.
+Further more, tcpConn.Abort is what go-tun2socks uses to rid of connection when there's any err reported by the registeredTCPHandler.

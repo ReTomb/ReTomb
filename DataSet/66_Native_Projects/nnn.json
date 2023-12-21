@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "jarun/nnn",
+        "SIGSEGV": [
+            1041,
+            34
+        ],
+        "SIGABRT": [
+            537
+        ]
+    }
+]

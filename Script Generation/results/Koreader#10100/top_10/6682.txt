@@ -1,0 +1,4 @@
+adb shell pm dump <packagename>
+adb shell pm list <packagename>
+adb shell pm query-receivers <intent>
+adb shell pm suspend

@@ -1,0 +1,3 @@
+adb shell inpur roll <x,y> 
+adb shell am start <packagename.activity>
+adb shell input keyevent 

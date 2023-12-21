@@ -1,0 +1,4 @@
+adb shell pm revoke
+adb shell pm unsuspend
+adb shell input text <text>
+adb shell input text <text>

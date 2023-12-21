@@ -1,0 +1,5 @@
+adb shell input press <x,y>
+adb shell input text <text>
+adb shell am freeze <packagename>
+adb shell input tap <x,y>
+adb shell input press <x,y>

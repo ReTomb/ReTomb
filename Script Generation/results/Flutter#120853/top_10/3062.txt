@@ -1,0 +1,4 @@
+adb shell am compact <packagename>
+adb shell am to-uri <intent>
+adb shell am instrument <packagename.component>
+adb shell am stopservice <packagename.intent>

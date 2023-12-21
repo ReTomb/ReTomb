@@ -1,0 +1,5 @@
+adb shell am start <packagename.activity>
+adb shell input press <x,y>
+adb shell input keyevent 
+adb shell am unfreeze <packagename>
+adb shell input press <x,y>

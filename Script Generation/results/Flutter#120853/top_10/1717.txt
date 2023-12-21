@@ -1,0 +1,4 @@
+adb shell am start <packagename.activity>
+adb shell am runTraceIpc <file>
+adb shell am start <packagename.activity>
+adb shell am instrument <packagename.component>

@@ -1,0 +1,29 @@
+E/flutter (26074): [ERROR:flutter/fml/platform/android/jni_util.cc(211)] java.lang.RuntimeException: Methods marked with @UiThread must be executed on the main thread. Current thread: 1.raster
+E/flutter (26074): 	at io.flutter.embedding.engine.FlutterJNI.ensureRunningOnMainThread(FlutterJNI.java:1405)
+E/flutter (26074): 	at io.flutter.embedding.engine.FlutterJNI.destroyOverlaySurfaces(FlutterJNI.java:1174)
+E/flutter (26074):
+F/flutter (26074): [FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1559)] Check failed: fml::jni::CheckException(env).
+F/libc    (26074): Fatal signal 6 (SIGABRT), code -6 in tid 26190 (1.raster)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'lge/h1_lra_us/h1:7.0/NRD90U/1733911185dd1:user/release-keys'
+Revision: '12'
+ABI: 'arm64'
+pid: 26074, tid: 26190, name: 1.raster  >>> com.kushazik.pack_me <<<
+signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+Abort message: '[FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1559)] Check failed: fml::jni::CheckException(env).
+'
+    x0   0000000000000000  x1   000000000000664e  x2   0000000000000006  x3   0000000000000008
+    x4   0000000000000109  x5   8000000000000000  x6   000000797d3f0000  x7   0000000000000000
+    x8   0000000000000083  x9   ffffffffffffffdf  x10  0000000000000000  x11  0000000000000001
+    x12  ffffffffffffffff  x13  0000000000000000  x14  0000000000000000  x15  0005b0cdad4327f2
+    x16  0000007979b0eed0  x17  0000007979ab8378  x18  0000000071f6d8f8  x19  000000793fde94f8
+    x20  0000000000000006  x21  000000793fde9450  x22  0000000000000000  x23  0000007929db0318
+    x24  0000000000000044  x25  0000000000000000  x26  000000793fde9198  x27  0000000000000044
+    x28  0000000000000001  x29  000000793fde8dc0  x30  0000007979ab5808
+    sp   000000793fde8da0  pc   0000007979ab8380  pstate 0000000060000000
+backtrace:
+    #00 pc 000000000006c380  /system/lib64/libc.so (tgkill+8)
+    #01 pc 0000000000069804  /system/lib64/libc.so (pthread_kill+64)
+    #02 pc 0000000000024618  /system/lib64/libc.so (raise+24)
+    #03 pc 000000000001d034  /system/lib64/libc.so (abort+52)
+    #04 pc 0000000000002680  /data/app/com.kushazik.pack_me-2/lib/arm64/libflutter.so (offset 0x1506000)

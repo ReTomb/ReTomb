@@ -1,0 +1,5 @@
+adb shell inpur roll <x,y> 
+adb shell input tap <x,y>
+adb shell input keyevent 
+adb shell am unfreeze <packagename>
+adb shell input text <text>

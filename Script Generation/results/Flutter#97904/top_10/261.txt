@@ -1,0 +1,3 @@
+adb shell input keycombination <x,y>
+adb shell input tap <x,y>
+adb shell input motionevent <x,y>

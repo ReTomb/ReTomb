@@ -1,0 +1,4 @@
+adb shell pm unsuspend
+adb shell pm unhide
+adb shell pm resolve-activity <intent>
+adb shell input text <text>

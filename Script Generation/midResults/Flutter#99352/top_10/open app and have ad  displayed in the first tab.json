@@ -1,0 +1,11 @@
+{
+  "Input runText string text": "0.7610279",
+  "Input runTap float x float y": "0.39874375",
+  "Input runKeyEvent int keyCode": "0.32470477",
+  "Input runMotionEvent int inputSource float dx float dy int displayId": "0.2843464",
+  "Input runKeyCombination int inputSource int displayId": "0.2780216",
+  "Input runPress int inputSource int displayId": "0.27783495",
+  "Input runRoll int inputSource int displayId": "0.2773599",
+  "Input runDragAndDrop int inputSource int displayId boolean isDragDrop": "0.27617168",
+  "Input runSwipe inputSource int inputSource int displayId boolean isDragDrop": "0.27490437"
+}

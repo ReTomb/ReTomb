@@ -1,0 +1,4 @@
+adb shell pm unsuspend
+adb shell pm unsuspend
+adb shell pm dump <packagename>
+adb shell pm unsuspend

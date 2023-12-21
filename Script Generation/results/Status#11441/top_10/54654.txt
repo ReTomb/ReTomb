@@ -1,0 +1,5 @@
+adb shell am unfreeze <packagename>
+adb shell am unfreeze <packagename>
+adb shell am instrument <packagename.component>
+adb shell am instrument <packagename.component>
+adb shell am compact <packagename>

@@ -1,0 +1,4 @@
+adb shell am unfreeze <packagename>
+adb shell am freeze <packagename>
+adb shell am profile <file>
+adb shell am freeze <packagename>

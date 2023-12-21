@@ -1,0 +1,3 @@
+adb shell pm list <packagename>
+adb shell pm query-activities <intent>
+adb shell pm resolve-activity <intent>

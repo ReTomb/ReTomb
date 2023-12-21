@@ -1,0 +1,1 @@
+1. Run `flutter create broken_image_crash`.2. Inside `broken_image_crash` directory add `assets` folder and put in it `broken_image.jpeg`.3. Add our image to `pubspec.yaml`:4. Replace all the code inside `lib/main.dart` file with this:5. Run the app with `flutter run`.

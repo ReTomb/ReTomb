@@ -1,0 +1,18 @@
+11-05 13:32:57.143: A/libc(9761): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x71c in tid 9761 (browser_nightly)
+11-05 13:32:57.262: V/NativeCrypto(7061): SSL shutdown failed: ssl=0x7dee95e988: I/O error during system call, Broken pipe
+11-05 13:32:57.281: I/crash_dump32(19084): obtaining output fd from tombstoned
+11-05 13:32:57.286: I//system/bin/tombstoned(5558): received crash request for pid 9761
+11-05 13:32:57.290: I/crash_dump32(19084): performing dump of process 9761 (target tid = 9761)
+11-05 13:32:57.291: A/DEBUG(19084): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-05 13:32:57.291: A/DEBUG(19084): Build fingerprint: 'samsung/greatltexx/greatlte:8.0.0/R16NW/N950FXXS5CSA1:user/release-keys'
+11-05 13:32:57.291: A/DEBUG(19084): Revision: '9'
+11-05 13:32:57.292: A/DEBUG(19084): ABI: 'arm'
+11-05 13:32:57.292: A/DEBUG(19084): pid: 9761, tid: 9761, name: browser_nightly  >>> com.brave.browser_nightly <<<
+11-05 13:32:57.293: A/DEBUG(19084): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x71c
+11-05 13:32:57.293: A/DEBUG(19084): Cause: null pointer dereference
+11-05 13:32:57.293: A/DEBUG(19084):     r0 d2e7f400  r1 00000688  r2 ffed6d34  r3 00000003
+11-05 13:32:57.293: A/DEBUG(19084):     r4 ffed6d58  r5 00000000  r6 ffed6d48  r7 ffed6d44
+11-05 13:32:57.293: A/DEBUG(19084):     r8 be309906  r9 ffed6d34  sl ffed6d8c  fp ffed6d38
+11-05 13:32:57.293: A/DEBUG(19084):     ip ffed6d4b  sp ffed6d30  lr bfd85565  pc bfd27d2e  cpsr 00070030
+11-05 13:32:57.295: A/DEBUG(19084): backtrace:
+11-05 13:32:57.295: A/DEBUG(19084):     #00 pc 01ac6d2e  /data/app/com.brave.browser_nightly-0koDIofP6c4T-6YiAK9E1w==/base.apk (offset 0x5888000)

@@ -1,0 +1,3 @@
+adb shell input motionevent <x,y>
+adb shell input keyevent 
+adb shell input press <x,y>

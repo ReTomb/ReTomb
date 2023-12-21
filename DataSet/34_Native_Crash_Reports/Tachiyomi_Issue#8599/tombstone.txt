@@ -1,0 +1,183 @@
+--------- beginning of main
+11-22 22:12:13.685 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:12:13.728 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:12:19.980 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:12:19.997 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:17:35.808 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:17:35.811 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:17:43.725 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:17:43.731 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:38:25.849 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:38:25.850 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:38:34.325 14353 23222 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:38:34.333 14353 23222 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:39:03.772 14353 23222 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:39:03.772 14353 14697 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:39:12.620 14353 18001 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 22:39:12.627 14353 18001 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:14:41.193 14353  7743 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:14:41.199 14353  7743 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:14:45.020 14353  7743 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:14:45.033 14353  7743 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:21:21.127 14353  7741 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:21:21.127 14353  7741 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:21:28.110 14353  7741 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:21:28.117 14353  7741 E libc    : Access denied finding property "vendor.camera.aux.packagelist"
+11-22 23:22:24.443 14353  1678 E libc++abi: terminating with uncaught exception of type heif::Error
+--------- beginning of crash
+11-22 23:22:25.083 14353  1678 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 1678 (AsyncTask #1071), pid 14353 (anade.tachiyomi)
+11-22 23:22:25.251 14524 14524 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-22 23:22:25.251 14524 14524 F DEBUG   : Build fingerprint: 'Lenovo/LenovoTB-J606F_PRC/J606F:11/RKQ1.210303.002/S320217_220818_ROW:user/release-keys'
+11-22 23:22:25.251 14524 14524 F DEBUG   : Revision: '0'
+11-22 23:22:25.251 14524 14524 F DEBUG   : ABI: 'arm64'
+11-22 23:22:25.251 14524 14524 F DEBUG   : Timestamp: 2022-11-22 23:22:25+0100
+11-22 23:22:25.251 14524 14524 F DEBUG   : pid: 14353, tid: 1678, name: AsyncTask #1071  >>> eu.kanade.tachiyomi <<<
+11-22 23:22:25.251 14524 14524 F DEBUG   : uid: 10227
+11-22 23:22:25.251 14524 14524 F DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+11-22 23:22:25.251 14524 14524 F DEBUG   : Abort message: 'terminating with uncaught exception of type heif::Error'
+11-22 23:22:25.251 14524 14524 F DEBUG   :     x0  0000000000000000  x1  000000000000068e  x2  0000000000000006  x3  000000742a788a20
+11-22 23:22:25.251 14524 14524 F DEBUG   :     x4  ff716e7171443939  x5  ff716e7171443939  x6  ff716e7171443939  x7  7f7f7f7f7f7f7f7f
+11-22 23:22:25.251 14524 14524 F DEBUG   :     x8  00000000000000f0  x9  dab70af0f0eb0689  x10 0000000000000000  x11 ffffffc0fffffbdf
+11-22 23:22:25.251 14524 14524 F DEBUG   :     x12 0000000000000001  x13 726f7272453a3a66  x14 000000778da93d22  x15 0000ffff00000fff
+11-22 23:22:25.251 14524 14524 F DEBUG   :     x16 000000778da90c80  x17 000000778da72bb0  x18 000000741261a000  x19 0000000000003811
+11-22 23:22:25.251 14524 14524 F DEBUG   :     x20 000000000000068e  x21 00000000ffffffff  x22 ffffff80ffffffc8  x23 000000742a788c70
+11-22 23:22:25.251 14524 14524 F DEBUG   :     x24 000000742a788b50  x25 000000742a788b90  x26 000000749caeb000  x27 000000749caeb000
+11-22 23:22:25.252 14524 14524 F DEBUG   :     x28 000000742a7892e0  x29 000000742a788aa0
+11-22 23:22:25.252 14524 14524 F DEBUG   :     lr  000000778da263e0  sp  000000742a788a00  pc  000000778da2640c  pst 0000000000000000
+11-22 23:22:25.700 14524 14524 F DEBUG   : backtrace:
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #00 pc 000000000004e40c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+164) (BuildId: 4b0a60ca3b69d2d66dca24bb01c8d1aa)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #01 pc 00000000002c05e0  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #02 pc 00000000002c0750  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #03 pc 00000000002bd628  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #04 pc 00000000002bcc54  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #05 pc 00000000002bcbb0  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (__cxa_throw+112) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #06 pc 000000000007fbb0  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (heif::Context::read_from_memory_without_copy(void const*, unsigned long, heif::Context::ReadingOptions const&)+212) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #07 pc 000000000007fd2c  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (HeifDecoder::parseInfo()+76) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #08 pc 000000000007fc68  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (HeifDecoder::HeifDecoder(std::__ndk1::shared_ptr<Stream>&&, bool)+144) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #09 pc 000000000007bf00  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (Java_tachiyomi_decoder_ImageDecoder_nativeNewInstance+320) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #10 pc 000000000013ced4  /apex/com.android.art/lib64/libart.so (art_quick_generic_jni_trampoline+148) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #11 pc 00000000025490f8  /memfd:jit-cache (deleted) (offset 0x2000000) (tachiyomi.decoder.ImageDecoder$Companion.newInstance+104)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #12 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #13 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #14 pc 000000000031830c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #15 pc 0000000000305cf4  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.11487796752256266877)+460) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #16 pc 000000000066b1d8  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #17 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #18 pc 000000000251073c  /memfd:jit-cache (deleted) (offset 0x2000000) (com.davemorrissey.labs.subscaleview.decoder.ImageDecoder.init+172)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #19 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #20 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.700 14524 14524 F DEBUG   :       #21 pc 000000000031830c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #22 pc 0000000000305cf4  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.11487796752256266877)+460) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #23 pc 000000000066b1d8  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #24 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #25 pc 000000000254e7c8  /memfd:jit-cache (deleted) (offset 0x2000000) (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask.doInBackground+584)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #26 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #27 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #28 pc 000000000031830c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #29 pc 0000000000305cf4  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.11487796752256266877)+460) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #30 pc 000000000066b1d8  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #31 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #32 pc 00000000020e17c0  /memfd:jit-cache (deleted) (offset 0x2000000) (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask.doInBackground+80)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #33 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #34 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #35 pc 000000000031830c  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+376) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #36 pc 0000000000305cf4  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame&, art::JValue, bool, bool) (.llvm.11487796752256266877)+460) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #37 pc 000000000066b1d8  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #38 pc 000000000013cff8  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #39 pc 00000000006c6ad8  /system/framework/arm64/boot-framework.oat (android.os.AsyncTask$3.call+168) (BuildId: 8186427279f09a92e3b1ee1b1a375624d64f2490)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #40 pc 000000000023e388  /apex/com.android.art/javalib/arm64/boot.oat (java.util.concurrent.FutureTask.run+200) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #41 pc 000000000029d2d8  /apex/com.android.art/javalib/arm64/boot.oat (java.util.concurrent.ThreadPoolExecutor.runWorker+984) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #42 pc 000000000029a4d0  /apex/com.android.art/javalib/arm64/boot.oat (java.util.concurrent.ThreadPoolExecutor$Worker.run+64) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #43 pc 000000000015ab38  /apex/com.android.art/javalib/arm64/boot.oat (java.lang.Thread.run+72) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #44 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #45 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #46 pc 0000000000554c48  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #47 pc 00000000005a3fe4  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #48 pc 00000000000b008c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64) (BuildId: 4b0a60ca3b69d2d66dca24bb01c8d1aa)
+11-22 23:22:25.701 14524 14524 F DEBUG   :       #49 pc 00000000000503c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 4b0a60ca3b69d2d66dca24bb01c8d1aa)
+11-22 23:22:26.504 14559 14559 E anade.tachiyom: Not starting debugger since process cannot load the jdwp agent.
+11-22 23:22:26.900 14559 14597 E SQLiteLog: (283) recovered 570 frames from WAL file /data/user/0/eu.kanade.tachiyomi/databases/tachiyomi.db-wal
+11-22 23:22:29.762 14559 14651 E SQLiteLog: (284) automatic index on C(manga_id)
+11-22 23:22:29.762 14559 14651 E SQLiteLog: (284) automatic index on mangas_categories(manga_id)
+11-22 23:22:35.804 14559 14705 E libc++abi: terminating with uncaught exception of type heif::Error
+11-22 23:22:35.805 14559 14705 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 14705 (AsyncTask #1), pid 14559 (anade.tachiyomi)
+11-22 23:22:35.906 14728 14728 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-22 23:22:35.906 14728 14728 F DEBUG   : Build fingerprint: 'Lenovo/LenovoTB-J606F_PRC/J606F:11/RKQ1.210303.002/S320217_220818_ROW:user/release-keys'
+11-22 23:22:35.906 14728 14728 F DEBUG   : Revision: '0'
+11-22 23:22:35.906 14728 14728 F DEBUG   : ABI: 'arm64'
+11-22 23:22:35.907 14728 14728 F DEBUG   : Timestamp: 2022-11-22 23:22:35+0100
+11-22 23:22:35.907 14728 14728 F DEBUG   : pid: 14559, tid: 14705, name: AsyncTask #1  >>> eu.kanade.tachiyomi <<<
+11-22 23:22:35.907 14728 14728 F DEBUG   : uid: 10227
+11-22 23:22:35.907 14728 14728 F DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+11-22 23:22:35.907 14728 14728 F DEBUG   : Abort message: 'terminating with uncaught exception of type heif::Error'
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x0  0000000000000000  x1  0000000000003971  x2  0000000000000006  x3  000000740c55ed80
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x4  ff716e7171443939  x5  ff716e7171443939  x6  ff716e7171443939  x7  7f7f7f7f7f7f7f7f
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x8  00000000000000f0  x9  dab70af0f0eb0689  x10 0000000000000000  x11 ffffffc0fffffbdf
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x12 0000000000000001  x13 726f7272453a3a66  x14 000000778da93d22  x15 0000ffff00000fff
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x16 000000778da90c80  x17 000000778da72bb0  x18 00000071ecfe8000  x19 00000000000038df
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x20 0000000000003971  x21 00000000ffffffff  x22 ffffff80ffffffc8  x23 000000740c55efd0
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x24 000000740c55eeb0  x25 000000740c55eef0  x26 0000000000000000  x27 0000000000000001
+11-22 23:22:35.907 14728 14728 F DEBUG   :     x28 0000000014004640  x29 000000740c55ee00
+11-22 23:22:35.907 14728 14728 F DEBUG   :     lr  000000778da263e0  sp  000000740c55ed60  pc  000000778da2640c  pst 0000000000000000
+11-22 23:22:36.111 14728 14728 F DEBUG   : backtrace:
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #00 pc 000000000004e40c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+164) (BuildId: 4b0a60ca3b69d2d66dca24bb01c8d1aa)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #01 pc 00000000002c05e0  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #02 pc 00000000002c0750  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #03 pc 00000000002bd628  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #04 pc 00000000002bcc54  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #05 pc 00000000002bcbb0  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (__cxa_throw+112) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #06 pc 000000000007fbb0  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (heif::Context::read_from_memory_without_copy(void const*, unsigned long, heif::Context::ReadingOptions const&)+212) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #07 pc 000000000007fd2c  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (HeifDecoder::parseInfo()+76) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #08 pc 000000000007fc68  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (HeifDecoder::HeifDecoder(std::__ndk1::shared_ptr<Stream>&&, bool)+144) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.111 14728 14728 F DEBUG   :       #09 pc 000000000007bf00  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/base.apk!libimagedecoder.so (offset 0x9d1000) (Java_tachiyomi_decoder_ImageDecoder_nativeNewInstance+320) (BuildId: df472d7552af2bbdc9f196fe9f7dd42e722d7fa5)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #10 pc 0000000000358df4  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/oat/arm64/base.odex (art_jni_trampoline+180)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #11 pc 00000000006cb8b4  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/oat/arm64/base.odex (tachiyomi.decoder.ImageDecoder$Companion.newInstance+164)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #12 pc 00000000004d3d34  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/oat/arm64/base.odex (com.davemorrissey.labs.subscaleview.decoder.ImageDecoder.init+244)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #13 pc 0000000000409fd4  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/oat/arm64/base.odex (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask.doInBackground+628)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #14 pc 0000000000409914  /data/app/~~Fjk0u601iok4qj7uWHoARQ==/eu.kanade.tachiyomi-MGUMuqX79pVB-bSmyhVp6Q==/oat/arm64/base.odex (com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TileLoadTask.doInBackground [DEDUPED]+84)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #15 pc 00000000006c6ad8  /system/framework/arm64/boot-framework.oat (android.os.AsyncTask$3.call+168) (BuildId: 8186427279f09a92e3b1ee1b1a375624d64f2490)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #16 pc 000000000023e388  /apex/com.android.art/javalib/arm64/boot.oat (java.util.concurrent.FutureTask.run+200) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #17 pc 000000000029d2d8  /apex/com.android.art/javalib/arm64/boot.oat (java.util.concurrent.ThreadPoolExecutor.runWorker+984) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #18 pc 000000000029a4d0  /apex/com.android.art/javalib/arm64/boot.oat (java.util.concurrent.ThreadPoolExecutor$Worker.run+64) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #19 pc 000000000015ab38  /apex/com.android.art/javalib/arm64/boot.oat (java.lang.Thread.run+72) (BuildId: bb421787b7af3cd9cce8e43197e1180f979a5b5d)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #20 pc 0000000000133564  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #21 pc 00000000001a8a78  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #22 pc 0000000000554c48  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #23 pc 00000000005a3fe4  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308) (BuildId: 146c047cd83038c889dbe1d78c86ef71)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #24 pc 00000000000b008c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64) (BuildId: 4b0a60ca3b69d2d66dca24bb01c8d1aa)
+11-22 23:22:36.112 14728 14728 F DEBUG   :       #25 pc 00000000000503c8  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 4b0a60ca3b69d2d66dca24bb01c8d1aa)
+11-22 23:22:36.796 14749 14749 E anade.tachiyom: Not starting debugger since process cannot load the jdwp agent.
+11-22 23:22:40.089 14749 14805 E SQLiteLog: (284) automatic index on C(manga_id)
+11-22 23:22:40.089 14749 14805 E SQLiteLog: (284) automatic index on mangas_categories(manga_id)
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: Writing exception to parcel
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: java.lang.SecurityException: Permission Denial: reading androidx.core.content.FileProvider uri content://eu.kanade.tachiyomi.provider/ext_cache_files/tachiyomi_crash_logs.txt from pid=13425, uid=1000 requires the provider be exported, or grantUriPermission()
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: 	at android.content.ContentProvider.enforceReadPermissionInner(ContentProvider.java:820)
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: 	at android.content.ContentProvider$Transport.enforceReadPermission(ContentProvider.java:684)
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:239)
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:106)
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: 	at android.os.Binder.execTransactInternal(Binder.java:1154)
+11-22 23:22:55.536 14749 14837 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:1123)
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: Writing exception to parcel
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: java.lang.SecurityException: Permission Denial: reading androidx.core.content.FileProvider uri content://eu.kanade.tachiyomi.provider/ext_cache_files/tachiyomi_crash_logs.txt from pid=13425, uid=1000 requires the provider be exported, or grantUriPermission()
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: 	at android.content.ContentProvider.enforceReadPermissionInner(ContentProvider.java:820)
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: 	at android.content.ContentProvider$Transport.enforceReadPermission(ContentProvider.java:684)
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:239)
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:106)
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: 	at android.os.Binder.execTransactInternal(Binder.java:1154)
+11-22 23:22:55.597 14749 14837 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:1123)
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: Writing exception to parcel
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: java.lang.SecurityException: Permission Denial: reading androidx.core.content.FileProvider uri content://eu.kanade.tachiyomi.provider/ext_cache_files/tachiyomi_crash_logs.txt from pid=13425, uid=1000 requires the provider be exported, or grantUriPermission()
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: 	at android.content.ContentProvider.enforceReadPermissionInner(ContentProvider.java:820)
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: 	at android.content.ContentProvider$Transport.enforceReadPermission(ContentProvider.java:684)
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:239)
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:106)
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: 	at android.os.Binder.execTransactInternal(Binder.java:1154)
+11-22 23:22:55.858 14749 14770 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:1123)
+App version: 0.14.2 (standard, 3222247, 91, 2022-10-31T21:42Z)
+Android version: 11 (SDK 30)
+Android build ID: TB-J606F_S320217_220818_ROW
+Device brand: Lenovo
+Device manufacturer: LENOVO
+Device name: J606F
+Device model: Lenovo TB-J606F
+Device product name: LenovoTB-J606F_PRC

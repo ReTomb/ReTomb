@@ -1,0 +1,6 @@
+#Steps to reproduce
+
+- Open KOReader
+- Put device to sleep
+- Wake up
+- Touch inputs are half-responsive. Especially in entering device's PIN code.

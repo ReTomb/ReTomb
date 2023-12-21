@@ -1,0 +1,398 @@
+
+[   +1 ms] Installing build\app\outputs\flutter-apk\app.apk...
+[        ] executing: D:\sdk\android\platform-tools\adb.exe -s R38MA09GF2P install -t -r D:\GitHub\example\build\app\outputs\flutter-apk\app.apk
+[+4325 ms] Performing Streamed Install
+                    Success
+[        ] Installing build\app\outputs\flutter-apk\app.apk... (completed in 4,3s)
+[   +1 ms] executing: D:\sdk\android\platform-tools\adb.exe -s R38MA09GF2P shell echo -n 18a2db0ed4d7fe29e34f85ed8bb6c6fcf071ff75 >
+/data/local/tmp/sky.com.example.example.sha1
+[  +76 ms] executing: D:\sdk\android\platform-tools\adb.exe -s R38MA09GF2P shell -x logcat -v time -t 1
+[+1244 ms] --------- beginning of system
+                    02-06 14:00:09.811 D/OverlayManager(  956): commit OverlayManagerTransaction { mRequests = [] }
+[   +5 ms] executing: D:\sdk\android\platform-tools\adb.exe -s R38MA09GF2P shell am start -a android.intent.action.RUN -f 0x20000000 --ez
+enable-dart-profiling true --ez enable-checked-mode true --ez verify-entry-points true com.example.example/com.example.example.MainActivity
+[ +143 ms] Starting: Intent { act=android.intent.action.RUN flg=0x20000000 cmp=com.example.example/.MainActivity (has extras) }
+[        ] Waiting for observatory port to be available...
+[+1328 ms] Observatory URL on device: http://127.0.0.1:35519/pANn1PblYfc=/
+[   +1 ms] executing: D:\sdk\android\platform-tools\adb.exe -s R38MA09GF2P forward tcp:0 tcp:35519
+[  +30 ms] 53055
+[        ] Forwarded host port 53055 to device port 35519 for Observatory
+[   +4 ms] Caching compiled dill
+[  +29 ms] Connecting to service protocol: http://127.0.0.1:53055/pANn1PblYfc=/
+[ +231 ms] Launching a Dart Developer Service (DDS) instance at http://127.0.0.1:0, connecting to VM service at http://127.0.0.1:53055/pANn1PblYfc=/.
+[ +145 ms] DDS is listening at http://127.0.0.1:53060/IlWxeUamw1w=/.
+[  +36 ms] Successfully connected to service protocol: http://127.0.0.1:53055/pANn1PblYfc=/
+[  +92 ms] DevFS: Creating new filesystem on the device (null)
+[  +34 ms] DevFS: Created new filesystem on the device (file:///data/user/0/com.example.example/code_cache/exampleNKIMJI/example/)
+[   +2 ms] Updating assets
+[  +61 ms] Syncing files to device SM G970F...
+[   +1 ms] <- reset
+[        ] Compiling dart to kernel with 0 updated files
+[        ] Processing bundle.
+[        ] <- recompile package:example/main.dart fe72b7ac-071d-42c1-843e-b5a918184668
+[        ] <- fe72b7ac-071d-42c1-843e-b5a918184668
+[   +1 ms] Bundle processing done.
+[   +3 ms] I/DynamiteModule( 8755): Considering local module com.google.android.gms.ads.dynamite:0 and remote module
+com.google.android.gms.ads.dynamite:214106404
+[        ] I/DynamiteModule( 8755): Selected remote version of com.google.android.gms.ads.dynamite, version >= 214106404
+[        ] D/DynamitePackage( 8755): Instantiated singleton DynamitePackage.
+[        ] D/DynamitePackage( 8755): Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+[        ] D/ConnectivityManager( 8755): StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:3925)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:4489)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:4456)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:4430)]
+[com.google.android.gms.ads.nonagon.a.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:17)]
+[com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl.getMobileAdsSettingManager(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:5)]
+[com.google.android.gms.ads.internal.client.bu.bR(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:3)]
+[ahn.onTransact(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:4)]
+[   +2 ms] I/Ads     ( 8755): Updating ad debug logging enablement.
+[        ] W/ConnectionStatusConfig( 8755): Dynamic lookup for intent failed for action: com.google.android.gms.leibniz.events.service.START
+[   +6 ms] W/GmsClient( 8755): unable to connect to service: com.google.android.gms.leibniz.events.service.START on com.google.android.gms
+[  +43 ms] I/WebViewFactory( 8755): Loading com.google.android.webview version 97.0.4692.98 (code 469209833)
+[   +4 ms] Updating files.
+[        ] DevFS: Sync finished
+[   +1 ms] Syncing files to device SM G970F... (completed in 68ms)
+[        ] Synced 0.0MB.
+[   +1 ms] <- accept
+[   +4 ms] Connected to _flutterView/0x74f64ad730.
+[   +2 ms] Flutter run key commands.
+[   +1 ms] r Hot reload.
+[        ] R Hot restart.
+[        ] h List all available interactive commands.
+[        ] d Detach (terminate "flutter run" but leave application running).
+[        ] c Clear the screen
+[        ] q Quit (terminate the application on the device).
+[        ]  Running with sound null safety
+[        ] An Observatory debugger and profiler on SM G970F is available at: http://127.0.0.1:53060/IlWxeUamw1w=/
+[  +39 ms] I/example.exampl( 8755): Waiting for a blocking GC ClassLinker
+[   +8 ms] I/example.exampl( 8755): WaitForGcToComplete blocked ClassLinker on Background for 6.065ms
+[   +2 ms] W/example.exampl( 8755): Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (unsupported, reflection, allowed)
+[        ] W/example.exampl( 8755): Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (unsupported, reflection, allowed)
+[        ] W/example.exampl( 8755): Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (unsupported, reflection, allowed)
+[        ] W/example.exampl( 8755): Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (unsupported, reflection, allowed)
+[        ] W/example.exampl( 8755): Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (unsupported, reflection, allowed)
+[   +5 ms] I/cr_WVCFactoryProvider( 8755): Loaded version=97.0.4692.98 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+[  +26 ms] I/cr_LibraryLoader( 8755): Successfully loaded native library
+[        ] I/cr_CachingUmaRecorder( 8755): Flushed 9 samples from 9 histograms.
+[ +131 ms] D/CompatibilityChangeReporter( 8755): Compat change id reported: 171228096; UID 10539; state: ENABLED
+[   +9 ms] D/ConnectivityManager( 8755): StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:3925)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:4489)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:4456)] [k00.e(Unknown Source:29)] [ua.a(Unknown Source:0)]
+[org.chromium.android_webview.AwContentsLifecycleNotifier.onFirstWebViewCreated(Unknown Source:23)] [J.N.MFiR_zHY(Native Method)]
+[org.chromium.android_webview.AwContents.<init>(Unknown Source:346)] [cA0.run(Unknown Source:63)] [bC0.b(Unknown Source:21)] [ZB0.run(Unknown Source:2)]
+[org.chromium.base.task.PostTask.e(Unknown Source:10)] [bC0.a(Unknown Source:20)] [com.android.webview.chromium.WebViewChromiumFactoryProvider.a(Unknown
+Source:2)] [com.android.webview.chromium.WebViewChromium.init(Unknown Source:329)] [android.webkit.WebView.<init>(WebView.java:443)]
+[android.webkit.WebView.<init>(WebView.java:363)] [android.webkit.WebView.<init>(WebView.java:345)] [android.webkit.WebView.<init>(WebView.java:332)]
+[android.webkit.WebView.<init>(WebView.java:322)]
+[com.google.android.gms.ads.internal.webview.ac.<init>(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:1)]
+[com.google.android.gms.ads.internal.webview.s.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:4)]
+[com.google.android.gms.ads.internal.webview.v.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:4)]
+[com.google.android.gms.ads.internal.js.l.<init>(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:3)]
+[com.google.android.gms.ads.internal.js.r.run(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:2)]
+[com.google.android.gms.ads.internal.util.future.c.execute(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:2)]
+[com.google.android.gms.ads.internal.util.future.d.execute(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[com.google.android.gms.ads.internal.js.ai.b(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:3)]
+[com.google.android.gms.ads.internal.js.ai.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:5)]
+[com.google.android.gms.ads.internal.js.function.n.b(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[com.google.android.gms.ads.internal.e.b(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:19)]
+[com.google.android.gms.ads.internal.e.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[com.google.android.gms.ads.nonagon.ax.h(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:8)]
+[com.google.android.gms.ads.internal.client.br.bR(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:19)]
+[ahn.onTransact(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:4)]
+[   +8 ms] D/ConnectivityManager( 8755): StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:3925)]
+[android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:3967)]
+[android.net.ConnectivityManager.registerNetworkCallback(ConnectivityManager.java:4349)] [k00.e(Unknown Source:108)] [ua.a(Unknown Source:0)]
+[org.chromium.android_webview.AwContentsLifecycleNotifier.onFirstWebViewCreated(Unknown Source:23)] [J.N.MFiR_zHY(Native Method)]
+[org.chromium.android_webview.AwContents.<init>(Unknown Source:346)] [cA0.run(Unknown Source:63)] [bC0.b(Unknown Source:21)] [ZB0.run(Unknown Source:2)]
+[org.chromium.base.task.PostTask.e(Unknown Source:10)] [bC0.a(Unknown Source:20)] [com.android.webview.chromium.WebViewChromiumFactoryProvider.a(Unknown
+Source:2)] [com.android.webview.chromium.WebViewChromium.init(Unknown Source:329)] [android.webkit.WebView.<init>(WebView.java:443)]
+[android.webkit.WebView.<init>(WebView.java:363)] [android.webkit.WebView.<init>(WebView.java:345)] [android.webkit.WebView.<init>(WebView.java:332)]
+[android.webkit.WebView.<init>(WebView.java:322)]
+[com.google.android.gms.ads.internal.webview.ac.<init>(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:1)]
+[com.google.android.gms.ads.internal.webview.s.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:4)]
+[com.google.android.gms.ads.internal.webview.v.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:4)]
+[com.google.android.gms.ads.internal.js.l.<init>(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:3)]
+[com.google.android.gms.ads.internal.js.r.run(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:2)]
+[com.google.android.gms.ads.internal.util.future.c.execute(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:2)]
+[com.google.android.gms.ads.internal.util.future.d.execute(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[com.google.android.gms.ads.internal.js.ai.b(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:3)]
+[com.google.android.gms.ads.internal.js.ai.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:5)]
+[com.google.android.gms.ads.internal.js.function.n.b(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[com.google.android.gms.ads.internal.e.b(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:19)]
+[com.google.android.gms.ads.internal.e.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[com.google.android.gms.ads.nonagon.ax.h(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:8)]
+[com.google.android.gms.ads.internal.client.br.bR(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:19)]
+[ahn.onTransact(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:4)]
+[  +83 ms] W/example.exampl( 8755): Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I (unsupported, reflection, allowed)
+[   +8 ms] W/cr_media( 8755): Requires BLUETOOTH permission
+[  +39 ms] I/Choreographer( 8755): Skipped 39 frames!  The application may be doing too much work on its main thread.
+[   +8 ms] W/Ads     ( 8755): Update ad debug logging enablement as false
+[ +507 ms] I/Dialog  ( 8755): mIsDeviceDefault = false, mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+[   +3 ms] I/Gralloc4( 8755): mapper 4.x is not supported
+[   +1 ms] W/Gralloc3( 8755): mapper 3.x is not supported
+[  +24 ms] I/gralloc ( 8755): Arm Module v1.0
+[        ] W/Gralloc4( 8755): allocator 4.x is not supported
+[   +1 ms] I/zzbz    ( 8755): Making Creator dynamically
+[        ] W/Gralloc3( 8755): allocator 3.x is not supported
+[        ] I/DynamiteModule( 8755): Considering local module com.google.android.gms.maps_dynamite:0 and remote module
+com.google.android.gms.maps_dynamite:203115000
+[        ] I/DynamiteModule( 8755): Selected remote version of com.google.android.gms.maps_dynamite, version >= 203115000
+[        ] V/DynamiteModule( 8755): Dynamite loader version >= 2, using loadModule2NoCrashUtils
+[  +35 ms] I/Google Maps Android API( 8755): Google Play services client version: 12451000
+[   +9 ms] The Flutter DevTools debugger and profiler on SM G970F is available at: http://127.0.0.1:9104?uri=http://127.0.0.1:53060/IlWxeUamw1w=/
+[   +5 ms] I/Google Maps Android API( 8755): Google Play services package version: 214815045
+[        ] I/Google Maps Android API( 8755): Google Play services maps renderer version(legacy): 203115000
+[ +238 ms] I/DecorView( 8755): [INFO] isPopOver=false, config=false
+[        ] I/DecorView( 8755): updateCaptionType >> DecorView@2c3f629[], isFloating=false, isApplication=false, hasWindowControllerCallback=false,
+hasWindowDecorCaption=false
+[        ] D/DecorView( 8755): setCaptionType = 0, this = DecorView@2c3f629[]
+[  +16 ms] I/ViewRootImpl@19d796b[]( 8755): setView = com.android.internal.policy.DecorView@2c3f629 TM=true
+[  +64 ms] I/SurfaceView( 8755): onWindowVisibilityChanged(0) true com.google.maps.api.android.lib6.gmm6.api.at{181929d VFE...C.. ......ID 0,0-0,0} of
+ViewRootImpl@19d796b[]
+[  +19 ms] I/ViewRootImpl@19d796b[]( 8755): Relayout returned: old=(0,0,1080,1851) new=(0,0,1080,1851) req=(1080,1851)0 dur=15 res=0x7 s={true 503690973024}
+ch=true fn=-1
+[        ] D/OpenGLRenderer( 8755): eglCreateWindowSurface
+[   +2 ms] I/SurfaceView( 8755): windowStopped(false) true com.google.maps.api.android.lib6.gmm6.api.at{181929d VFE...C.. ......ID 0,0-1080,1851} of
+ViewRootImpl@19d796b[]
+[   +1 ms] I/ViewRootImpl@19d796b[]( 8755): [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11261 android.view.ViewRootImpl.performTraversals:4088
+android.view.ViewRootImpl.doTraversal:2832
+[   +2 ms] I/SurfaceView( 8755): updateSurface: mVisible = true mSurface.isValid() = true
+[   +2 ms] I/SurfaceView( 8755): updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+[   +3 ms] I/SurfaceView( 8755): surfaceCreated 1 #8 com.google.maps.api.android.lib6.gmm6.api.at{181929d VFE...C.. ......ID 0,0-1080,1851}
+[        ] I/SurfaceView( 8755): surfaceChanged (1080,1851) 1 #8 com.google.maps.api.android.lib6.gmm6.api.at{181929d VFE...C.. ......ID 0,0-1080,1851}
+[        ] I/ViewRootImpl@19d796b[]( 8755): [DP] dp(2) 1 android.view.SurfaceView.updateSurface:1380 android.view.SurfaceView.lambda$new$1$SurfaceView:253
+android.view.SurfaceView$$ExternalSyntheticLambda2.onPreDraw:2
+[        ] I/ViewRootImpl@19d796b[]( 8755): [DP] pdf(1) 1 android.view.SurfaceView.notifyDrawFinished:607 android.view.SurfaceView.performDrawFinished:594
+android.view.SurfaceView.$r8$lambda$st27mCkd9jfJkTrN_P3qIGKX6NY:0
+[  +44 ms] I/ViewRootImpl@19d796b[]( 8755): [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$createFrameCompleteCallback$3$ViewRootImpl:4846
+android.view.ViewRootImpl$$ExternalSyntheticLambda15.run:6 android.os.Handler.handleCallback:938
+[        ] I/ViewRootImpl@19d796b[]( 8755): [DP] rdf()
+[        ] D/ViewRootImpl@19d796b[]( 8755): reportDrawFinished (fn: -1)
+[        ] I/ViewRootImpl@f35944d[MainActivity]( 8755): [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$createFrameCompleteCallback$3$ViewRootImpl:4846
+android.view.ViewRootImpl$$ExternalSyntheticLambda15.run:6 android.os.Handler.handleCallback:938
+[        ] I/ViewRootImpl@f35944d[MainActivity]( 8755): [DP] rdf()
+[        ] D/ViewRootImpl@f35944d[MainActivity]( 8755): reportDrawFinished (fn: -1)
+[  +12 ms] E/GoogleMapController( 8755): Cannot enable MyLocation layer as location permissions are not granted
+[  +32 ms] I/ViewRootImpl@f35944d[MainActivity]( 8755): MSG_WINDOW_FOCUS_CHANGED 1 1
+[  +24 ms] D/InputMethodManager( 8755): startInputInner - Id : 0
+[        ] I/InputMethodManager( 8755): startInputInner - mService.startInputOrWindowGainedFocus
+[   +5 ms] D/InputMethodManager( 8755): startInputInner - Id : 0
+[  +30 ms] I/bf      ( 8755): Successfully registered with Phenotype.
+[  +42 ms] E/Google Maps Android API( 8755): Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how tocorrectly set up the map.
+[  +12 ms] E/Google Maps Android API( 8755): In the Google Developer Console (https://console.developers.google.com)
+[        ] E/Google Maps Android API( 8755): Ensure that the "Google Maps Android API v2" is enabled.
+[        ] E/Google Maps Android API( 8755): Ensure that the following Android Key exists:
+[        ] E/Google Maps Android API( 8755):    API Key: AIzaSyBIc6lUuMzjLOXIZ1iS0oC2ucHJXq5dP
+[        ] E/Google Maps Android API( 8755):    Android Application (<cert_fingerprint>;<package_name>):
+39:E7:B2:B3:E9:09:64:D5:C8:93:97:AA:2C:A9:86:82:24:1C:D9:A7;com.example.example
+[+1666 ms] W/DynamiteModule( 8755): Local module descriptor class for com.google.android.gms.googlecertificates not found.
+[  +19 ms] I/DynamiteModule( 8755): Considering local module com.google.android.gms.googlecertificates:0 and remote module
+com.google.android.gms.googlecertificates:6
+[        ] I/DynamiteModule( 8755): Selected remote version of com.google.android.gms.googlecertificates, version >= 6
+[  +92 ms] W/ProtoDataStoreFlagStore( 8755): Unable to retrieve flag snapshot for com.google.android.libraries.consentverifier#com.example.example, using
+defaults.
+[  +49 ms] W/ProtoDataStoreFlagStore( 8755): Unable to update local snapshot for com.google.android.libraries.consentverifier#com.example.example, may resultin stale flags.
+[        ] W/ProtoDataStoreFlagStore( 8755): java.util.concurrent.ExecutionException: java.lang.SecurityException: GoogleCertificatesRslt: Package signed
+with unknown certificate (go/gsrlt)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at age.s(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):3)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at age.get(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):2)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at aii.a(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):1)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at aho.g(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):1)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at wn.d(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):1)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at xu.run(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):0)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at java.lang.Thread.run(Thread.java:920)
+[        ] W/ProtoDataStoreFlagStore( 8755): Caused by: java.lang.SecurityException: GoogleCertificatesRslt: Package signed with unknown certificate
+(go/gsrlt)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.Parcel.createExceptionOrNull(Parcel.java:2437)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.Parcel.createException(Parcel.java:2421)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.Parcel.readException(Parcel.java:2404)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.Parcel.readException(Parcel.java:2346)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at dx.aZ(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):2)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at ql.a(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):4)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at id.e(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):2)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at jc.t(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):2)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at jc.u(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):3)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at jc.e(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):2)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at jg.handleMessage(:com.google.android.gms.dynamite_mapsdynamite@214815099@21.48.15 (190408-0):69)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.Handler.dispatchMessage(Handler.java:102)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.Looper.loopOnce(Looper.java:226)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.Looper.loop(Looper.java:313)
+[        ] W/ProtoDataStoreFlagStore( 8755):    at android.os.HandlerThread.run(HandlerThread.java:67)
+[+1829 ms] I/ViewRootImpl@f35944d[MainActivity]( 8755): ViewPostIme pointer 0
+[  +29 ms] I/ViewRootImpl@f35944d[MainActivity]( 8755): ViewPostIme pointer 1
+[ +145 ms] D/DynamitePackage( 8755): Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+[  +12 ms] I/Ads     ( 8755): Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("B2FF168DB3CE845854D8E498D3E3BBAE")) to get test ads on this
+device.
+[  +31 ms] D/ConnectivityManager( 8755): StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:3925)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:4489)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:4456)]
+[android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:4430)]
+[agg.<init>(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:2)]
+[agg.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[afs.b(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:13)]
+[afs.a(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:0)]
+[com.google.android.gms.ads.internal.i.run(:com.google.android.gms.policy_ads_fdr_dynamite@214106404@214106404057.409717972.409717972:9)]
+[java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)]
+[java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)] [java.lang.Thread.run(Thread.java:920)]
+[+2103 ms] I/ViewRootImpl@f35944d[MainActivity]( 8755): ViewPostIme pointer 0
+[  +39 ms] I/ViewRootImpl@f35944d[MainActivity]( 8755): ViewPostIme pointer 1
+[  +66 ms] I/DynamiteModule( 8755): Considering local module com.google.android.gms.ads.dynamite:0 and remote module
+com.google.android.gms.ads.dynamite:214106404
+[        ] I/DynamiteModule( 8755): Selected remote version of com.google.android.gms.ads.dynamite, version >= 214106404
+[ +371 ms] W/Ads     ( 8755): #004 The webview is destroyed. Ignoring action.
+[  +13 ms] E/example.exampl( 8755): [SurfaceTexture-0-8755-0] attachToContext: SurfaceTexture is already attached to a context
+[   +2 ms] E/flutter ( 8755): [ERROR:flutter/fml/platform/android/jni_util.cc(211)] java.lang.RuntimeException: Error during attachToGLContext (see logcat
+for details)
+[        ] E/flutter ( 8755):   at android.graphics.SurfaceTexture.attachToGLContext(SurfaceTexture.java:296)
+[        ] E/flutter ( 8755):   at io.flutter.embedding.engine.renderer.SurfaceTextureWrapper.attachToGLContext(SurfaceTextureWrapper.java:57)
+[        ] E/flutter ( 8755):   at android.os.MessageQueue.nativePollOnce(Native Method)
+[        ] E/flutter ( 8755):   at android.os.MessageQueue.next(MessageQueue.java:335)
+[        ] E/flutter ( 8755):   at android.os.Looper.loopOnce(Looper.java:186)
+[        ] E/flutter ( 8755):   at android.os.Looper.loop(Looper.java:313)
+[        ] E/flutter ( 8755):   at android.app.ActivityThread.main(ActivityThread.java:8633)
+[        ] E/flutter ( 8755):   at java.lang.reflect.Method.invoke(Native Method)
+[        ] E/flutter ( 8755):   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:567)
+[        ] E/flutter ( 8755):   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1133)
+[        ] E/flutter ( 8755):
+[        ] F/flutter ( 8755): [FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1301)] Check failed: fml::jni::CheckException(env).
+[ +426 ms] F/libc    ( 8755): Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 8755 (example.example), pid 8755 (example.example)
+[ +740 ms] *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[        ] Build fingerprint: 'samsung/beyond0lteeea/beyond0:12/SP1A.210812.016/G970FXXUEGVA4:user/release-keys'
+[        ] Revision: '26'
+[        ] ABI: 'arm64'
+[        ] Timestamp: 2022-02-06 14:00:21.842525377+0100
+[        ] Process uptime: 12s
+[        ] Cmdline: com.example.example
+[        ] pid: 8755, tid: 8755, name: example.example  >>> com.example.example <<<
+[        ] uid: 10539
+[        ] signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+[        ] Abort message: '[FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1301)] Check failed: fml::jni::CheckException(env).
+[        ] '
+[        ]     x0  0000000000000000  x1  0000000000002233  x2  0000000000000006  x3  0000007ffde2a040
+[        ]     x4  00000076e21a1000  x5  00000076e21a1000  x6  00000076e21a1000  x7  0000000010ecdd50
+[        ]     x8  00000000000000f0  x9  00000076ced67280  x10 ffffff00fffffbdf  x11 0000000000000001
+[        ]     x12 0000fffffffff3ff  x13 000000000000007e  x14 0000000000000000  x15 0000201e0e26ffcc
+[        ]     x16 00000076cee08058  x17 00000076cede4da0  x18 00000076e17cc000  x19 00000000000000ac
+[   +1 ms]     x20 0000000000002233  x21 00000000000000b2  x22 0000000000002233  x23 00000000ffffffff
+[        ]     x24 0000007456470510  x25 0000000000000000  x26 0000000000000001  x27 000000000000004f
+[        ]     x28 0000000000000001  x29 0000007ffde2a0c0
+[        ]     lr  00000076ced9633c  sp  0000007ffde2a020  pc  00000076ced9636c  pst 0000000000000000
+[        ] backtrace:
+[        ]       #00 pc 000000000005136c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 721f9a1e738668c9f29a0ef6a2870cb9)
+[        ]       #01 pc 000000000150a740  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #02 pc 000000000152c79c  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #03 pc 00000000015136e4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #04 pc 00000000015095dc  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[   +1 ms]       #05 pc 000000000150944c  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #06 pc 000000000182ce84  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #07 pc 0000000001829aa4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #08 pc 000000000182d1e0  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #09 pc 0000000001829aa4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #10 pc 000000000182bed8  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #11 pc 0000000001829aa4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #12 pc 000000000182d1e0  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #13 pc 0000000001829aa4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #14 pc 000000000182d1e0  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #15 pc 0000000001829aa4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #16 pc 000000000182d1e0  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #17 pc 0000000001829aa4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #18 pc 000000000182d1e0  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #19 pc 0000000001829aa4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #20 pc 000000000182af44  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #21 pc 000000000182657c  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #22 pc 000000000183f7ec  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #23 pc 000000000183e5e4  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #24 pc 000000000183f0ac  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #25 pc 000000000183fea0  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #26 pc 000000000183ea14  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #27 pc 000000000183e780  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #28 pc 000000000184a420  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #29 pc 000000000152d45c  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #30 pc 00000000015339c8  /data/app/~~lUM3-NbCRT90fbHkYfC1rg==/com.example.example-BdIhzn4LvE11XyDdNzns8A==/lib/arm64/libflutter.so (BuildId:c42c6209986a10065da91c022954abcc47cb6c46)
+[        ]       #31 pc 0000000000016bb0  /system/lib64/libutils.so (android::Looper::pollInner(int)+912) (BuildId: 176a88c64d70f517a4c1c58b40932d90)
+[        ]       #32 pc 00000000000167b8  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+112) (BuildId:
+176a88c64d70f517a4c1c58b40932d90)
+[        ]       #33 pc 0000000000153dcc  /system/lib64/libandroid_runtime.so (android::android_os_MessageQueue_nativePollOnce(_JNIEnv*, _jobject*, long,
+int)+44) (BuildId: b04ba817e5a5904f25ecdc2a933a7f26)
+[        ]       #34 pc 000000000023c44c  /system/framework/arm64/boot-framework.oat (art_jni_trampoline+108) (BuildId:
+0e74dbd500e8c8b19195e3590e46e9b25472a2ae)
+[        ]       #35 pc 0000000002019f3c  /memfd:jit-cache (deleted) (android.os.MessageQueue.next+204)
+[        ]       #36 pc 0000000002034788  /memfd:jit-cache (deleted) (android.os.Looper.loopOnce+168)
+[        ]       #37 pc 0000000000218be8  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+568) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #38 pc 000000000028520c  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int,
+art::JValue*, char const*)+212) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #39 pc 00000000003e70f0  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*,
+art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+400) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #40 pc 00000000003e1cec  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*,
+art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+804) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #41 pc 0000000000762d0c  /apex/com.android.art/lib64/libart.so (MterpInvokeStatic+980) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #42 pc 0000000000203994  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_static+20) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #43 pc 00000000004c8f14  /system/framework/framework.jar (android.os.Looper.loop+152)
+[        ]       #44 pc 0000000000763268  /apex/com.android.art/lib64/libart.so (MterpInvokeStatic+2352) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #45 pc 0000000000203994  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_static+20) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #46 pc 00000000001bba8e  /system/framework/framework.jar (android.app.ActivityThread.main+214)
+[        ]       #47 pc 00000000003d98e0  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&,
+art::ShadowFrame&, art::JValue, bool, bool)+304) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #48 pc 00000000007464b4  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780) (BuildId: 600193f4a9fcf9ced238223aee6c1164)[        ]       #49 pc 0000000000222378  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #50 pc 0000000000218be8  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+568) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #51 pc 000000000028520c  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int,
+art::JValue*, char const*)+212) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #52 pc 0000000000627760  /apex/com.android.art/lib64/libart.so (_jobject*
+art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+1384) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #53 pc 0000000000597a38  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*)+48)
+(BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #54 pc 00000000000b2f74  /apex/com.android.art/javalib/arm64/boot.oat (art_jni_trampoline+132) (BuildId:
+cb3f7d683b4276aeb0f07ebac9fc30ac8eefbaa9)
+[        ]       #55 pc 0000000000218964  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #56 pc 00000000002851f0  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int,
+art::JValue*, char const*)+184) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #57 pc 00000000003e70f0  /apex/com.android.art/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*,
+art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+400) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #58 pc 00000000003e1cec  /apex/com.android.art/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*,
+art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+804) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #59 pc 0000000000757c9c  /apex/com.android.art/lib64/libart.so (MterpInvokeVirtual+1164) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #60 pc 0000000000203814  /apex/com.android.art/lib64/libart.so (mterp_op_invoke_virtual+20) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #61 pc 0000000000454c56  /system/framework/framework.jar (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+22)
+[        ]       #62 pc 00000000003d98e0  /apex/com.android.art/lib64/libart.so (art::interpreter::Execute(art::Thread*, art::CodeItemDataAccessor const&,
+art::ShadowFrame&, art::JValue, bool, bool)+304) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #63 pc 00000000007464b4  /apex/com.android.art/lib64/libart.so (artQuickToInterpreterBridge+780) (BuildId: 600193f4a9fcf9ced238223aee6c1164)[        ]       #64 pc 0000000000222378  /apex/com.android.art/lib64/libart.so (art_quick_to_interpreter_bridge+88) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #65 pc 0000000000aea7b8  /system/framework/arm64/boot-framework.oat (com.android.internal.os.ZygoteInit.main+2376) (BuildId:
+0e74dbd500e8c8b19195e3590e46e9b25472a2ae)
+[        ]       #66 pc 0000000000218be8  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+568) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #67 pc 000000000028520c  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int,
+art::JValue*, char const*)+212) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #68 pc 0000000000627ec0  /apex/com.android.art/lib64/libart.so (art::JValue
+art::InvokeWithVarArgs<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, std::__va_list)+448) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #69 pc 0000000000628394  /apex/com.android.art/lib64/libart.so (art::JValue
+art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+92) (BuildId:
+600193f4a9fcf9ced238223aee6c1164)
+[        ]       #70 pc 0000000000501094  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*,
+std::__va_list)+612) (BuildId: 600193f4a9fcf9ced238223aee6c1164)
+[        ]       #71 pc 00000000000b2b28  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+120) (BuildId:
+b04ba817e5a5904f25ecdc2a933a7f26)
+[        ]       #72 pc 00000000000becd8  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8>
+const&, bool)+856) (BuildId: b04ba817e5a5904f25ecdc2a933a7f26)
+[        ]       #73 pc 00000000000025b0  /system/bin/app_process64 (main+1368) (BuildId: 9a7b5029aaf92752a6307785aa874b5a)
+[        ]       #74 pc 0000000000049b38  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+96) (BuildId: 721f9a1e738668c9f29a0ef6a2870cb9)
+[ +158 ms] Service protocol connection closed.
+[        ] Lost connection to device.
+[   +1 ms] DevFS: Deleting filesystem on the device (file:///data/user/0/com.example.example/code_cache/exampleNKIMJI/example/)
+[ +252 ms] Ignored error while cleaning up DevFS: TimeoutException after 0:00:00.250000: Future not completed
+[  +10 ms] "flutter run" took 33 530ms.
+[  +82 ms] ensureAnalyticsSent: 80ms
+[   +1 ms] Running shutdown hooks
+[        ] Shutdown hooks complete
+[        ] exiting with code 0

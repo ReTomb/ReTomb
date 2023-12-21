@@ -1,0 +1,1 @@
+flutter pub rungo to settings pagego the button called Notifications settings

@@ -1,0 +1,5 @@
+adb shell input draganddrop <x1,y1> <x2,y2>
+adb shell input tap <x,y>
+adb shell am freeze <packagename>
+adb shell am unfreeze <packagename>
+adb shell input tap <x,y>

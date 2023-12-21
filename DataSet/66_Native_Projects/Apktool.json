@@ -1,0 +1,12 @@
+[
+    {
+        "repository": "iBotPeaches/Apktool",
+        "SIGSEGV": [
+            3261,
+            3199,
+            3066,
+            1476,
+            631
+        ]
+    }
+]

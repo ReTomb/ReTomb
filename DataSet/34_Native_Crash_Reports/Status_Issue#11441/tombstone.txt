@@ -1,0 +1,59 @@
+--------- beginning of crash
+11-17 14:04:25.071 21745 21844 F libc    : Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 21844 (mqt_native_modu), pid 21745 (status.ethereum)
+11-17 14:04:25.083   920  1536 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.083  2903  2903 D NavigationBarTransitions: applyDarkIntensity 0.64377797
+11-17 14:04:25.098  2903  2903 D NavigationBarTransitions: applyDarkIntensity 0.8394938
+11-17 14:04:25.099   920   996 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.115   920   998 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.115  2903  2903 D NavigationBarTransitions: applyDarkIntensity 0.9378363
+11-17 14:04:25.130   920   998 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.132  2903  2903 D NavigationBarTransitions: applyDarkIntensity 0.9826073
+11-17 14:04:25.132  2903  2903 D NavBarTintController: onSampleCollected 0.9764706
+11-17 14:04:25.146   920   998 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.148  2903  2903 D NavigationBarTransitions: applyDarkIntensity 0.9990056
+11-17 14:04:25.164   920   998 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.165  2903  2903 D NavigationBarTransitions: applyDarkIntensity 1.0
+11-17 14:04:25.180   920   996 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.198   920   996 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.215   920   998 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.227   785  1561 I SDM     : HWCDisplayBuiltIn::parseOutputBuffer: w 1080 h 2340 stride 1088 size 10186752 Bpp 4
+11-17 14:04:25.228   785  1561 I SDM     : HWCDisplayBuiltIn::parseBrightness: set DBV 588.000000 brightness:1178
+11-17 14:04:25.229   785  1561 D SDM     : HWCDisplayBuiltIn::parseBrightness: out partial brightness:1.500000, (r, g, b): { 11.000000, 16.000000, 49.000000 }
+11-17 14:04:25.229   785  1561 I libsensor-C2SNotifier: NotifySensorThread will begin for SendClientRGB !
+11-17 14:04:25.229   785  1561 I libsensor-C2SNotifier: SendMsgThread has begin for SendClientRGB !
+11-17 14:04:25.229   785 22267 I libsensor-C2SNotifier: SendMsgThread threadLoop starting !
+11-17 14:04:25.229   785 22267 I libsensor-C2SNotifier: Sensor: notify type: 5, value: -5
+11-17 14:04:25.230   785 22267 I libsensor-C2SNotifier: SendMsgThread threadLoop correct and msg have been send !
+11-17 14:04:25.231   920  1536 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.247   920   998 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.250  2903  2903 D NavBarTintController: onSampleCollected 0.9764706
+11-17 14:04:25.264   920   996 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.281   920   996 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.297   920   998 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.315   920  1536 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.328 22266 22266 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstone
+11-17 14:04:25.330   920  1536 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.335  1279  1279 I /system/bin/tombstoned: received crash request for pid 21844
+11-17 14:04:25.339 22266 22266 I crash_dump64: performing dump of process 21745 (target tid = 21844)
+11-17 14:04:25.346   920  1536 D BufferQueueLayer: Launcher new frame Arrived
+11-17 14:04:25.348  2903  2903 D NavBarTintController: onSampleCollected 0.9764706
+11-17 14:04:25.357 22266 22266 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+11-17 14:04:25.357 22266 22266 F DEBUG   : Build fingerprint: 'Xiaomi/raphael_eea/raphael:10/QKQ1.190825.002/V12.0.3.0.QFKEUXM:user/release-keys'
+11-17 14:04:25.357 22266 22266 F DEBUG   : Revision: '0'
+11-17 14:04:25.357 22266 22266 F DEBUG   : ABI: 'arm64'
+11-17 14:04:25.358 22266 22266 F DEBUG   : Timestamp: 2020-11-17 14:04:25+0100
+11-17 14:04:25.358 22266 22266 F DEBUG   : pid: 21745, tid: 21844, name: mqt_native_modu  >>> im.status.ethereum <<<
+11-17 14:04:25.358 22266 22266 F DEBUG   : uid: 10977
+11-17 14:04:25.358 22266 22266 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+11-17 14:04:25.358 22266 22266 F DEBUG   :     x0  0000000000000000  x1  0000000000005554  x2  0000000000000006  x3  0000000000000008
+11-17 14:04:25.358 22266 22266 F DEBUG   :     x4  0000000000000001  x5  0000000000000000  x6  000000000000000a  x7  0000000000000002
+11-17 14:04:25.358 22266 22266 F DEBUG   :     x8  0000000000000083  x9  0000000000000005  x10 0000000000000000  x11 0000007dde73b158
+11-17 14:04:25.358 22266 22266 F DEBUG   :     x12 0000000000000000  x13 0000000000000000  x14 0000000000000000  x15 0000000000000001
+11-17 14:04:25.358 22266 22266 F DEBUG   :     x16 0000007ddd0f1c5b  x17 0000007ddd0f1c58  x18 0000007de2a3e000  x19 00000000000054f1
+11-17 14:04:25.358 22266 22266 F DEBUG   :     x20 0000007de2cf01f0  x21 0000004000088a80  x22 000000000000005a  x23 0000000000000014
+11-17 14:04:25.359 22266 22266 F DEBUG   :     x24 000000000000002b  x25 0000007de2cf3020  x26 0000000000000000  x27 0000000000000010
+11-17 14:04:25.359 22266 22266 F DEBUG   :     x28 00000040004c2f00  x29 0000007de2cf0ae0
+11-17 14:04:25.359 22266 22266 F DEBUG   :     sp  00000040011cdbc0  lr  0000007ddd0d7f38  pc  0000007ddd0f29e0
+11-17 14:04:25.359 22266 22266 F DEBUG   :
+11-17 14:04:25.359 22266 22266 F DEBUG   : backtrace:
+11-17 14:04:25.359 22266 22266 F DEBUG   :       #00 pc 000000000082e9e0  /data/app/im.status.ethereum-Tg3qi77_cxlsXetYArMc3g==/lib/arm64/libgojni.so

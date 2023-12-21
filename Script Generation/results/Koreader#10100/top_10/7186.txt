@@ -1,0 +1,4 @@
+adb shell pm list <packagename>
+adb shell pm suspend
+adb shell pm query-receivers <intent>
+adb shell pm enable <packagename>

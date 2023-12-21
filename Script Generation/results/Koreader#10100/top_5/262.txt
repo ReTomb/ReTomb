@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell input text <text>
+adb shell pm path <packagename>
+adb shell pm suspend

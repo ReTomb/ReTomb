@@ -1,0 +1,3 @@
+adb shell pm path <packagename>
+adb shell pm unhide
+adb shell pm resolve-activity <intent>

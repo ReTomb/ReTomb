@@ -1,0 +1,11 @@
+[
+    {
+        "repository": "facebook/buck",
+        "SIGABRT": [
+            1802
+        ],
+        "SIGSEGV": [
+            1645
+        ]
+    }
+]

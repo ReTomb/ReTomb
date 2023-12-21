@@ -1,0 +1,4 @@
+adb shell pm dump <packagename>
+adb shell pm path <packagename>
+adb shell pm query-activities <intent>
+adb shell pm disable <packagename>

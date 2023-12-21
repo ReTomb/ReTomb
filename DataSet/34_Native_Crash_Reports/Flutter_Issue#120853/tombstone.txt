@@ -1,0 +1,36 @@
+
+I/flutter (31675): onProgressChanged:80
+W/chromium(31675): [WARNING:spdy_session.cc(3058)] Received HEADERS for invalid stream 85
+2
+I/flutter (31675): onProgressChanged:100
+I/OpenGLRenderer(31675): Initialized EGL, version 1.4
+D/OpenGLRenderer(31675): Swap behavior 2
+F/google-breakpad(32752): Microdump skipped (uninteresting)
+W/google-breakpad(31675): ### ### ### ### ### ### ### ### ### ### ### ### ###
+W/google-breakpad(31675): Chrome build fingerprint:
+W/google-breakpad(31675): 68.0.3440.91
+W/google-breakpad(31675): 344009150
+W/google-breakpad(31675): ### ### ### ### ### ### ### ### ### ### ### ### ###
+F/libc    (31675): Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x40 in tid 31918 (RenderThread), pid 31675 (le.test_webview)
+Softversion: PD1813D_A_7.8.30
+Time: 2023-02-16 11:38:41
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'vivo/PD1813D/PD1813D:9/PKQ1.181030.001/compiler07221602:user/release-keys'
+Revision: '0'
+ABI: 'arm64'
+pid: 31675, tid: 31918, name: RenderThread  >>> com.example.test_webview <<<
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x40
+Cause: null pointer dereference
+    x0  000000726386fce8  x1  0000007285e4c7a0  x2  0000000000000001  x3  0000000000000000
+    x4  0000000000000001  x5  0000000000000000  x6  0000000000000000  x7  1843e42c23593438
+    x8  000000726607d9b0  x9  000000730ddfb408  x10 0000000000000005  x11 0000000000000000
+    x12 0000000000000050  x13 1843e42c23593438  x14 0000000000000000  x15 000000730ddf6a48
+    x16 000000730de1f5d0  x17 000000730d9ace38  x18 0000000000000000  x19 000000726607f588
+    x20 000000726556fd10  x21 00000072659517e0  x22 0000000000000003  x23 000000730d94bbe8
+    x24 000000730d9e68a8  x25 000000726607f588  x26 000000730de17388  x27 0000000000003815
+    x28 0000000000000000  x29 000000726607d930
+    sp  000000726607d910  lr  000000730d974d54  pc  000000730d839298
+backtrace:
+    #00 pc 000000000021c298  /system/lib64/libhwui.so (GrGLRenderTarget::getBackendRenderTarget() const+60)
+Lost connection to device.
+Exited

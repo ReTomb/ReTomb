@@ -1,0 +1,4 @@
+adb shell am broadcast <packagename.intent>
+adb shell am compact <packagename>
+adb shell am freeze <packagename>
+adb shell input tap <x,y>

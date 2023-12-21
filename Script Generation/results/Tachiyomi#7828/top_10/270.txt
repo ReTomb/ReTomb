@@ -1,0 +1,3 @@
+adb shell pm unhide
+adb shell pm dump <packagename>
+adb shell pm query-activities <intent>

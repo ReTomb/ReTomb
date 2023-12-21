@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm list <packagename>
+adb shell pm query-activities <intent>
+adb shell input text <text>

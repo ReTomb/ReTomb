@@ -1,0 +1,4 @@
+adb shell am compact <packagename>
+adb shell am runTraceIpc <file>
+adb shell am runTraceIpc <file>
+adb shell input draganddrop <x1,y1> <x2,y2>

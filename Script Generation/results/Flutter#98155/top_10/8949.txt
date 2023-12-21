@@ -1,0 +1,4 @@
+adb shell pm path <packagename>
+adb shell pm default-state
+adb shell pm hide
+adb shell pm unsuspend

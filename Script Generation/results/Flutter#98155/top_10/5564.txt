@@ -1,0 +1,4 @@
+adb shell pm revoke
+adb shell pm revoke
+adb shell pm clear-permission-flags
+adb shell pm disable <packagename>

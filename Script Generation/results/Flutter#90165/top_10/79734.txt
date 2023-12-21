@@ -1,0 +1,5 @@
+adb shell inpur roll <x,y> 
+adb shell input swipe <x1,y1> <x2,y2>
+adb shell am freeze <packagename>
+adb shell am start <packagename.activity>
+adb shell input keyevent 

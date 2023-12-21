@@ -1,0 +1,5 @@
+adb shell input press <x,y>
+adb shell input text <text>
+adb shell am instrument <packagename.component>
+adb shell am instrument <packagename.component>
+adb shell input keyevent 

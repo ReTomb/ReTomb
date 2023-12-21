@@ -1,0 +1,4 @@
+adb shell pm query-activities <intent>
+adb shell pm unsuspend
+adb shell pm path <packagename>
+adb shell pm enable <packagename>

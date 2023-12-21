@@ -1,0 +1,5 @@
+adb shell am start <packagename.activity>
+adb shell am to-uri <intent>
+adb shell am to-uri <intent>
+adb shell am freeze <packagename>
+adb shell input tap <x,y>

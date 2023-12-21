@@ -1,0 +1,2 @@
+adb shell am dumpheap <file>
+adb shell am compact <packagename>

@@ -1,0 +1,4 @@
+adb shell pm hide
+adb shell pm wait-for-handler
+adb shell pm clear-permission-flags
+adb shell input text <text>

@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell pm suspend
+adb shell pm clear-permission-flags
+adb shell pm unhide

@@ -1,0 +1,12 @@
+{
+  "Input runText string text": "0.74844164",
+  "PackageManagerShellCommand runSuspend state ture": "0.71745026",
+  "PackageManagerShellCommand runSetHiddenSetting state false": "0.62412286",
+  "PackageManagerShellCommand runSuspend state false": "0.62412286",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_ENABLED": "0.570543",
+  "PackageManagerShellCommand runSetHiddenSetting state true": "0.5695136",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_DISABLED": "0.56732875",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_DEFAULT": "0.56649876",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER": "0.52514726",
+  "PackageManagerShellCommand runPath null": "0.5216128"
+}

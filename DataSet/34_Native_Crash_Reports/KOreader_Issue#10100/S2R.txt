@@ -1,0 +1,8 @@
+#Steps to reproduce
+
+- Disable optimizations.
+- Open KOReader.
+- Open any PDF.
+- Pull up bottom tab.
+- Enable reflow.
+- Immediate crash upon exit of tab menu.

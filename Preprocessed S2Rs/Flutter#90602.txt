@@ -1,0 +1,4 @@
+run the android program of the sample project
+enter MainActivity
+press the back key to finish
+re-enter MainActivity.

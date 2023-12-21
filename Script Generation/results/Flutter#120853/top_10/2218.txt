@@ -1,0 +1,4 @@
+adb shell am broadcast <packagename.intent>
+adb shell am broadcast <packagename.intent>
+adb shell am start <packagename.activity>
+adb shell am runTraceIpc <file>

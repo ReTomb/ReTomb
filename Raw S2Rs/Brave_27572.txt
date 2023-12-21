@@ -1,0 +1,4 @@
+   1. Open private tab
+   2. Search something in url box
+   3. Open a new normal tab
+   4. Search something in url box 

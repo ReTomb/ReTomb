@@ -1,0 +1,4 @@
+adb shell am runTraceIpc <file>
+adb shell am broadcast <packagename.intent>
+adb shell am freeze <packagename>
+adb shell am instrument <packagename.component>

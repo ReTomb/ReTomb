@@ -1,0 +1,4 @@
+adb shell am compact <packagename>
+adb shell am profile <file>
+adb shell am stopservice <packagename.intent>
+adb shell am dumpheap <file>

@@ -1,0 +1,5 @@
+adb shell input press <x,y>
+adb shell input press <x,y>
+adb shell am instrument <packagename.component>
+adb shell am runTraceIpc <file>
+adb shell input keycombination <x,y>

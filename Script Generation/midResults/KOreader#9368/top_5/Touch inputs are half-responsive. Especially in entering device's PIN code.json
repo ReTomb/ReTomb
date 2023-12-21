@@ -1,0 +1,7 @@
+{
+  "Input runText string text": "0.7668611",
+  "Input runTap float x float y": "0.47846293",
+  "ActivityManagerShellCommand runStartActivity printwriter pw": "0.4216105",
+  "ActivityManagerShellCommand runSendBroadcast printwriter pw": "0.41646355",
+  "ActivityManagerShellCommand runCompact printwriter pw": "0.41646355"
+}

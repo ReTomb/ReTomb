@@ -1,0 +1,3 @@
+adb shell am profile <file>
+adb shell am start <packagename.activity>
+adb shell am unfreeze <packagename>

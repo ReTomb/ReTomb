@@ -1,0 +1,2 @@
+adb shell input keyevent 
+adb shell am to-uri <intent>

@@ -1,0 +1,7 @@
+adb shell am start <package name>
+
+adb shell input tap <x,y>
+
+adb shell input tap <x,y>
+
+adb shell input tap <x,y>

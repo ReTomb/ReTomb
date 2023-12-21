@@ -1,0 +1,3 @@
+adb shell am runTraceIpc <file>
+adb shell am set-debug-app <packagename>
+adb shell am to-uri <intent>

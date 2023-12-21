@@ -1,0 +1,7 @@
+1. Set Flutter version to the latest stable one - **2.10.3**
+2. Create a new project and set dependencies to the following:```
+        flutter_bloc: ^7.3.3
+        http: ^0.13.4
+```
+4. Execute `flutter run` on the code sample <!-- (see "Code sample" section below) -->
+5. Press the red button which should crash the app on both Android and iOS platforms

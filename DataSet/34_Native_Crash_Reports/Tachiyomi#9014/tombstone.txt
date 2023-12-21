@@ -1,0 +1,55 @@
+--------- beginning of crash
+01-30 18:14:24.274 31812 31826 F libc : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x44 in tid 31826 (HeapTaskDaemon), pid 31812 (anade.tachiyomi)
+01-30 18:14:24.750 29361 29361 F DEBUG : Process name is eu.kanade.tachiyomi, not key_process
+01-30 18:14:24.750 29361 29361 F DEBUG : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+01-30 18:14:24.751 29361 29361 F DEBUG : Build fingerprint: 'OPPO/CPH2239T2/OP4F2F:11/RP1A.200720.011/1670087092785:user/release-keys'
+01-30 18:14:24.751 29361 29361 F DEBUG : Revision: '0'
+01-30 18:14:24.751 29361 29361 F DEBUG : ABI: 'arm64'
+01-30 18:14:24.753 29361 29361 F DEBUG : Timestamp: 2023-01-30 18:14:24+0800
+01-30 18:14:24.753 29361 29361 F DEBUG : pid: 31812, tid: 31826, name: HeapTaskDaemon >>> eu.kanade.tachiyomi <<<
+01-30 18:14:24.753 29361 29361 F DEBUG : uid: 10181
+01-30 18:14:24.753 29361 29361 F DEBUG : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x44
+01-30 18:14:24.754 29361 29361 F DEBUG : Cause: null pointer dereference
+01-30 18:14:24.754 29361 29361 F DEBUG : x0 0000000015145430 x1 0000007c52a58400 x2 0000007c52a58400 x3 0000000000000000
+01-30 18:14:24.754 29361 29361 F DEBUG : x4 000000000000002b x5 0000007c61e2bbc8 x6 b400007c61e26ec0 x7 b400007c61e26ec0
+01-30 18:14:24.754 29361 29361 F DEBUG : x8 0000000000000000 x9 0000000000000001 x10 0000000052c00000 x11 0000000000200000
+01-30 18:14:24.754 29361 29361 F DEBUG : x12 0000000000000040 x13 0000007c4bd54db0 x14 000884622331aeec x15 000040262cec5f31
+01-30 18:14:24.754 29361 29361 F DEBUG : x16 0000007ce75ad7d0 x17 0000007ce5d0cb28 x18 0000007bfe154000 x19 0000007c52a58400
+01-30 18:14:24.755 29361 29361 F DEBUG : x20 0000000015145430 x21 0000007c52a58400 x22 0000000000000000 x23 0000007c469c5c00
+01-30 18:14:24.756 29361 29361 F DEBUG : x24 b400007c61e26ec0 x25 0000007c52a59000 x26 0000007c61e2bbc8 x27 0000007c52a59000
+01-30 18:14:24.756 29361 29361 F DEBUG : x28 0000000000000007 x29 0000007c52a583a0
+01-30 18:14:24.756 29361 29361 F DEBUG : lr 0000007c6181c550 sp 0000007c52a58370 pc 0000007c6181c6e4 pst 0000000020000000
+01-30 18:14:24.941 29361 29361 F DEBUG : backtrace:
+01-30 18:14:24.941 29361 29361 F DEBUG : #00 pc 000000000025c6e4 /apex/com.android.art/lib64/libart.so (void art::mirror::Object::VisitReferences<true, (art::VerifyObjectFlags)0, (art::ReadBarrierOption)1, art::gc::collector::ConcurrentCopying::ComputeLiveBytesAndMarkRefFieldsVisitor, art::gc::collector::ConcurrentCopying::ComputeLiveBytesAndMarkRefFieldsVisitor >(art::gc::collector::ConcurrentCopying::ComputeLiveBytesAndMarkRefFieldsVisitor const&, art::gc::collector::ConcurrentCopying::ComputeLiveBytesAndMarkRefFieldsVisitor const&)+204) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.941 29361 29361 F DEBUG : #1 pc 000000000025c54c /apex/com.android.art/lib64/libart.so (art::gc::collector::ConcurrentCopying::AddLiveBytesAndScanRef(art::mirror::Object*)+220) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.941 29361 29361 F DEBUG : #2 pc 000000000025df80 /apex/com.android.art/lib64/libart.so (art::gc::collector::ConcurrentCopying::ProcessMarkStackForMarkingAndComputeLiveBytes()+904) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.941 29361 29361 F DEBUG : #3 pc 000000000025619c /apex/com.android.art/lib64/libart.so (art::gc::collector::ConcurrentCopying::MarkingPhase()+1196) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.941 29361 29361 F DEBUG : #4 pc 000000000025534c /apex/com.android.art/lib64/libart.so (art::gc::collector::ConcurrentCopying::RunPhases()+244) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.941 29361 29361 F DEBUG : #5 pc 000000000027922c /apex/com.android.art/lib64/libart.so (art::gc::collector::GarbageCollector::Run(art::gc::GcCause, bool)+300) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.941 29361 29361 F DEBUG : #6 pc 00000000002965b4 /apex/com.android.art/lib64/libart.so (art::gc::Heap::CollectGarbageInternal(art::gc::collector::GcType, art::gc::GcCause, bool)+4236) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.941 29361 29361 F DEBUG : #7 pc 00000000002aa2c4 /apex/com.android.art/lib64/libart.so (art::gc::Heap::ConcurrentGC(art::Thread*, art::gc::GcCause, bool)+124) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.942 29361 29361 F DEBUG : #8 pc 00000000002afe34 /apex/com.android.art/lib64/libart.so (art::gc::Heap::ConcurrentGCTask::Run(art::Thread*)+36) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.942 29361 29361 F DEBUG : #9 pc 00000000002e9230 /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+64) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.942 29361 29361 F DEBUG : #10 pc 000000000001273c /apex/com.android.art/javalib/arm64/boot-core-libart.oat (art_jni_trampoline+124) (BuildId: 37715d2552f6b0a04bfb540538d8815b402d037c)
+01-30 18:14:24.942 29361 29361 F DEBUG : #11 pc 000000000005ac84 /apex/com.android.art/javalib/arm64/boot-core-libart.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+196) (BuildId: 37715d2552f6b0a04bfb540538d8815b402d037c)
+01-30 18:14:24.942 29361 29361 F DEBUG : #12 pc 0000000000024f00 /apex/com.android.art/javalib/arm64/boot-core-libart.oat (java.lang.Daemons$Daemon.run+160) (BuildId: 37715d2552f6b0a04bfb540538d8815b402d037c)
+01-30 18:14:24.942 29361 29361 F DEBUG : #13 pc 000000000015f1c8 /apex/com.android.art/javalib/arm64/boot.oat (java.lang.Thread.run+72) (BuildId: 5e130fdf6df8cb10605e5462fa60e4392ef7e327)
+01-30 18:14:24.942 29361 29361 F DEBUG : #14 pc 0000000000133564 /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+548) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.942 29361 29361 F DEBUG : #15 pc 00000000001a97e8 /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.942 29361 29361 F DEBUG : #16 pc 000000000055e57c /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValuesart::ArtMethod*(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.942 29361 29361 F DEBUG : #17 pc 00000000005ad7cc /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1308) (BuildId: cf257d4d0635d902fa4e3980debdab67)
+01-30 18:14:24.942 29361 29361 F DEBUG : #18 pc 00000000000db188 /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64) (BuildId: a6e89496b61a77b8a97118405d4e247e)
+01-30 18:14:24.942 29361 29361 F DEBUG : #19 pc 000000000007a9d0 /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: a6e89496b61a77b8a97118405d4e247e)
+--------- beginning of main
+02-02 20:17:46.014 22352 22352 E Parcel : Reading a NULL string not supported here.
+--------- beginning of system
+02-02 20:18:00.689 22352 22352 E libEGL : Invalid file path for libcolorx-loader.so
+02-02 20:18:00.691 22352 22352 E libEGL : Invalid file path for libcolorx-loader.so
+App version: 0.14.3 (standard, 817418f, 93, 2023-01-07T17:15Z)
+Android version: 11 (SDK 30)
+Android build ID: CPH2239_11_C.24
+Device brand: OPPO
+Device manufacturer: OPPO
+Device name: OP4F2F
+Device model: CPH2239
+Device product name: CPH2239T2

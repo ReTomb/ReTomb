@@ -1,0 +1,3 @@
+adb shell pm resolve-activity <intent>
+adb shell pm path <packagename>
+adb shell pm dump <packagename>

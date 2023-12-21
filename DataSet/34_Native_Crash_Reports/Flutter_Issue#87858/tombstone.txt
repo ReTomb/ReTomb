@@ -1,0 +1,271 @@
+ +73 ms] Syncing files to device Redmi K20 Pro...
+[   +2 ms] <- reset
+[        ] Compiling dart to kernel with 0 updated files
+[   +2 ms] <- recompile package:unable_to_merge_raster_demo/main.dart 13daa629-d7a6-4544-9ec4-52c62b2de8bd
+[        ] <- 13daa629-d7a6-4544-9ec4-52c62b2de8bd
+[   +1 ms] I/WebViewFactory(21277): Loading com.google.android.webview version 92.0.4515.131 (code 451513133)
+[   +7 ms] W/rge_raster_dem(21277): Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection,
+allowed)
+[   +1 ms] W/rge_raster_dem(21277): Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V
+(greylist, reflection, allowed)
+[   +1 ms] W/rge_raster_dem(21277): Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection,
+allowed)
+[   +1 ms] W/rge_raster_dem(21277): Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V
+(greylist, reflection, allowed)
+[        ] W/rge_raster_dem(21277): Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V
+(greylist, reflection, allowed)
+[        ] I/cr_WVCFactoryProvider(21277): Loaded version=92.0.4515.131 minSdkVersion=29 isBundle=true multiprocess=true
+packageId=2
+[  +20 ms] I/cr_LibraryLoader(21277): Successfully loaded native library
+[   +3 ms] I/cr_CachingUmaRecorder(21277): Flushed 8 samples from 8 histograms.
+[  +39 ms] I/TetheringManager(21277): registerTetheringEventCallback:com.example.unable_to_merge_raster_demo
+[  +15 ms] W/chromium(21277): [WARNING:dns_config_service_android.cc(153)] Failed to read DnsConfig.
+[   +7 ms] Updating files.
+[        ] DevFS: Sync finished
+[   +1 ms] Syncing files to device Redmi K20 Pro... (completed in 109ms)
+[        ] Synced 0.0MB.
+[   +1 ms] <- accept
+[   +5 ms] Connected to _flutterView/0xb4000077da0d6a20.
+[        ] Connected to _flutterView/0xb4000077da0d7e20.
+[   +3 ms] Flutter run key commands.
+[   +2 ms] r Hot reload. 🔥🔥🔥
+[   +1 ms] R Hot restart.
+[        ] h List all available interactive commands.
+[        ] d Detach (terminate "flutter run" but leave application running).
+[        ] c Clear the screen
+[        ] q Quit (terminate the application on the device).
+[        ] 💪 Running with sound null safety 💪
+[        ] An Observatory debugger and profiler on Redmi K20 Pro is available at: http://127.0.0.1:62148/UuYEr3xm4aY=/
+[  +19 ms] D/EgretLoader(21277): EgretLoader(Context context)
+[   +1 ms] D/EgretLoader(21277): The context is not activity
+[   +5 ms] W/rge_raster_dem(21277): Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I
+(greylist, reflection, allowed)
+[  +15 ms] W/cr_media(21277): Requires BLUETOOTH permission
+[   +9 ms] D/EgretLoader(21277): EgretLoader(Context context)
+[   +1 ms] D/EgretLoader(21277): The context is not activity
+[  +75 ms] DevTools activation throttled until 2021-08-10 03:50:21.362202.
+[ +138 ms]
+                    ══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+                    The following _CastError was thrown building FutureBuilder<WebViewController>(dirty, state:
+                    _FutureBuilderState<WebViewController>#0ccba):
+                    Null check operator used on a null value
+
+                    The relevant error-causing widget was:
+                      FutureBuilder<WebViewController>
+
+FutureBuilder:file:///C:/Users/Taha/StudioProjects/unable_to_merge_raster_demo/lib/main.dart:292:12
+
+                    When the exception was thrown, this was the stack:
+                    #0      NavigationControls.build.<anonymous closure>
+(package:unable_to_merge_raster_demo/main.dart:298:59)
+                    #1      _FutureBuilderState.build (package:flutter/src/widgets/async.dart:782:55)
+                    #2      StatefulElement.build (package:flutter/src/widgets/framework.dart:4782:27)
+                    #3      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:4665:15)
+                    #4      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:4840:11)
+                    #5      Element.rebuild (package:flutter/src/widgets/framework.dart:4355:5)
+                    #6      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:4643:5)
+                    #7      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:4831:11)
+                    #8      ComponentElement.mount (package:flutter/src/widgets/framework.dart:4638:5)
+                    ...     Normal element mounting (7 frames)
+                    #15     Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+                    #16     MultiChildRenderObjectElement.inflateWidget
+(package:flutter/src/widgets/framework.dart:6333:36)
+                    #17     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+                    ...     Normal element mounting (19 frames)
+                    #36     Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+                    #37     MultiChildRenderObjectElement.inflateWidget
+(package:flutter/src/widgets/framework.dart:6333:36)
+                    #38     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+                    ...     Normal element mounting (129 frames)
+                    #167    Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+                    #168    MultiChildRenderObjectElement.inflateWidget
+(package:flutter/src/widgets/framework.dart:6333:36)
+                    #169    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+                    ...     Normal element mounting (261 frames)
+                    #430    Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+                    #431    MultiChildRenderObjectElement.inflateWidget
+(package:flutter/src/widgets/framework.dart:6333:36)
+                    #432    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+                    ...     Normal element mounting (371 frames)
+                    #803    Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+                    #804    Element.updateChild (package:flutter/src/widgets/framework.dart:3425:18)
+                    #805    RenderObjectToWidgetElement._rebuild (package:flutter/src/widgets/binding.dart:1198:16)
+                    #806    RenderObjectToWidgetElement.mount (package:flutter/src/widgets/binding.dart:1167:5)
+                    #807    RenderObjectToWidgetAdapter.attachToRenderTree.<anonymous closure>
+                    (package:flutter/src/widgets/binding.dart:1112:18)
+                    #808    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2573:19)
+                    #809    RenderObjectToWidgetAdapter.attachToRenderTree
+(package:flutter/src/widgets/binding.dart:1111:13)
+                    #810    WidgetsBinding.attachRootWidget (package:flutter/src/widgets/binding.dart:944:7)
+                    #811    WidgetsBinding.scheduleAttachRootWidget.<anonymous closure>
+(package:flutter/src/widgets/binding.dart:924:7)
+                    (elided 11 frames from class _RawReceivePortImpl, class _Timer, dart:async, and dart:async-patch)
+
+                    ════════════════════════════════════════════════════════════════════════════════════════════════════
+[  +48 ms]
+           ══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+           The following _CastError was thrown building FutureBuilder<WebViewController>(dirty, state:
+           _FutureBuilderState<WebViewController>#ba61c):
+           Null check operator used on a null value
+
+           The relevant error-causing widget was:
+             FutureBuilder<WebViewController>
+             FutureBuilder:file:///C:/Users/Taha/StudioProjects/unable_to_merge_raster_demo/lib/main.dart:292:12
+
+           When the exception was thrown, this was the stack:
+           #0      NavigationControls.build.<anonymous closure> (package:unable_to_merge_raster_demo/main.dart:298:59)
+           #1      _FutureBuilderState.build (package:flutter/src/widgets/async.dart:782:55)
+           #2      StatefulElement.build (package:flutter/src/widgets/framework.dart:4782:27)
+           #3      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:4665:15)
+           #4      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:4840:11)
+           #5      Element.rebuild (package:flutter/src/widgets/framework.dart:4355:5)
+           #6      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:4643:5)
+           #7      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:4831:11)
+           #8      ComponentElement.mount (package:flutter/src/widgets/framework.dart:4638:5)
+           ...     Normal element mounting (7 frames)
+           #15     Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+           #16     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:6333:36)
+           #17     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+           ...     Normal element mounting (19 frames)
+           #36     Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+           #37     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:6333:36)
+           #38     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+           ...     Normal element mounting (129 frames)
+           #167    Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+           #168    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:6333:36)
+           #169    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+           ...     Normal element mounting (261 frames)
+           #430    Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+           #431    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:6333:36)
+           #432    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:6344:32)
+           ...     Normal element mounting (371 frames)
+           #803    Element.inflateWidget (package:flutter/src/widgets/framework.dart:3673:14)
+           #804    Element.updateChild (package:flutter/src/widgets/framework.dart:3425:18)
+           #805    RenderObjectToWidgetElement._rebuild (package:flutter/src/widgets/binding.dart:1198:16)
+           #806    RenderObjectToWidgetElement.mount (package:flutter/src/widgets/binding.dart:1167:5)
+           #807    RenderObjectToWidgetAdapter.attachToRenderTree.<anonymous closure>
+           (package:flutter/src/widgets/binding.dart:1112:18)
+           #808    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:2573:19)
+           #809    RenderObjectToWidgetAdapter.attachToRenderTree (package:flutter/src/widgets/binding.dart:1111:13)
+           #810    WidgetsBinding.attachRootWidget (package:flutter/src/widgets/binding.dart:944:7)
+           #811    WidgetsBinding.scheduleAttachRootWidget.<anonymous closure>
+(package:flutter/src/widgets/binding.dart:924:7)
+           (elided 11 frames from class _RawReceivePortImpl, class _Timer, dart:async, and dart:async-patch)
+
+           ════════════════════════════════════════════════════════════════════════════════════════════════════
+[ +273 ms]
+                    Another exception was thrown: A RenderFlex overflowed by 99655 pixels on the right.
+[  +68 ms] I/flutter (21277): WebView is loading (progress : 10%)
+[   +1 ms] I/flutter (21277): Page started loading: https://flutter.dev/
+[   +1 ms] I/flutter (21277): WebView is loading (progress : 70%)
+[   +7 ms]
+           Another exception was thrown: A RenderFlex overflowed by 99655 pixels on the right.
+[  +76 ms] I/flutter (21277): WebView is loading (progress : 10%)
+[   +2 ms] I/flutter (21277): Page started loading: https://flutter.dev/
+[        ] I/flutter (21277): WebView is loading (progress : 70%)
+[  +48 ms] W/ContentCatcher(21277): Failed to notify a WebView
+[   +4 ms] The Flutter DevTools debugger and profiler on Redmi K20 Pro is available at:
+           http://127.0.0.1:9101?uri=http://127.0.0.1:62148/UuYEr3xm4aY=/
+[  +71 ms] F/flutter (21277): [FATAL:flutter/fml/raster_thread_merger.cc(48)] Check failed: success. Unable to merge the
+raster and platform threads.
+[ +258 ms] F/libc    (21277): Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 21328 (2.raster), pid 21277
+(rge_raster_demo)
+[ +245 ms] *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[   +1 ms] Build fingerprint: 'Xiaomi/raphaelin/raphaelin:11/RKQ1.200826.002/V12.5.1.0.RFKINXM:user/release-keys'
+[        ] Revision: '0'
+[        ] ABI: 'arm64'
+[        ] Timestamp: 2021-08-09 18:04:49+0300
+[        ] pid: 21277, tid: 21328, name: 2.raster  >>> com.example.unable_to_merge_raster_demo <<<
+[        ] uid: 10286
+[        ] signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+[        ] Abort message: '[FATAL:flutter/fml/raster_thread_merger.cc(48)] Check failed: success. Unable to merge the
+raster and platform threads.
+[        ] '
+[   +1 ms]     x0  0000000000000000  x1  0000000000005350  x2  0000000000000006  x3  00000077c0a770a0
+[        ]     x4  00000078cbf80000  x5  00000078cbf80000  x6  00000078cbf80000  x7  000000000516c50c
+[        ]     x8  00000000000000f0  x9  a83c0e9d941fca9a  x10 0000000000000000  x11 ffffffc0fffffbdf
+[        ]     x12 0000000000000001  x13 0000000061114410  x14 001d42ff30b50a7f  x15 000050a99e14d12d
+[        ]     x16 00000078c6fe0948  x17 00000078c6fbd490  x18 00000077c01bc000  x19 000000000000531d
+[        ]     x20 0000000000005350  x21 00000000ffffffff  x22 0000000000000000  x23 b4000077c4176080
+[        ]     x24 0000000000000000  x25 00000077c0a78000  x26 0000000000000000  x27 0000000000000061
+[        ]     x28 0000000000000001  x29 00000077c0a77120
+[        ]     lr  00000078c6f6ccf8  sp  00000077c0a77080  pc  00000078c6f6cd24  pst 0000000000000000
+[        ] backtrace:
+[        ]       #00 pc 000000000008cd24  /apex/com.android.runtime/lib64/bionic/libc.so (abort+164) (BuildId:
+d2bad1502ac7810a2cce958ef2191244)
+[        ]       #01 pc 000000000145605c
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[   +1 ms]       #02 pc 00000000014818e0
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #03 pc 0000000001483eb0
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #04 pc 00000000014cb484
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #05 pc 000000000146f1b8
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #06 pc 00000000014bafec
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #07 pc 00000000014bbb4c
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #08 pc 00000000014bc52c
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #09 pc 00000000014bb4d4
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #10 pc 00000000014bb220
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #11 pc 00000000014c6454
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[   +1 ms]       #12 pc 0000000001482510
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[   +1 ms]       #13 pc 0000000001487d38
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #14 pc 000000000001a4c0  /system/lib64/libutils.so (android::Looper::pollInner(int)+896) (BuildId:
+6b453123259887cd16e522119154597b)
+[        ]       #15 pc 000000000001a0d8  /system/lib64/libutils.so (android::Looper::pollOnce(int, int*, int*,
+void**)+112) (BuildId: 6b453123259887cd16e522119154597b)
+[        ]       #16 pc 0000000000012c80  /system/lib64/libandroid.so (ALooper_pollOnce+100) (BuildId:
+1de3e781b6ea26b4fc6ce34e027787a9)
+[        ]       #17 pc 0000000001487cc0
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #18 pc 0000000001482458
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #19 pc 00000000014856bc
+/data/app/~~jFYtrIqCeSMEXn8vf4Nj-g==/com.example.unable_to_merge_raster_demo-ln8qVT3jnEm90yUeIWeRcA==/lib/arm64/libflutt
+er.so (BuildId: 1e8898013e95f709d93a61b161ce6ad0215a3461)
+[        ]       #20 pc 00000000000f4204  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64)
+(BuildId: d2bad1502ac7810a2cce958ef2191244)
+[        ]       #21 pc 000000000008ec64  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId:
+d2bad1502ac7810a2cce958ef2191244)
+[ +414 ms] Service protocol connection closed.
+[   +1 ms] Lost connection to device.
+[   +2 ms] executing: C:\Users\Taha\Code\android-sdk\platform-tools\adb.exe -s def0ad20 forward --list
+[  +18 ms] Exit code 0 from: C:\Users\Taha\Code\android-sdk\platform-tools\adb.exe -s def0ad20 forward --list
+[        ] def0ad20 tcp:62145 tcp:39251
+[   +1 ms] executing: C:\Users\Taha\Code\android-sdk\platform-tools\adb.exe -s def0ad20 forward --remove tcp:62145
+[  +20 ms] DevFS: Deleting filesystem on the device
+(file:///data/user/0/com.example.unable_to_merge_raster_demo/code_cache/unable_to_merge_raster_demoFCGEAF/unable_to_merg
+e_raster_demo/)
+[ +258 ms] Ignored error while cleaning up DevFS: TimeoutException after 0:00:00.250000: Future not completed
+[   +4 ms] executing: C:\Users\Taha\Code\android-sdk\platform-tools\adb.exe -s def0ad20 forward --list
+[  +24 ms] Exit code 0 from: C:\Users\Taha\Code\android-sdk\platform-tools\adb.exe -s def0ad20 forward --list
+[   +2 ms] "flutter run" took 31,465ms.
+[  +71 ms] ensureAnalyticsSent: 68ms
+[   +1 ms] Running shutdown hooks
+[        ] Shutdown hooks complete
+[   +1 ms] exiting with code 0
+PS C:\Users\Taha\StudioProjects\unable_to_merge_raster_demo>

@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell pm query-services <intent>
+adb shell pm install-streaming
+adb shell pm clear-permission-flags

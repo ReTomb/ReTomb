@@ -1,0 +1,4 @@
+adb shell pm dump <packagename>
+adb shell pm suspend
+adb shell pm unhide
+adb shell pm disable-user

@@ -1,0 +1,65 @@
+-------- beginning of system
+02-09 17:49:05.185 V/ActivityThread( 4280): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 17:49:30.565 V/ActivityThread( 6222): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 17:52:47.351 V/ActivityThread( 6222): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 17:53:02.472 V/ActivityThread( 6946): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 17:56:15.424 V/ActivityThread( 6946): reportTopResumedActivityChanged - > onActivityTopResumed
+--------- beginning of crash
+02-09 17:57:42.949 F/libc ( 6946): Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x10 in tid 7079 (Thread-247), pid 6946 (reader.launcher)
+02-09 17:57:43.125 F/DEBUG ( 7305): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-09 17:57:43.125 F/DEBUG ( 7305): Build fingerprint: 'ONYX/BOOX/BOOX:11/RKQ1.210614.002/200:userdebug/release-keys'
+02-09 17:57:43.125 F/DEBUG ( 7305): Revision: '0'
+02-09 17:57:43.125 F/DEBUG ( 7305): ABI: 'arm64'
+02-09 17:57:43.126 F/DEBUG ( 7305): Timestamp: 2023-02-09 17:57:43+0800
+02-09 17:57:43.126 F/DEBUG ( 7305): pid: 6946, tid: 7079, name: Thread-247 >>> org.koreader.launcher <<<
+02-09 17:57:43.126 F/DEBUG ( 7305): uid: 10149
+02-09 17:57:43.126 F/DEBUG ( 7305): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x10
+02-09 17:57:43.126 F/DEBUG ( 7305): Cause: null pointer dereference
+02-09 17:57:43.127 F/DEBUG ( 7305): x0 0000000000000000 x1 0000000000000002 x2 0000006d859d93b4 x3 0000000000001180
+02-09 17:57:43.127 F/DEBUG ( 7305): x4 b4000070034f31b8 x5 0000000000000000 x6 0000000000000000 x7 0000000000000000
+02-09 17:57:43.127 F/DEBUG ( 7305): x8 43ad39eb8d2a468c x9 ffffffffffffffff x10 0000006de77fd320 x11 0000006d85973eec
+02-09 17:57:43.127 F/DEBUG ( 7305): x12 7c5d39f5fc41f257 x13 58c7dae7bbf97765 x14 000000000000000d x15 fffffffffffffff5
+02-09 17:57:43.127 F/DEBUG ( 7305): x16 0000006d85d50ae0 x17 00000070e588f120 x18 0000006de77fd180 x19 0000000000000010
+02-09 17:57:43.127 F/DEBUG ( 7305): x20 b400006e734398c0 x21 0000000000000ff8 x22 0000000000000000 x23 0000006de77fd4b8
+02-09 17:57:43.127 F/DEBUG ( 7305): x24 0000000000000000 x25 0000000000000003 x26 0000000000000000 x27 0000006d8413c5a8
+02-09 17:57:43.127 F/DEBUG ( 7305): x28 0000006de77fd458 x29 0000006de77fd390
+02-09 17:57:43.127 F/DEBUG ( 7305): lr 0000006d8599558c sp 0000006de77fd2f0 pc 0000006d859955a4 pst 0000000080000000
+02-09 17:57:43.137 F/DEBUG ( 7305): backtrace:
+02-09 17:57:43.137 F/DEBUG ( 7305): NOTE: Function names and BuildId information is missing for some frames due
+02-09 17:57:43.137 F/DEBUG ( 7305): NOTE: to unreadable libraries. For unwinds of apps, only shared libraries
+02-09 17:57:43.137 F/DEBUG ( 7305): NOTE: found under the lib/ directory are readable.
+02-09 17:57:43.137 F/DEBUG ( 7305): #00 pc 000000000008e5a4 /data/data/org.koreader.launcher/files/libs/libmupdf.so
+02-09 17:57:43.137 F/DEBUG ( 7305): #1 pc 000000000015ea94 /data/data/org.koreader.launcher/files/libs/libmupdf.so
+02-09 17:57:43.137 F/DEBUG ( 7305): #2 pc 000000000006cf4c /data/data/org.koreader.launcher/files/libs/libmupdf.so
+02-09 17:57:43.137 F/DEBUG ( 7305): #3 pc 000000000000c198 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #4 pc 00000000000521dc /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #5 pc 00000000000551b8 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #6 pc 000000000000a440 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #7 pc 000000000001b1b8 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #8 pc 0000000000043398 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #9 pc 000000000000a840 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #10 pc 000000000006a978 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so (lua_close+148)
+02-09 17:57:43.138 F/DEBUG ( 7305): #11 pc 000000000006aa38 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #12 pc 000000000000a440 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #13 pc 000000000006b8a8 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #14 pc 000000000000a440 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #15 pc 000000000006b8a8 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #16 pc 000000000000a440 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so
+02-09 17:57:43.138 F/DEBUG ( 7305): #17 pc 000000000006a014 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit.so (lua_pcall+108)
+02-09 17:57:43.138 F/DEBUG ( 7305): #18 pc 0000000000001e68 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit-launcher.so (android_main+468) (BuildId: 511007160648b955b316ceecbe2f82744869cf51)
+02-09 17:57:43.138 F/DEBUG ( 7305): #19 pc 00000000000034a0 /data/app/~~OKVWeIoVs0y0-FYDeoOVUA==/org.koreader.launcher-_fN9mhWgk5wcjc2CmW2DvA==/lib/arm64/libluajit-launcher.so (BuildId: 511007160648b955b316ceecbe2f82744869cf51)
+02-09 17:57:43.138 F/DEBUG ( 7305): #20 pc 00000000000b0048 /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+64) (BuildId: 8d77279a411c99f8bc6edb79c76340fb)
+02-09 17:57:43.138 F/DEBUG ( 7305): #21 pc 00000000000503c8 /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 8d77279a411c99f8bc6edb79c76340fb)
+02-09 17:57:49.888 V/ActivityThread( 7360): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:38:47.145 V/ActivityThread(10227): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:39:05.612 W/ViewRootImplMainActivity: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=639.7726, y[0]=1621.3822, toolType[0]=TOOL_TYPE_STYLUS, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3035529, downTime=3034860, deviceId=6, source=0x5002, displayId=0 }
+02-09 18:39:05.612 W/ViewRootImplMainActivity: Cancelling event due to no window focus: MotionEvent { action=ACTION_CANCEL, actionButton=0, id[0]=0, x[0]=639.7726, y[0]=1621.3822, toolType[0]=TOOL_TYPE_STYLUS, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=3035529, downTime=3034860, deviceId=6, source=0x5002, displayId=0 }
+02-09 18:39:31.912 V/ActivityThread(10227): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:39:47.853 V/ActivityThread(10490): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:39:52.109 V/ActivityThread(10547): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:40:17.299 V/ActivityThread(10547): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:40:46.817 V/ActivityThread(10547): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:40:53.964 V/ActivityThread(10547): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:41:00.756 V/ActivityThread(10547): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:41:31.648 V/ActivityThread(10733): reportTopResumedActivityChanged - > onActivityTopResumed
+02-09 18:45:35.762 V/ActivityThread(10733): reportTopResumedActivityChanged - > onActivityTopResumed

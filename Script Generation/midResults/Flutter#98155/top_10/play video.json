@@ -1,0 +1,12 @@
+{
+  "Input runText string text": "0.85298115",
+  "PackageManagerShellCommand runSuspend state ture": "0.7946536",
+  "PackageManagerShellCommand runSetHiddenSetting state false": "0.7374086",
+  "PackageManagerShellCommand runSuspend state false": "0.7374086",
+  "PackageManagerShellCommand runSetHiddenSetting state true": "0.66440946",
+  "PackageManagerShellCommand runGrantRevokePermission false": "0.6350886",
+  "PackageManagerShellCommand setOrClearPermissionFlags false": "0.6350886",
+  "PackageManagerShellCommand runWaitForHandler false": "0.6350886",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_ENABLED": "0.6125059",
+  "PackageManagerShellCommand runSetEnabledSetting PackageManager.COMPONENT_ENABLED_STATE_DEFAULT": "0.6087101"
+}

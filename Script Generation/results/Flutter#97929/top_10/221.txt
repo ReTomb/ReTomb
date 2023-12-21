@@ -1,0 +1,3 @@
+adb shell am broadcast <packagename.intent>
+adb shell am compact <packagename>
+adb shell am to-uri <intent>

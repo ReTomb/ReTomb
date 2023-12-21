@@ -1,0 +1,2 @@
+adb shell am runTraceIpc <file>
+adb shell am dumpheap <file>

@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm enable <packagename>
+adb shell pm clear-permission-flags
+adb shell pm hide

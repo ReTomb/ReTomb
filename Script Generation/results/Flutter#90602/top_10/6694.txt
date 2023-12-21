@@ -1,0 +1,4 @@
+adb shell am runTraceIpc <file>
+adb shell am instrument <packagename.component>
+adb shell am dumpheap <file>
+adb shell am compact <packagename>

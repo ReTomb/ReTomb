@@ -1,0 +1,5 @@
+adb shell am freeze <packagename>
+adb shell am start <packagename.activity>
+adb shell am dumpheap <file>
+adb shell am dumpheap <file>
+adb shell am instrument <packagename.component>

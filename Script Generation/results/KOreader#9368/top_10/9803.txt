@@ -1,0 +1,4 @@
+adb shell am profile <file>
+adb shell am instrument <packagename.component>
+adb shell input text <text>
+adb shell input keyevent 

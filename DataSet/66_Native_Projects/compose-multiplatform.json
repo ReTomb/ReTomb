@@ -1,0 +1,18 @@
+[
+    {
+        "repository": "JetBrains/compose-multiplatform",
+        "SIGSEGV": [
+            3411,
+            1701,
+            486,
+            444,
+            17
+        ],
+        "SIGABRT": [
+            3396,
+            1934,
+            1911,
+            1235
+        ]
+    }
+]

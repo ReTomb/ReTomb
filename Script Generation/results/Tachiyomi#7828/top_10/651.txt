@@ -1,0 +1,3 @@
+adb shell pm dump <packagename>
+adb shell pm path <packagename>
+adb shell pm suspend

@@ -1,0 +1,5 @@
+adb shell input press <x,y>
+adb shell input press <x,y>
+adb shell am to-uri <intent>
+adb shell am instrument <packagename.component>
+adb shell input tap <x,y>

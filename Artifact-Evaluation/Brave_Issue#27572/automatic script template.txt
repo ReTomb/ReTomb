@@ -1,0 +1,15 @@
+adb shell am start <package name>
+
+adb shell input tap <x,y>
+
+abd shell input tap <x,y>
+
+abd shell input tap <x,y>
+
+adb shell input tap <x,y>
+
+adb shell input tap <x,y>
+
+adb shell input text <text>
+
+adb shell input keyevent x

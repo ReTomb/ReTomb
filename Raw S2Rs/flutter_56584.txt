@@ -1,0 +1,1 @@
+ I created a new app with the webview plugin on 0.3.21As soon as i open a dropdown with a selector, the app crashes.

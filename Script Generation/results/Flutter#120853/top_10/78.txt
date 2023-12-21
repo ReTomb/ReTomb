@@ -1,0 +1,4 @@
+adb shell am to-uri <intent>
+adb shell am to-uri <intent>
+adb shell am runTraceIpc <file>
+adb shell am runTraceIpc <file>

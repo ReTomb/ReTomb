@@ -1,0 +1,5 @@
+#Steps to reproduce
+
+- Open "Martial art Reigns" from "MangaSco" extension
+- Open chapter 492 or 493
+- Chapter 492 crashes Tachiyomi instantly, chapter 493 crashes when scrolling to the IMG at fault

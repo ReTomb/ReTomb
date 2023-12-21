@@ -1,0 +1,5 @@
+adb shell inpur roll <x,y> 
+adb shell input keyevent 
+adb shell input tap <x,y>
+adb shell am compact <packagename>
+adb shell am to-uri <intent>

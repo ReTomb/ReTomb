@@ -1,0 +1,54 @@
+Performing hot reload...
+Syncing files to device Android SDK built for x86...
+Reloaded 1 of 618 libraries in 458ms.
+E/Surface ( 3561): getSlotFromBufferLocked: unknown buffer: 0xf5362790
+E/chromium( 3561): [ERROR:aw_browser_terminator.cc(125)] Renderer process (3714) crash detected (code -1).
+W/GooglePlayServicesUtil( 3561): Google Play Store is missing.
+W/GooglePlayServicesUtil( 3561): Google Play Store is missing.
+E/cr_PlatformSer-Internal( 3561): UsageReporting query failed
+E/flutter ( 3561): [ERROR:flutter/fml/platform/android/jni_util.cc(211)] java.lang.RuntimeException: Methods marked with @UiThread must be executed on the main thread. Current thread: 1.raster
+E/flutter ( 3561): 	at io.flutter.embedding.engine.FlutterJNI.ensureRunningOnMainThread(FlutterJNI.java:1405)
+E/flutter ( 3561): 	at io.flutter.embedding.engine.FlutterJNI.destroyOverlaySurfaces(FlutterJNI.java:1174)
+E/flutter ( 3561):
+F/flutter ( 3561): [FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1559)] Check failed: fml::jni::CheckException(env).
+F/libc    ( 3561): Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 3591 (1.raster), pid 3561 (om.example.test)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'Android/sdk_phone_x86/generic_x86:11/RSR1.210210.001.A1/7193139:userdebug/dev-keys'
+Revision: '0'
+ABI: 'x86'
+Timestamp: 2022-02-03 20:43:38+0000
+pid: 3561, tid: 3591, name: 1.raster  >>> com.example.test <<<
+uid: 10121
+signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+Abort message: '[FATAL:flutter/shell/platform/android/platform_view_android_jni_impl.cc(1559)] Check failed: fml::jni::CheckException(env).
+'
+    eax 00000000  ebx 00000de9  ecx 00000e07  edx 00000006
+    edi f17cc81e  esi c4603ac0
+    ebp f5db9b90  esp c4603a68  eip f5db9b99
+backtrace:
+      #00 pc 00000b99  [vdso] (__kernel_vsyscall+9)
+      #01 pc 0005ad68  /apex/com.android.runtime/lib/bionic/libc.so (syscall+40) (BuildId: 6e3a0180fa6637b68c0d181c343e6806)
+      #02 pc 00076511  /apex/com.android.runtime/lib/bionic/libc.so (abort+209) (BuildId: 6e3a0180fa6637b68c0d181c343e6806)
+      #03 pc 01423bea  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #04 pc 0144f149  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #05 pc 01430f82  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #06 pc 01c823c0  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #07 pc 01c80a88  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #08 pc 0185d247  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #09 pc 0186caa1  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #10 pc 0144c309  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #11 pc 0145041b  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #12 pc 0145032c  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #13 pc 0145873c  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #14 pc 0145876a  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #15 pc 00019337  /system/lib/libutils.so (android::SimpleLooperCallback::handleEvent(int, int, void*)+39) (BuildId: ab4be013cda31e8c45d48aa23a89d0f8)
+      #16 pc 0001a367  /system/lib/libutils.so (android::Looper::pollInner(int)+1127) (BuildId: ab4be013cda31e8c45d48aa23a89d0f8)
+      #17 pc 00019e96  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+118) (BuildId: ab4be013cda31e8c45d48aa23a89d0f8)
+      #18 pc 000133f5  /system/lib/libandroid.so (ALooper_pollOnce+101) (BuildId: f98006d4d736575082b552ff24b66f6c)
+      #19 pc 0145867f  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #20 pc 014502da  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #21 pc 0144fe02  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #22 pc 01455525  /data/app/~~jN8_Zuyx1u6wq27-kddn2Q==/com.example.test-9iMLWaJzI2BaJ89uott8kA==/lib/x86/libflutter.so (BuildId: bc2674e80bf793e9ed9bda34fe5506c5127bf8df)
+      #23 pc 000e6974  /apex/com.android.runtime/lib/bionic/libc.so (__pthread_start(void*)+100) (BuildId: 6e3a0180fa6637b68c0d181c343e6806)
+      #24 pc 00078567  /apex/com.android.runtime/lib/bionic/libc.so (__start_thread+71) (BuildId: 6e3a0180fa6637b68c0d181c343e6806)
+Lost connection to device.

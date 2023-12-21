@@ -1,0 +1,4 @@
+adb shell pm unhide
+adb shell pm query-activities <intent>
+adb shell pm install <packagename>
+adb shell pm unsuspend

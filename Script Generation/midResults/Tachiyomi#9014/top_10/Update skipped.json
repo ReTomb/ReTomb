@@ -1,0 +1,12 @@
+{
+  "Input runTap float x float y": "0.74591035",
+  "PackageManagerShellCommand runSetHiddenSetting state true": "0.73383427",
+  "PackageManagerShellCommand runSetHiddenSetting state false": "0.73376036",
+  "PackageManagerShellCommand runSuspend state false": "0.73376036",
+  "Input runText string text": "0.7332824",
+  "ActivityManagerShellCommand runStartActivity printwriter pw": "0.72926456",
+  "ActivityManagerShellCommand runSendBroadcast printwriter pw": "0.7248567",
+  "ActivityManagerShellCommand runCompact printwriter pw": "0.7248567",
+  "ActivityManagerShellCommand runFreeze printwriter pw": "0.7248567",
+  "ActivityManagerShellCommand runUnfreeze printwriter pw": "0.7248567"
+}

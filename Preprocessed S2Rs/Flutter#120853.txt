@@ -1,0 +1,1 @@
+start application Aswitch to backgroundwait 10 minutesopen App A

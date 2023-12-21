@@ -1,0 +1,3 @@
+on main screen make sure ads are getting loaded
+on main screen press Move to Screen 2 (or do it from Drawer)
+on Screen 2 press Get Image

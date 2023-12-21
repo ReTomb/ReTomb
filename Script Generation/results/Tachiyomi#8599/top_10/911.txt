@@ -1,0 +1,3 @@
+adb shell am dumpheap <file>
+adb shell am start <packagename.activity>
+adb shell am to-uri <intent>

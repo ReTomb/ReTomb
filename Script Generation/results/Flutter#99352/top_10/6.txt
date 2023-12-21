@@ -1,0 +1,3 @@
+adb shell input text <text>
+adb shell input text <text>
+adb shell input press <x,y>

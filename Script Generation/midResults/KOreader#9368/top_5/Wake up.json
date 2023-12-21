@@ -1,0 +1,7 @@
+{
+  "Input runText string text": "0.7500291",
+  "Input runTap float x float y": "0.4173277",
+  "Input runKeyEvent int keyCode": "0.3496425",
+  "ActivityManagerShellCommand runToUri printwriter pw int flags": "0.34263235",
+  "Input runPress int inputSource int displayId": "0.30312505"
+}

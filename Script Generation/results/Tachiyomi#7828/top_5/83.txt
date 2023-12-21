@@ -1,0 +1,3 @@
+adb shell pm unsuspend
+adb shell pm suspend
+adb shell pm unsuspend

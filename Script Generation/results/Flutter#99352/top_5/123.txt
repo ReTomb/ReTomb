@@ -1,0 +1,3 @@
+adb shell input keycombination <x,y>
+adb shell input keycombination <x,y>
+adb shell input keyevent 

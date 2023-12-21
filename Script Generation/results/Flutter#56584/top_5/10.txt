@@ -1,0 +1,2 @@
+adb shell am start <packagename.activity>
+adb shell am freeze <packagename>

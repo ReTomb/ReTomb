@@ -1,0 +1,8 @@
+[
+    {
+        "repository": "greenrobot/greenDAO",
+        "SIGSEGV": [
+            745
+        ]
+    }
+]

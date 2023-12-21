@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell am broadcast <packagename.intent>
+adb shell am start <packagename.activity>
+adb shell input tap <x,y>

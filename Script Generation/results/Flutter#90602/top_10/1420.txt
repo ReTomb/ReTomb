@@ -1,0 +1,4 @@
+adb shell am broadcast <packagename.intent>
+adb shell am freeze <packagename>
+adb shell am stopservice <packagename.intent>
+adb shell am dumpheap <file>

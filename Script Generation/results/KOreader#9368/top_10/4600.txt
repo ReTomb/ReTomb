@@ -1,0 +1,4 @@
+adb shell am compact <packagename>
+adb shell am compact <packagename>
+adb shell am profile <file>
+adb shell input swipe <x1,y1> <x2,y2>

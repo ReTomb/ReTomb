@@ -1,0 +1,113 @@
+--------- beginning of perf
+--------- beginning of system
+--------- beginning of main
+08-20 20:46:15.472 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:15.509 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:15.584 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:15.596 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:29.252 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:29.325 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:29.430 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:29.444 15759 17940 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:46:33.353 15759 15759 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:46:33.361 15759 15759 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:46:34.273 15759 15759 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: Failed to initialise bitmap decoder
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: java.lang.Exception: Image decoder failed to initialize and get image size
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at com.davemorrissey.labs.subscaleview.decoder.ImageDecoder.init(ImageDecoder.java:6)
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask.doInBackground(SubsamplingScaleImageView.java:8)
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask.doInBackground(SubsamplingScaleImageView.java:1)
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+08-20 20:46:41.282 15759 14039 E SubsamplingScaleImageView: 	at java.lang.Thread.run(Thread.java:923)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: Failed to initialise bitmap decoder
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: java.lang.Exception: Image decoder failed to initialize and get image size
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at com.davemorrissey.labs.subscaleview.decoder.ImageDecoder.init(ImageDecoder.java:6)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask.doInBackground(SubsamplingScaleImageView.java:8)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView$TilesInitTask.doInBackground(SubsamplingScaleImageView.java:1)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+08-20 20:46:41.282 15759 17982 E SubsamplingScaleImageView: 	at java.lang.Thread.run(Thread.java:923)
+08-20 20:47:06.180  3381  3381 E tachiyomi.debu: Unknown bits set in runtime_flags: 0x800000
+08-20 20:47:06.189  3381  3381 E tachiyomi.debu: Not starting debugger since process cannot load the jdwp agent.
+08-20 20:47:06.325  3381  3381 E Config:Grabber:OnePlusFontConfig: Index 0 requested, with a size of 0
+08-20 20:47:06.329  3381 18155 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:06.337  3381 18155 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:06.385  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:06.443  3381  3381 E tachiyomi.debu: [frame_perf] perfboost open tb_ctl file failed, isApp[1], errno=No such file or directory
+08-20 20:47:06.445  3381  3381 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+08-20 20:47:06.459  3381 18164 E SQLiteLog: (283) recovered 233 frames from WAL file /data/user/0/eu.kanade.tachiyomi.debug/databases/tachiyomi.db-wal
+08-20 20:47:06.518  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:06.544  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:07.221  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:07.875  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:07.898  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:07.936  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:09.125  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:09.125  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:09.237  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:09.237  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:09.562  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:09.580  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:10.228  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:10.298  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:16.136  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:16.159  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:16.203  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:16.203  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:16.204  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.559  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.626  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.758  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.765  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.765  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.766  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.774  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.808  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.810  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.812  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.824  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:17.995  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:18.007  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:18.011  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:18.024  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:18.026  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:47:20.576  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:20.616  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:22.607  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:47:22.619  3381 18154 E sqlite3_android: [IKR-38846] ONEPLUS_NAME_PARTS_MATCH SQLITE_OK
+08-20 20:48:15.962  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:15.978  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:15.979  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:15.983  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:16.013  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:16.015  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:16.015  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:16.016  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.564  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.569  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.570  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.572  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.581  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.581  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.582  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.585  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.585  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.585  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.586  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.586  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.586  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.587  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+08-20 20:48:17.597  3381  3381 E tachiyomi.debu: Invalid ID 0x00000000.
+App version: 0.13.6-4799 (standard, daaa23e8e, 82, 2022-08-14T15:33Z)
+Android version: 11 (SDK 30)
+Android build ID: GM1903_14_220617
+Device brand: OnePlus
+Device manufacturer: OnePlus
+Device name: OnePlus7
+Device model: GM1903
+Device product name: OnePlus7_EEA

@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell pm revoke
+adb shell pm dump <packagename>
+adb shell pm unhide

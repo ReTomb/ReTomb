@@ -1,0 +1,5 @@
+adb shell am start <packagename.activity>
+adb shell input keycombination <x,y>
+adb shell am to-uri <intent>
+adb shell input keyevent 
+adb shell am to-uri <intent>

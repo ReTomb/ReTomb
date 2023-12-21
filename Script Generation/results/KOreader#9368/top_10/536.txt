@@ -1,0 +1,4 @@
+adb shell input text <text>
+adb shell am compact <packagename>
+adb shell am broadcast <packagename.intent>
+adb shell input keycombination <x,y>

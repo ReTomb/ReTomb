@@ -1,0 +1,4 @@
+adb shell pm clear-permission-flags
+adb shell input text <text>
+adb shell pm suspend
+adb shell pm default-state
