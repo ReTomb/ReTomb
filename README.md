@@ -6,14 +6,14 @@ ReTomb is an automated approach to reproducing tombstones from native crash repo
 
 ReTomb takes a native crash report as input and returns the result of reproducing tombstones as output. We introduce the dataset and source code for the ReTomb.
 
-## 2. The details of the Dataset
+## 2. Details of the Dataset
 
 The `DataSet` directory  includes our experimental data:
 
-- **Projects information**: 66 native projects from top-180 Android open-source projects in GitHub.
-- **Native crash report**: 34 whole native crash reports from randomly selected 400 reports.
-- **Train dataset**: 1816 out of 2216 native crash reports.
-- **Test dataset**: 34 whole native crash reports.
+- **Project information**: 66 projects from top-180 Android open-source projects in GitHub.
+- **Native crash report**: 34 native crash reports from randomly selected 400 reports.
+- **Training dataset**: 1816 out of 2216 native crash reports.
+- **Test dataset**: 34 native crash reports.
 
 ## 3. Requirements
 
@@ -27,17 +27,17 @@ The `DataSet` directory  includes our experimental data:
 
 - Python 3.10.9
 
-  - uiautomator==1.0.2
+  - uiautomator=1.0.2
 
-  - gensim==4.3.1
+  - gensim=4.3.1
 
-  - scikit-learn==1.3.0
+  - scikit-learn=1.3.0
 
-  - spacy==3.7.2
+  - spacy=3.7.2
 
-  - request==2.28.2
+  - request=2.28.2
 
-  - beautifulsoup4==4.12.2
+  - beautifulsoup4=4.12.2
 ## 4. Run ReTomb on Windows
 - Launch Android Studio and Android emulator
 
