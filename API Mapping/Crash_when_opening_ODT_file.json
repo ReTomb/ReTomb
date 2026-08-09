@@ -1,0 +1,42 @@
+[
+  {
+    "api_feature": "ActivityManagerShellCommand runUnfreeze printwriter pw",
+    "score": 0.25360307097435
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runClearExitInfo printwriter pw",
+    "score": 0.24508036673069
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runFreeze printwriter pw",
+    "score": 0.24130772054195404
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runDisplay printwriter pw",
+    "score": 0.2366982400417328
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runPackageImportance printwriter pw",
+    "score": 0.22565549612045288
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runWaitForBroadcastIdle printwriter pw",
+    "score": 0.22400802373886108
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runIdleMaintenance printwriter pw",
+    "score": 0.22283242642879486
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runSetDebugApp printwriter pw",
+    "score": 0.22100667655467987
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runKillAll printwriter pw",
+    "score": 0.22097037732601166
+  },
+  {
+    "api_feature": "ActivityManagerShellCommand runGetCurrentForegroundProcess printwriter pw",
+    "score": 0.22059474885463715
+  }
+]
